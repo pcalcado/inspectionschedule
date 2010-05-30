@@ -13,8 +13,7 @@
         
       if (!theImage){
 	return nil;
-      }
-      NSLog(@"Loaded...");        
+      }  
       self.image = theImage;
     }   
 

@@ -23,12 +23,12 @@
 }
 
 -(NSString *) title {
-  return @"Fuck you";
+  return _aProperty.address;
 }
 
 
 -(NSString *) subtitle {
-  return @"Steve Jobs";
+  return _aProperty.address;
 }
 
 @end

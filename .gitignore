@@ -1,1 +1,6 @@
 InspectionScheduleIpad/build/*
+*~
+*#
+.#*
+InspectionScheduleIpad/build/
+*.cache

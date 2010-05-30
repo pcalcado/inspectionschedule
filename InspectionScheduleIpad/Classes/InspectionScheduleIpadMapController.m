@@ -1,4 +1,5 @@
 #import "InspectionScheduleIpadMapController.h"
+#import "ISIPropertyRepository.h"
 
 
 @implementation InspectionScheduleIpadMapController
@@ -15,15 +16,7 @@
   mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 2000, 2000); 
 
   //this should happen somewhere else
-  propertiesArray = [[NSMutableArray alloc] init];
-  InspectionScheduleIpadProperty *property = [[InspectionScheduleIpadProperty alloc] init];
-  property.address = @"Manly St";
-  CLLocationCoordinate2D propCoordinate;
-  propCoordinate.latitude = -33.801393;
-  propCoordinate.longitude = 151.290353;
-  property.coordinate=propCoordinate;
-  [propertiesArray addObject: property];
-  [property release];
+  propertiesArray = [[[ISIPropertyRepository alloc] init] retrieveProperties];
 
   //now let's map from properties to annotations
   for (InspectionScheduleIpadProperty *prop in propertiesArray){
@@ -34,12 +27,14 @@
 }
 
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation{
-    MKPinAnnotationView *annView=[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"currentloc"];
-    annView.pinColor = MKPinAnnotationColorGreen;
-    annView.animatesDrop=TRUE;
-    annView.canShowCallout = YES;
-    annView.calloutOffset = CGPointMake(-5, 5);
-    return annView;
+    ISIHousePinPoint *annView=[[ISIHousePinPoint alloc] initWithAnnotation:annotation];
+    //  annView.pinColor = MKPinAnnotationColorGreen;
+    //  annView.animatesDrop=TRUE;
+  annView.canShowCallout = YES;
+  annView.calloutOffset = CGPointMake(-5, 5);
+  //  UIImage *pinIconImg =[[UIImage imageNamed:@"icon.png"] retain];
+  //  annView.image =pinIconImg;
+  return annView;
 }
 
 
