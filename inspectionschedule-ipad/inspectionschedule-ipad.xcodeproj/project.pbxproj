@@ -16,6 +16,8 @@
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* inspectionschedule_ipadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* inspectionschedule_ipadViewController.m */; };
 		5AC349AA11B20B44006C87B0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC349A911B20B44006C87B0 /* MapKit.framework */; };
+		5AC349B911B21496006C87B0 /* Map.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC349B811B21496006C87B0 /* Map.xib */; };
+		5AC349C111B215A2006C87B0 /* MapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC349C011B215A2006C87B0 /* MapController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* inspectionschedule_ipad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inspectionschedule_ipad_Prefix.pch; sourceTree = "<group>"; };
 		5AC349A911B20B44006C87B0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5AC349B811B21496006C87B0 /* Map.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Map.xib; path = Classes/Map.xib; sourceTree = "<group>"; };
+		5AC349BF11B215A2006C87B0 /* MapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapController.h; sourceTree = "<group>"; };
+		5AC349C011B215A2006C87B0 /* MapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapController.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* inspectionschedule_ipad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "inspectionschedule_ipad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -57,6 +62,8 @@
 				1D3623250D0F684500981E51 /* inspectionschedule_ipadAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* inspectionschedule_ipadViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* inspectionschedule_ipadViewController.m */,
+				5AC349BF11B215A2006C87B0 /* MapController.h */,
+				5AC349C011B215A2006C87B0 /* MapController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -93,6 +100,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5AC349B811B21496006C87B0 /* Map.xib */,
 				2899E5210DE3E06400AC0155 /* inspectionschedule_ipadViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* inspectionschedule_ipad-Info.plist */,
@@ -155,6 +163,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* inspectionschedule_ipadViewController.xib in Resources */,
+				5AC349B911B21496006C87B0 /* Map.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* inspectionschedule_ipadAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* inspectionschedule_ipadViewController.m in Sources */,
+				5AC349C111B215A2006C87B0 /* MapController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
