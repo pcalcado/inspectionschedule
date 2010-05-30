@@ -22,16 +22,16 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* InspectionScheduleIpadViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {957, 554}}";
-			sepNavSelRange = "{243, 44}";
+			sepNavIntBoundsRect = "{{0, 0}, {957, 544}}";
+			sepNavSelRange = "{513, 111}";
 			sepNavVisRange = "{0, 782}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* InspectionScheduleIpadViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {957, 884}}";
-			sepNavSelRange = "{542, 0}";
-			sepNavVisRange = "{0, 1240}";
+			sepNavIntBoundsRect = "{{0, 0}, {957, 910}}";
+			sepNavSelRange = "{374, 48}";
+			sepNavVisRange = "{73, 1214}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -69,16 +69,32 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 296901988;
-			PBXWorkspaceStateSaveDate = 296901988;
+			PBXPerProjectTemplateStateSaveDate = 296902970;
+			PBXWorkspaceStateSaveDate = 296902970;
 		};
 		perUserProjectItems = {
-			504D895011B25D6600613A68 /* PBXTextBookmark */ = 504D895011B25D6600613A68 /* PBXTextBookmark */;
-			504D895A11B25ECB00613A68 /* PBXTextBookmark */ = 504D895A11B25ECB00613A68 /* PBXTextBookmark */;
-			504D896411B25EDB00613A68 /* PBXTextBookmark */ = 504D896411B25EDB00613A68 /* PBXTextBookmark */;
-			504D896511B25F6F00613A68 /* PBXTextBookmark */ = 504D896511B25F6F00613A68 /* PBXTextBookmark */;
-			504D896611B25F7500613A68 /* PBXTextBookmark */ = 504D896611B25F7500613A68 /* PBXTextBookmark */;
-			504D896A11B25FA300613A68 /* PBXTextBookmark */ = 504D896A11B25FA300613A68 /* PBXTextBookmark */;
+			504D895011B25D6600613A68 = 504D895011B25D6600613A68 /* PBXTextBookmark */;
+			504D895A11B25ECB00613A68 = 504D895A11B25ECB00613A68 /* PBXTextBookmark */;
+			504D896411B25EDB00613A68 = 504D896411B25EDB00613A68 /* PBXTextBookmark */;
+			504D896511B25F6F00613A68 = 504D896511B25F6F00613A68 /* PBXTextBookmark */;
+			504D896611B25F7500613A68 = 504D896611B25F7500613A68 /* PBXTextBookmark */;
+			504D896A11B25FA300613A68 = 504D896A11B25FA300613A68 /* PBXTextBookmark */;
+			504D898B11B266C700613A68 /* XCBuildMessageTextBookmark */ = 504D898B11B266C700613A68 /* XCBuildMessageTextBookmark */;
+			504D898C11B266C700613A68 /* PBXTextBookmark */ = 504D898C11B266C700613A68 /* PBXTextBookmark */;
+			504D898F11B2672E00613A68 /* XCBuildMessageTextBookmark */ = 504D898F11B2672E00613A68 /* XCBuildMessageTextBookmark */;
+			504D899011B2672E00613A68 /* PBXTextBookmark */ = 504D899011B2672E00613A68 /* PBXTextBookmark */;
+			504D899511B26C3C00613A68 /* XCBuildMessageTextBookmark */ = 504D899511B26C3C00613A68 /* XCBuildMessageTextBookmark */;
+			504D899611B26C3C00613A68 /* PBXTextBookmark */ = 504D899611B26C3C00613A68 /* PBXTextBookmark */;
+			504D899B11B26C8600613A68 /* PBXTextBookmark */ = 504D899B11B26C8600613A68 /* PBXTextBookmark */;
+			504D899D11B26C8E00613A68 /* PBXTextBookmark */ = 504D899D11B26C8E00613A68 /* PBXTextBookmark */;
+			504D899E11B26C8E00613A68 /* PBXTextBookmark */ = 504D899E11B26C8E00613A68 /* PBXTextBookmark */;
+			504D899F11B26C8E00613A68 /* PBXTextBookmark */ = 504D899F11B26C8E00613A68 /* PBXTextBookmark */;
+			504D89A011B26C8E00613A68 /* PBXTextBookmark */ = 504D89A011B26C8E00613A68 /* PBXTextBookmark */;
+			504D89A111B26C8E00613A68 /* PBXTextBookmark */ = 504D89A111B26C8E00613A68 /* PBXTextBookmark */;
+			504D89A211B26C8E00613A68 /* PBXTextBookmark */ = 504D89A211B26C8E00613A68 /* PBXTextBookmark */;
+			504D89A311B26C8E00613A68 /* PBXTextBookmark */ = 504D89A311B26C8E00613A68 /* PBXTextBookmark */;
+			504D89A411B26C8E00613A68 /* PBXTextBookmark */ = 504D89A411B26C8E00613A68 /* PBXTextBookmark */;
+			504D89A511B26C8E00613A68 /* PBXTextBookmark */ = 504D89A511B26C8E00613A68 /* PBXTextBookmark */;
 			506915D211B22A5B00161DC4 = 506915D211B22A5B00161DC4 /* PBXTextBookmark */;
 			50AA7CFB11B245AD0096190D = 50AA7CFB11B245AD0096190D /* PBXTextBookmark */;
 			50AA7CFD11B245AD0096190D = 50AA7CFD11B245AD0096190D /* PBXTextBookmark */;
@@ -100,7 +116,7 @@
 		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
 		name = "InspectionScheduleIpadListController.m: 49";
 		rLen = 0;
-		rLoc = 1667;
+		rLoc = 1875;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 946;
@@ -110,7 +126,7 @@
 		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
 		name = "InspectionScheduleIpadListController.m: 65";
 		rLen = 0;
-		rLoc = 2251;
+		rLoc = 2459;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 946;
@@ -120,7 +136,7 @@
 		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
 		name = "InspectionScheduleIpadListController.m: 65";
 		rLen = 0;
-		rLoc = 2251;
+		rLoc = 2459;
 		rType = 0;
 		vrLen = 1462;
 		vrLoc = 946;
@@ -130,7 +146,7 @@
 		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
 		name = "InspectionScheduleIpadListController.m: 64";
 		rLen = 40;
-		rLoc = 2200;
+		rLoc = 2408;
 		rType = 0;
 		vrLen = 1575;
 		vrLoc = 946;
@@ -140,7 +156,7 @@
 		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
 		name = "InspectionScheduleIpadListController.m: 64";
 		rLen = 0;
-		rLoc = 2240;
+		rLoc = 2448;
 		rType = 0;
 		vrLen = 1570;
 		vrLoc = 946;
@@ -150,10 +166,167 @@
 		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
 		name = "InspectionScheduleIpadListController.m: 61";
 		rLen = 0;
-		rLoc = 2185;
+		rLoc = 2393;
 		rType = 0;
 		vrLen = 1555;
 		vrLoc = 946;
+	};
+	504D898B11B266C700613A68 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No declaration of property 'inspectionScheduleIpadMapController' found in the interface";
+		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 13;
+		rType = 1;
+	};
+	504D898C11B266C700613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
+		name = "InspectionScheduleIpadListController.m: 14";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 871;
+		vrLoc = 0;
+	};
+	504D898F11B2672E00613A68 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Accessing unknown 'inspectionScheduleIpadMapController' getter method";
+		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 16;
+		rType = 1;
+	};
+	504D899011B2672E00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
+		name = "InspectionScheduleIpadListController.m: 17";
+		rLen = 0;
+		rLoc = 399;
+		rType = 0;
+		vrLen = 871;
+		vrLoc = 0;
+	};
+	504D899511B26C3C00613A68 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "No declaration of property 'inspectionScheduleIpadMapController' found in the interface";
+		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 13;
+		rType = 1;
+	};
+	504D899611B26C3C00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
+		name = "InspectionScheduleIpadListController.m: 14";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 871;
+		vrLoc = 0;
+	};
+	504D899B11B26C8600613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
+		name = "InspectionScheduleIpadListController.m: 14";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 847;
+		vrLoc = 0;
+	};
+	504D899D11B26C8E00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* InspectionScheduleIpadViewController.m */;
+		name = "InspectionScheduleIpadViewController.m: 14";
+		rLen = 48;
+		rLoc = 374;
+		rType = 0;
+		vrLen = 1214;
+		vrLoc = 73;
+	};
+	504D899E11B26C8E00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5069157D11B2260100161DC4 /* InspectionScheduleIpadMapController.m */;
+		name = "InspectionScheduleIpadMapController.m: 23";
+		rLen = 0;
+		rLoc = 707;
+		rType = 0;
+		vrLen = 1549;
+		vrLoc = 0;
+	};
+	504D899F11B26C8E00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5069157C11B2260100161DC4 /* InspectionScheduleIpadMapController.h */;
+		name = "InspectionScheduleIpadMapController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 479;
+		vrLoc = 0;
+	};
+	504D89A011B26C8E00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5ACEE99211B24BCD00195DC1 /* InspectionScheduleIpadPinPoint.h */;
+		name = "InspectionScheduleIpadPinPoint.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 590;
+		vrLoc = 0;
+	};
+	504D89A111B26C8E00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5ACEE99311B24BCD00195DC1 /* InspectionScheduleIpadPinPoint.m */;
+		name = "InspectionScheduleIpadPinPoint.m: 11";
+		rLen = 0;
+		rLoc = 276;
+		rType = 0;
+		vrLen = 624;
+		vrLoc = 0;
+	};
+	504D89A211B26C8E00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
+		name = "InspectionScheduleIpadListController.m: 26";
+		rLen = 0;
+		rLoc = 805;
+		rType = 0;
+		vrLen = 1330;
+		vrLoc = 0;
+	};
+	504D89A311B26C8E00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* InspectionScheduleIpadViewController.h */;
+		name = "InspectionScheduleIpadViewController.h: 19";
+		rLen = 111;
+		rLoc = 513;
+		rType = 0;
+		vrLen = 782;
+		vrLoc = 0;
+	};
+	504D89A411B26C8E00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50AA7C6E11B232350096190D /* InspectionScheduleIpadListController.h */;
+		name = "InspectionScheduleIpadListController.h: 8";
+		rLen = 0;
+		rLoc = 174;
+		rType = 0;
+		vrLen = 684;
+		vrLoc = 0;
+	};
+	504D89A511B26C8E00613A68 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50AA7C6E11B232350096190D /* InspectionScheduleIpadListController.h */;
+		name = "InspectionScheduleIpadListController.h: 22";
+		rLen = 0;
+		rLoc = 771;
+		rType = 0;
+		vrLen = 796;
+		vrLoc = 0;
 	};
 	5069157011B2252100161DC4 /* InspectionScheduleIpad */ = {
 		isa = PBXExecutable;
@@ -199,16 +372,16 @@
 	};
 	5069157C11B2260100161DC4 /* InspectionScheduleIpadMapController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {957, 554}}";
+			sepNavIntBoundsRect = "{{0, 0}, {957, 544}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 525}";
+			sepNavVisRange = "{0, 479}";
 		};
 	};
 	5069157D11B2260100161DC4 /* InspectionScheduleIpadMapController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {957, 728}}";
+			sepNavIntBoundsRect = "{{0, 0}, {957, 832}}";
 			sepNavSelRange = "{707, 0}";
-			sepNavVisRange = "{0, 1181}";
+			sepNavVisRange = "{0, 1549}";
 		};
 	};
 	506915D211B22A5B00161DC4 /* PBXTextBookmark */ = {
@@ -223,16 +396,16 @@
 	};
 	50AA7C6E11B232350096190D /* InspectionScheduleIpadListController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {957, 554}}";
-			sepNavSelRange = "{498, 0}";
-			sepNavVisRange = "{0, 547}";
+			sepNavIntBoundsRect = "{{0, 0}, {957, 544}}";
+			sepNavSelRange = "{771, 0}";
+			sepNavVisRange = "{0, 796}";
 		};
 	};
 	50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {957, 1053}}";
-			sepNavSelRange = "{2185, 0}";
-			sepNavVisRange = "{946, 1555}";
+			sepNavIntBoundsRect = "{{0, 0}, {949, 1235}}";
+			sepNavSelRange = "{331, 0}";
+			sepNavVisRange = "{0, 847}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
@@ -265,7 +438,7 @@
 		fRef = 50AA7C6E11B232350096190D /* InspectionScheduleIpadListController.h */;
 		name = "InspectionScheduleIpadListController.h: 19";
 		rLen = 0;
-		rLoc = 498;
+		rLoc = 617;
 		rType = 0;
 		vrLen = 547;
 		vrLoc = 0;
@@ -287,7 +460,7 @@
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 525;
+		vrLen = 479;
 		vrLoc = 0;
 	};
 	50AA7D0411B247550096190D /* PBXTextBookmark */ = {
@@ -325,7 +498,7 @@
 		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
 		name = "InspectionScheduleIpadListController.m: 56";
 		rLen = 0;
-		rLoc = 1959;
+		rLoc = 2167;
 		rType = 0;
 		vrLen = 1463;
 		vrLoc = 943;
@@ -335,7 +508,7 @@
 		fRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */;
 		name = "InspectionScheduleIpadListController.m: 49";
 		rLen = 0;
-		rLoc = 1667;
+		rLoc = 1875;
 		rType = 0;
 		vrLen = 1463;
 		vrLoc = 946;
@@ -349,5 +522,19 @@
 		rType = 0;
 		vrLen = 744;
 		vrLoc = 0;
+	};
+	5ACEE99211B24BCD00195DC1 /* InspectionScheduleIpadPinPoint.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 544}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 590}";
+		};
+	};
+	5ACEE99311B24BCD00195DC1 /* InspectionScheduleIpadPinPoint.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 544}}";
+			sepNavSelRange = "{276, 0}";
+			sepNavVisRange = "{0, 624}";
+		};
 	};
 }

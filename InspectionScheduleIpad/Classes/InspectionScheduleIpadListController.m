@@ -7,9 +7,15 @@
 //
 
 #import "InspectionScheduleIpadListController.h"
+#import "InspectionScheduleIpadMapController.h"
 
 
 @implementation InspectionScheduleIpadListController
+@synthesize inspectionScheduleIpadMapController;
+
+- (IBAction)map {
+	[self presentModalViewController:self.inspectionScheduleIpadMapController animated:YES];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
