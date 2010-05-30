@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Property.h"
+#import "InspectionScheduleIpadProperty.h"
 
 
 @interface InspectionScheduleIpadListController : UIViewController<UITableViewDataSource, UITableViewDelegate> {
-
+	InspectionScheduleIpadProperty *property;
+	NSMutableArray *propertiesArray;
 }
 
 @end
