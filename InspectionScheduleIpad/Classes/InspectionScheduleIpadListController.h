@@ -13,6 +13,9 @@
 @interface InspectionScheduleIpadListController : UIViewController<UITableViewDataSource, UITableViewDelegate> {
 	InspectionScheduleIpadProperty *property;
 	NSMutableArray *propertiesArray;
+	UITableViewCell *nibLoadedCell;
 }
+
+@property (nonatomic, retain) IBOutlet UITableViewCell *nibLoadedCell;
 
 @end
