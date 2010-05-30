@@ -1,0 +1,149 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* InspectionScheduleIpadAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 565}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 564}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* InspectionScheduleIpad */ = {
+		activeExec = 0;
+		executables = (
+			5AC34A5D11B2316C006C87B0 /* InspectionScheduleIpad */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 5AC34A5D11B2316C006C87B0 /* InspectionScheduleIpad */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* InspectionScheduleIpad */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* InspectionScheduleIpad */,
+		);
+		codeSenseManager = 5AC34A7011B23173006C87B0 /* Code sense */;
+		executables = (
+			5AC34A5D11B2316C006C87B0 /* InspectionScheduleIpad */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					678,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 296893293;
+			PBXWorkspaceStateSaveDate = 296893293;
+		};
+		perUserProjectItems = {
+			5ACEE8CF11B23B7900195DC1 /* PBXTextBookmark */ = 5ACEE8CF11B23B7900195DC1 /* PBXTextBookmark */;
+			5ACEE8D011B23B7900195DC1 /* PBXBookmark */ = 5ACEE8D011B23B7900195DC1 /* PBXBookmark */;
+			5ACEE8D111B23B7900195DC1 /* PBXTextBookmark */ = 5ACEE8D111B23B7900195DC1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 5AC34A6F11B23173006C87B0 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	5069157C11B2260100161DC4 /* InspectionScheduleIpadMapController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 542}}";
+			sepNavSelRange = "{402, 0}";
+			sepNavVisRange = "{0, 525}";
+		};
+	};
+	5069157D11B2260100161DC4 /* InspectionScheduleIpadMapController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 728}}";
+			sepNavSelRange = "{772, 0}";
+			sepNavVisRange = "{0, 1181}";
+		};
+	};
+	50AA7C9111B238480096190D /* InspectionScheduleIpadProperty.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {856, 560}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 312}";
+		};
+	};
+	5AC34A5D11B2316C006C87B0 /* InspectionScheduleIpad */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = InspectionScheduleIpad;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	5AC34A6F11B23173006C87B0 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	5AC34A7011B23173006C87B0 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5ACEE8CF11B23B7900195DC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5069157D11B2260100161DC4 /* InspectionScheduleIpadMapController.m */;
+		name = "InspectionScheduleIpadMapController.m: 30";
+		rLen = 0;
+		rLoc = 772;
+		rType = 0;
+		vrLen = 1181;
+		vrLoc = 0;
+	};
+	5ACEE8D011B23B7900195DC1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 50AA7C9111B238480096190D /* InspectionScheduleIpadProperty.h */;
+	};
+	5ACEE8D111B23B7900195DC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50AA7C9111B238480096190D /* InspectionScheduleIpadProperty.h */;
+		name = "InspectionScheduleIpadProperty.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 312;
+		vrLoc = 0;
+	};
+}

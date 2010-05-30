@@ -7,10 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <MapKit/MKAnnotation.h>
+#import <MapKit/MKReverseGeocoder.h>
 
-
-@interface InspectionScheduleIpadMapController : UIViewController {
-
+@interface InspectionScheduleIpadMapController : UIViewController<MKMapViewDelegate,MKReverseGeocoderDelegate> {
+	MKMapView *mapView;
+	MKReverseGeocoder *geoCoder;
 }
+
+@property (nonatomic, retain) IBOutlet MKMapView *mapView;
 
 @end

@@ -11,28 +11,24 @@
 
 @implementation InspectionScheduleIpadMapController
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
-}
-*/
+@synthesize mapView;
 
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
+- (void)setCurrentLocation:(CLLocation *)location { 
+	MKCoordinateRegion region = {{0.0f, 0.0f}, {0.0f, 0.0f}}; 
+	region.center = location.coordinate; 
+	region.span.longitudeDelta = 0.15f; 
+	region.span.latitudeDelta = 0.15f;
+	[self.mapView setRegion:region animated:YES];
 }
-*/
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
-    [super viewDidLoad];
+	[super viewDidLoad];
+	//shows manly
+	CLLocationCoordinate2D coordinate;
+	coordinate.latitude = -33.801393;
+	coordinate.longitude = 151.290353;
+	mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 2000, 2000); 
 }
-*/
 
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
