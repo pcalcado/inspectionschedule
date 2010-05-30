@@ -50,7 +50,7 @@
 							<object class="IBUIImageView" id="496379733">
 								<reference key="NSNextResponder" ref="229129262"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{20, 20}, {241, 186}}</string>
+								<string key="NSFrame">{{20, 20}, {241, 145}}</string>
 								<reference key="NSSuperview" ref="229129262"/>
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -67,7 +67,7 @@
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 								<string key="IBUIText">Label</string>
-								<object class="NSColor" key="IBUITextColor" id="982578135">
+								<object class="NSColor" key="IBUITextColor" id="756141852">
 									<int key="NSColorSpace">1</int>
 									<bytes key="NSRGB">MCAwIDAAA</bytes>
 								</object>
@@ -78,7 +78,7 @@
 							<object class="IBUITextView" id="1022562622">
 								<reference key="NSNextResponder" ref="229129262"/>
 								<int key="NSvFlags">292</int>
-								<string key="NSFrame">{{269, 49}, {437, 157}}</string>
+								<string key="NSFrame">{{269, 49}, {437, 116}}</string>
 								<reference key="NSSuperview" ref="229129262"/>
 								<object class="NSColor" key="IBUIBackgroundColor" id="821808298">
 									<int key="NSColorSpace">1</int>
@@ -92,13 +92,14 @@
 								<bool key="IBUIDelaysContentTouches">NO</bool>
 								<bool key="IBUICanCancelContentTouches">NO</bool>
 								<bool key="IBUIBouncesZoom">NO</bool>
+								<bool key="IBUIEditable">NO</bool>
 								<string key="IBUIText">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
 								<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 									<int key="IBUIAutocapitalizationType">2</int>
 									<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 								</object>
 							</object>
-							<object class="IBUILabel" id="631671179">
+							<object class="IBUILabel" id="970701899">
 								<reference key="NSNextResponder" ref="229129262"/>
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{708, 20}, {42, 21}}</string>
@@ -110,13 +111,13 @@
 								<bool key="IBUIUserInteractionEnabled">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 								<string key="IBUIText">Label</string>
-								<reference key="IBUITextColor" ref="982578135"/>
+								<reference key="IBUITextColor" ref="756141852"/>
 								<nil key="IBUIHighlightedColor"/>
 								<int key="IBUIBaselineAdjustment">1</int>
 								<float key="IBUIMinimumFontSize">10</float>
 							</object>
 						</object>
-						<string key="NSFrameSize">{770, 226}</string>
+						<string key="NSFrameSize">{770, 185}</string>
 						<reference key="NSSuperview" ref="938615101"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
@@ -129,7 +130,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 					</object>
 				</object>
-				<string key="NSFrameSize">{770, 226}</string>
+				<string key="NSFrameSize">{770, 185}</string>
 				<reference key="NSSuperview"/>
 				<reference key="IBUIBackgroundColor" ref="821808298"/>
 				<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -178,7 +179,7 @@
 							<reference ref="496379733"/>
 							<reference ref="731738968"/>
 							<reference ref="1022562622"/>
-							<reference ref="631671179"/>
+							<reference ref="970701899"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -199,7 +200,7 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">9</int>
-						<reference key="object" ref="631671179"/>
+						<reference key="object" ref="970701899"/>
 						<reference key="parent" ref="938615101"/>
 					</object>
 				</object>
@@ -221,7 +222,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>InspectionScheduleIpadListController</string>
 					<string>UIResponder</string>
-					<string>{{320, 589}, {770, 226}}</string>
+					<string>{{320, 630}, {770, 185}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
