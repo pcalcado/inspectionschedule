@@ -1,0 +1,6 @@
+In file included from /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m:9:
+/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.h:10:21: error: Property.h: No such file or directory
+/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m:68: warning: incomplete implementation of class 'InspectionScheduleIpadListController'
+/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m:68: warning: method definition for '-tableView:cellForRowAtIndexPath:' not found
+/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m:68: warning: method definition for '-tableView:numberOfRowsInSection:' not found
+/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m:68: warning: class 'InspectionScheduleIpadListController' does not fully implement the 'UITableViewDataSource' protocol

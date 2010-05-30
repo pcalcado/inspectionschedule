@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Property.h"
 
 
-@interface InspectionScheduleIpadListController : UIViewController {
+@interface InspectionScheduleIpadListController : UIViewController<UITableViewDataSource, UITableViewDelegate> {
 
 }
 
