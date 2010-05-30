@@ -5,6 +5,7 @@
 
 @synthesize aProperty = _aProperty;
 
+
 + (id)withProperty:(InspectionScheduleIpadProperty *) aProperty {
     return [[[[self class] alloc] initWithProperty:aProperty] autorelease];
   }
@@ -15,6 +16,19 @@
     self.aProperty = aProperty;
   }
   return self;
+}
+
+-(CLLocationCoordinate2D) coordinate {
+  return _aProperty.coordinate;
+}
+
+-(NSString *) title {
+  return @"Fuck you";
+}
+
+
+-(NSString *) subtitle {
+  return @"Steve Jobs";
 }
 
 @end

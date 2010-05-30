@@ -5,10 +5,9 @@
 #import "InspectionScheduleIpadProperty.h"
 #import "InspectionScheduleIpadPinPoint.h"
 
-@interface InspectionScheduleIpadMapController : UIViewController<MKMapViewDelegate,MKReverseGeocoderDelegate> {
+@interface InspectionScheduleIpadMapController : UIViewController<MKMapViewDelegate> {
 	MKMapView *mapView;
 	NSMutableArray *propertiesArray;
-	MKReverseGeocoder *geoCoder;
 }
 
 @property (nonatomic, retain) IBOutlet MKMapView *mapView;
