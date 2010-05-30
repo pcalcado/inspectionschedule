@@ -4,6 +4,7 @@
 @implementation InspectionScheduleIpadMapController
 
 @synthesize mapView;
+@synthesize propertiesArray;
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
@@ -21,12 +22,12 @@
     [property release];
 	
 	//now let's map from properties to annotations
-	pinPointsArray = [[NSMutableArray alloc] init];	
-	for (InspectionScheduleIpadProperty *prop in propertiesArray){
-//		CLLocationCoordinate2D pinPointForAdress = [geoCoder 
-		InspectionScheduleIpadMapAnnotation pinPoint = [[InspectionScheduleIpadMapAnnotation alloc] initWithCoordinate:[geoCoder propertyCoordinate]];
-		[pinPointsArray addObject: pinPoint];
-	}
+//	pinPointsArray = [[NSMutableArray alloc] init];	
+//	for (InspectionScheduleIpadProperty *prop in propertiesArray){
+//		CLLocationCoordinate2D propertyCoordinate = [geoCoder 
+//		InspectionScheduleIpadMapAnnotation pinPoint = [[InspectionScheduleIpadMapAnnotation alloc] initWithCoordinate:[geoCoder propertyCoordinate]];
+//		[pinPointsArray addObject: pinPoint];
+//	}
 	
 }
 
