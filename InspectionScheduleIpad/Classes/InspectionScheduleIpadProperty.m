@@ -12,6 +12,8 @@
 @implementation InspectionScheduleIpadProperty
 
 @synthesize address;
+@synthesize type;
+@synthesize description;
 
 - (void) dealloc {
 	self.address = nil;

@@ -272,7 +272,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
+									<integer>9</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -314,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>InspectionScheduleIpadMapController.m</string>
+								<string>InspectionScheduleIpadListController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,23 +323,23 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>InspectionScheduleIpadMapController.m</string>
+										<string>InspectionScheduleIpadListController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>50AA7D0011B245AD0096190D</string>
+										<string>50AA7D2C11B24E7C0096190D</string>
 										<key>history</key>
 										<array>
 											<string>506915D211B22A5B00161DC4</string>
 											<string>50B2D5E011B22D960089DF17</string>
-											<string>50AA7CC911B23E800096190D</string>
-											<string>50AA7CE011B2449A0096190D</string>
 											<string>50AA7CFB11B245AD0096190D</string>
-											<string>50AA7CFC11B245AD0096190D</string>
 											<string>50AA7CFD11B245AD0096190D</string>
 											<string>50AA7CFE11B245AD0096190D</string>
 											<string>50AA7CFF11B245AD0096190D</string>
-											<string>50AA7C9411B2391F0096190D</string>
+											<string>50AA7D0411B247550096190D</string>
+											<string>50AA7D2911B24E7C0096190D</string>
+											<string>50AA7D2A11B24E7C0096190D</string>
+											<string>50AA7D2B11B24E7C0096190D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
