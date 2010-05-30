@@ -4,6 +4,7 @@
 #import <MapKit/MKReverseGeocoder.h>
 #import "InspectionScheduleIpadProperty.h"
 #import "InspectionScheduleIpadPinPoint.h"
+#import "ISIHousePinPoint.h"
 
 @interface InspectionScheduleIpadMapController : UIViewController<MKMapViewDelegate> {
 	MKMapView *mapView;

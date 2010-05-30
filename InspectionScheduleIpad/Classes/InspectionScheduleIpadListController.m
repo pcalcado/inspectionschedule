@@ -1,14 +1,6 @@
-    //
-//  InspectionSchedulerIpadListController.m
-//  InspectionScheduleIpad
-//
-//  Created by Caue Guerra on 30/05/10.
-//  Copyright 2010 ThoughtWorks. All rights reserved.
-//
-
 #import "InspectionScheduleIpadListController.h"
 #import "InspectionScheduleIpadMapController.h"
-
+#import "ISIPropertyRepository.h"
 
 @implementation InspectionScheduleIpadListController
 
@@ -21,80 +13,65 @@
 }
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
+	[super viewDidLoad];
 	
 	//this should happen somewhere else
-	propertiesArray = [[NSMutableArray alloc] init];
-	InspectionScheduleIpadProperty *property = [[InspectionScheduleIpadProperty alloc] init];
-	property.address = @"Manly St";
-	CLLocationCoordinate2D propCoordinate;
-	propCoordinate.latitude = -33.801393;
-	propCoordinate.longitude = 151.290353;
-	property.coordinate=propCoordinate;
-	[propertiesArray addObject: property];
-	[property release];
-	
-	InspectionScheduleIpadProperty *property2 = [[InspectionScheduleIpadProperty alloc] init];
-	property2.address = @"Manly St";
-	property2.description = @"This is a very nice apartment";
-	property2.type = @"Apartment";
-	[propertiesArray addObject: property2];
-	[property2 release];
+	propertiesArray = [[[ISIPropertyRepository alloc] init] retrieveProperties];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 1;
+  return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-	return [propertiesArray count];
+  return [propertiesArray count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-	static NSString *CellIdentifier = @"Cell"; 
-	UITableViewCell *cell =
-	[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-	if (cell == nil) {
-        [[NSBundle mainBundle] loadNibNamed:@"InspectionScheduleIpadPropertyTableCell" owner:self options:NULL];
-		cell = nibLoadedCell;
-	}
-	InspectionScheduleIpadProperty *property = [propertiesArray objectAtIndex:indexPath.row];
-	UILabel *addressLabel = (UILabel*) [cell viewWithTag:1];
-	addressLabel.text = property.address;
-	UILabel *typeLabel = (UILabel*) [cell viewWithTag:2];
-	typeLabel.text = property.type;
-	UILabel *descriptionLabel = (UILabel*) [cell viewWithTag:3];
-	descriptionLabel.text = property.description;
-    return cell;
+  static NSString *CellIdentifier = @"Cell"; 
+  UITableViewCell *cell =
+    [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+  if (cell == nil) {
+    [[NSBundle mainBundle] loadNibNamed:@"InspectionScheduleIpadPropertyTableCell" owner:self options:NULL];
+    cell = nibLoadedCell;
+  }
+  InspectionScheduleIpadProperty *property = [propertiesArray objectAtIndex:indexPath.row];
+  UILabel *addressLabel = (UILabel*) [cell viewWithTag:1];
+  addressLabel.text = property.address;
+  UILabel *typeLabel = (UILabel*) [cell viewWithTag:2];
+  typeLabel.text = property.type;
+  UILabel *descriptionLabel = (UILabel*) [cell viewWithTag:3];
+  descriptionLabel.text = property.description;
+  return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-	UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
-	if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
-		cell.accessoryType = UITableViewCellAccessoryNone;
-	} else {
-		cell.accessoryType = UITableViewCellAccessoryCheckmark;
-	}
+  UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+  if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
+    cell.accessoryType = UITableViewCellAccessoryNone;
+  } else {
+    cell.accessoryType = UITableViewCellAccessoryCheckmark;
+  }
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    return YES;
+  return YES;
 }
 
 
 - (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+  [super didReceiveMemoryWarning];
 }
 
 
 - (void)viewDidUnload {
-    [super viewDidUnload];
+  [super viewDidUnload];
 }
 
 
 - (void)dealloc {
-    [super dealloc];
+  [super dealloc];
 }
 
 

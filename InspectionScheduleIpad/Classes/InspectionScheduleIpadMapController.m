@@ -1,4 +1,5 @@
 #import "InspectionScheduleIpadMapController.h"
+#import "ISIPropertyRepository.h"
 
 
 @implementation InspectionScheduleIpadMapController
@@ -23,12 +24,14 @@
 }
 
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation{
-    MKPinAnnotationView *annView=[[MKPinAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"currentloc"];
-    annView.pinColor = MKPinAnnotationColorGreen;
-    annView.animatesDrop=TRUE;
-    annView.canShowCallout = YES;
-    annView.calloutOffset = CGPointMake(-5, 5);
-    return annView;
+    ISIHousePinPoint *annView=[[ISIHousePinPoint alloc] initWithAnnotation:annotation];
+    //  annView.pinColor = MKPinAnnotationColorGreen;
+    //  annView.animatesDrop=TRUE;
+  annView.canShowCallout = YES;
+  annView.calloutOffset = CGPointMake(-5, 5);
+  //  UIImage *pinIconImg =[[UIImage imageNamed:@"icon.png"] retain];
+  //  annView.image =pinIconImg;
+  return annView;
 }
 
 
