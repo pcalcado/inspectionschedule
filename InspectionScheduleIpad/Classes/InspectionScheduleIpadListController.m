@@ -6,9 +6,10 @@
 
 @synthesize inspectionScheduleIpadMapController;
 @synthesize propertiesArray;
+@synthesize selectedPropertiesArray;
 
 - (IBAction)map {
-	self.inspectionScheduleIpadMapController.propertiesArray = self.propertiesArray;
+	self.inspectionScheduleIpadMapController.propertiesArray = self.selectedPropertiesArray;
 	[self presentModalViewController:self.inspectionScheduleIpadMapController animated:YES];
 }
 
@@ -17,6 +18,7 @@
 	
 	//this should happen somewhere else
 	propertiesArray = [[[ISIPropertyRepository alloc] init] retrieveProperties];
+	selectedPropertiesArray = [[NSMutableArray alloc] init];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -50,8 +52,10 @@
   UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
   if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
     cell.accessoryType = UITableViewCellAccessoryNone;
+	[selectedPropertiesArray removeObject: [propertiesArray objectAtIndex:indexPath.row]];	  
   } else {
     cell.accessoryType = UITableViewCellAccessoryCheckmark;
+	[selectedPropertiesArray addObject: [propertiesArray objectAtIndex:indexPath.row]];
   }
 }
 

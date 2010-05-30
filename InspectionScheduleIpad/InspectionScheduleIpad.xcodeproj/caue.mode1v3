@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5042811D11B29C9A008955D6</string>
+										<string>5042816011B2A45B008955D6</string>
 										<key>history</key>
 										<array>
 											<string>504D89A011B26C8E00613A68</string>
@@ -339,12 +339,12 @@
 											<string>5042811411B29C9A008955D6</string>
 											<string>5042811511B29C9A008955D6</string>
 											<string>5042811611B29C9A008955D6</string>
-											<string>5042811711B29C9A008955D6</string>
-											<string>5042811811B29C9A008955D6</string>
-											<string>5042811911B29C9A008955D6</string>
 											<string>5042811A11B29C9A008955D6</string>
-											<string>5042811B11B29C9A008955D6</string>
-											<string>5042811C11B29C9A008955D6</string>
+											<string>5042812911B29F5B008955D6</string>
+											<string>5042812A11B29F5B008955D6</string>
+											<string>5042812B11B29F5B008955D6</string>
+											<string>5042812C11B29F5B008955D6</string>
+											<string>5042812D11B29F5B008955D6</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -882,6 +882,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

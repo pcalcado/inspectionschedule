@@ -15,12 +15,14 @@
 	InspectionScheduleIpadMapController *inspectionScheduleIpadMapController;
 	InspectionScheduleIpadProperty *property;
 	NSMutableArray *propertiesArray;
+	NSMutableArray *selectedPropertiesArray;
 	UITableViewCell *nibLoadedCell;
 }
 
 @property (nonatomic, retain) IBOutlet UITableViewCell *nibLoadedCell;
 @property (nonatomic, retain) IBOutlet InspectionScheduleIpadMapController *inspectionScheduleIpadMapController;
 @property (nonatomic, retain) NSMutableArray *propertiesArray;
+@property (nonatomic, retain) NSMutableArray *selectedPropertiesArray;
 
 - (IBAction)map;
 
