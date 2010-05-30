@@ -11,21 +11,28 @@
 
 
 @implementation InspectionScheduleIpadListController
+
 @synthesize inspectionScheduleIpadMapController;
+@synthesize propertiesArray;
 
 - (IBAction)map {
+	self.inspectionScheduleIpadMapController.propertiesArray = self.propertiesArray;
 	[self presentModalViewController:self.inspectionScheduleIpadMapController animated:YES];
 }
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+	
+	//this should happen somewhere else
 	propertiesArray = [[NSMutableArray alloc] init];
-	InspectionScheduleIpadProperty *property1 = [[InspectionScheduleIpadProperty alloc] init];
-	property1.address = @"Manly St";
-	property1.description = @"This is a very nice apartment";
-	property1.type = @"Apartment";
-	[propertiesArray addObject: property1];
-	[property1 release];
+	InspectionScheduleIpadProperty *property = [[InspectionScheduleIpadProperty alloc] init];
+	property.address = @"Manly St";
+	CLLocationCoordinate2D propCoordinate;
+	propCoordinate.latitude = -33.801393;
+	propCoordinate.longitude = 151.290353;
+	property.coordinate=propCoordinate;
+	[propertiesArray addObject: property];
+	[property release];
 	
 	InspectionScheduleIpadProperty *property2 = [[InspectionScheduleIpadProperty alloc] init];
 	property2.address = @"Manly St";

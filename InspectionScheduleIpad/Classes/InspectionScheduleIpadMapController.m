@@ -14,17 +14,6 @@
   coordinate.longitude = 151.290353;
   mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 2000, 2000); 
 
-  //this should happen somewhere else
-  propertiesArray = [[NSMutableArray alloc] init];
-  InspectionScheduleIpadProperty *property = [[InspectionScheduleIpadProperty alloc] init];
-  property.address = @"Manly St";
-  CLLocationCoordinate2D propCoordinate;
-  propCoordinate.latitude = -33.801393;
-  propCoordinate.longitude = 151.290353;
-  property.coordinate=propCoordinate;
-  [propertiesArray addObject: property];
-  [property release];
-
   //now let's map from properties to annotations
   for (InspectionScheduleIpadProperty *prop in propertiesArray){
     InspectionScheduleIpadPinPoint *pinPoint = [[InspectionScheduleIpadPinPoint alloc] initWithProperty:prop];

@@ -19,7 +19,8 @@
 }
 
 @property (nonatomic, retain) IBOutlet UITableViewCell *nibLoadedCell;
-@property(nonatomic, retain) IBOutlet InspectionScheduleIpadMapController *inspectionScheduleIpadMapController;
+@property (nonatomic, retain) IBOutlet InspectionScheduleIpadMapController *inspectionScheduleIpadMapController;
+@property (nonatomic, retain) NSMutableArray *propertiesArray;
 
 - (IBAction)map;
 
