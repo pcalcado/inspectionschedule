@@ -16,6 +16,8 @@
 	propertiesArray = [[NSMutableArray alloc] init];
 	InspectionScheduleIpadProperty *property = [[InspectionScheduleIpadProperty alloc] init];
 	property.address = @"Manly St";
+	property.description = @"This is a very nice apartment";
+	property.type = @"Apartment";
 	[propertiesArray addObject: property];
 	[property release];
 }
@@ -33,11 +35,16 @@
 	UITableViewCell *cell =
 	[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
 	if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
-									   reuseIdentifier:CellIdentifier] autorelease];
+        [[NSBundle mainBundle] loadNibNamed:@"InspectionScheduleIpadPropertyTableCell" owner:self options:NULL];
+		cell = nibLoadedCell;
 	}
 	InspectionScheduleIpadProperty *property = [propertiesArray objectAtIndex:indexPath.row];
-	cell.textLabel.text = property.address;
+	UILabel *addressLabel = (UILabel*) [cell viewWithTag:1];
+	addressLabel.text = property.address;
+	UILabel *typeLabel = (UILabel*) [cell viewWithTag:2];
+	typeLabel.text = property.type;
+	UILabel *descriptionLabel = (UILabel*) [cell viewWithTag:3];
+	descriptionLabel.text = property.description;
     return cell;
 }
 
