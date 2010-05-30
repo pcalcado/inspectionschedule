@@ -1,0 +1,270 @@
+Tinspectionschedule-ipad
+v7
+r0
+t296881553.313631
+cCheck dependencies
+cProcessInfoPlistFile /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/Info.plist inspectionschedule_ipad-Info.plist
+cCompileXIB /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/MainWindow.xib
+cCompileXIB /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/inspectionschedule_ipadViewController.xib
+cProcessPCH /var/folders/SR/SRzrammiF6GlY3Dp4pm4ak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inspectionschedule_ipad_Prefix-dyljbcdvjowjehfuaqcahzugtxox/inspectionschedule_ipad_Prefix.pch.gch inspectionschedule_ipad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/main.o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule_ipadAppDelegate.o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule_ipadViewController.o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad normal i386
+cGenerateDSYMFile /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app.dSYM /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad
+cTouch /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
+c000000004C01C5DE0000000000000110
+t1275184606
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BA03AB3000000000026F020
+t1268791987
+s2551840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004B9F1DE40000000000289C20
+t1268719076
+s2661408
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004B9F1DD60000000000001355
+t1268719062
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004B9F322B000000000000017D
+t1268724267
+s381
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004B9F323B0000000000160170
+t1268724283
+s1442160
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004BA6CAEC000000000000098F
+t1269222124
+s2447
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004BA6CB31000000000214E400
+t1269222193
+s34923520
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadAppDelegate.h
+c000000004C01CD210000000000000248
+t1275186465
+s584
+i<UIKit/UIKit.h>
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadAppDelegate.m
+c000000004C01CD2100000000000002FB
+t1275186465
+s763
+i"inspectionschedule_ipadAppDelegate.h"
+i"inspectionschedule_ipadViewController.h"
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.h
+c000000004C01D60600000000000001AD
+t1275188742
+s429
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m
+c000000004C01D47700000000000005B3
+t1275188343
+s1459
+i"inspectionschedule_ipadViewController.h"
+i<MapKit/MapKit.h>
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/MainWindow.xib
+c000000004C01D26B0000000000004EEC
+t1275187819
+s20204
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app
+t1275188753
+s238
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app.dSYM
+t1275188753
+s102
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/Info.plist
+t1275186473
+s868
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/MainWindow.nib
+t1275188360
+s1149
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/PkgInfo
+t1275186473
+s8
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad
+t1275188753
+s20388
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule_ipadViewController.nib
+t1275188360
+s1158
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule-ipad.LinkFileList
+c000000004C01CD29000000000000028B
+t1275186473
+s651
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule_ipadAppDelegate.o
+t1275188753
+s43204
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule_ipadViewController.o
+t1275188753
+s37076
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/main.o
+t1275186474
+s6028
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/inspectionschedule_ipadViewController.xib
+c000000004C01D37700000000000043D9
+t1275188087
+s17369
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/inspectionschedule_ipad_Prefix.pch
+c000000004C01CD2100000000000000D7
+t1275186465
+s215
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/main.m
+c000000004C01CD210000000000000182
+t1275186465
+s386
+i<UIKit/UIKit.h>
+
+N/var/folders/SR/SRzrammiF6GlY3Dp4pm4ak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inspectionschedule_ipad_Prefix-dyljbcdvjowjehfuaqcahzugtxox/inspectionschedule_ipad_Prefix.pch.gch
+t1275186474
+s13805456
+
+Ninspectionschedule_ipad-Info.plist
+c000000004C01CD2100000000000004D6
+t1275186465
+s1238
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies296881552#296881552#0(0"0(0#1#0"4300911832#0"0#
+
+CCompileC build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule_ipadAppDelegate.o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296881552.854450
+e296881553.094542
+r1
+xCompileC
+xbuild/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule_ipadAppDelegate.o
+x/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@133"Compile /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadAppDelegate.m296881552#296881553#0(0"0(0#0#125"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadAppDelegate.m4300911832#2707"    cd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-generated-files.hmap -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-own-target-headers.hmap -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-all-target-headers.hmap -iquote /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-project-headers.hmap -F/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/include -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/DerivedSources/i386 -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/DerivedSources -include /var/folders/SR/SRzrammiF6GlY3Dp4pm4ak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inspectionschedule_ipad_Prefix-dyljbcdvjowjehfuaqcahzugtxox/inspectionschedule_ipad_Prefix.pch -c /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadAppDelegate.m -o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule_ipadAppDelegate.o0#
+
+CCompileC build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule_ipadViewController.o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296881552.855700
+e296881553.129509
+r1
+xCompileC
+xbuild/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule_ipadViewController.o
+x/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m:62: warning: property 'mapView' requires method '-mapView' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m:62: warning: property 'mapView' requires the method 'setMapView:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@136"Compile /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m296881552#296881553#0(537"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m:62: warning: property 'mapView' requires method '-mapView' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m:62: warning: property 'mapView' requires the method 'setMapView:' to be defined - use @synthesize, @dynamic or provide a method implementation2(22@122"Property 'mapView' requires method '-mapView' to be defined - use @synthesize, @dynamic or provide a method implementation296881553#0#265#0(6@128"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m296881143#62#0#62#0#0"0(22@129"Property 'mapView' requires the method 'setMapView:' to be defined - use @synthesize, @dynamic or provide a method implementation296881553#265#272#0(6@128"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m296881143#62#0#62#0#0"0(0#0#128"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m4300911832#2713"    cd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-generated-files.hmap -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-own-target-headers.hmap -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-all-target-headers.hmap -iquote /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-project-headers.hmap -F/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/include -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/DerivedSources/i386 -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/DerivedSources -include /var/folders/SR/SRzrammiF6GlY3Dp4pm4ak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inspectionschedule_ipad_Prefix-dyljbcdvjowjehfuaqcahzugtxox/inspectionschedule_ipad_Prefix.pch -c /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/Classes/inspectionschedule_ipadViewController.m -o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule_ipadViewController.o0#
+
+CCompileC build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/main.o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296879274.660164
+e296879274.766539
+r1
+xCompileC
+xbuild/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/main.o
+x/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@95"Compile /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/main.m296879274#296879274#0(0"0(0#0#87"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/main.m4300911832#2639"    cd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-generated-files.hmap -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-own-target-headers.hmap -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-all-target-headers.hmap -iquote /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-project-headers.hmap -F/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/include -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/DerivedSources/i386 -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/DerivedSources -include /var/folders/SR/SRzrammiF6GlY3Dp4pm4ak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inspectionschedule_ipad_Prefix-dyljbcdvjowjehfuaqcahzugtxox/inspectionschedule_ipad_Prefix.pch -c /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/main.m -o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/MainWindow.xib
+s296881159.951296
+e296881160.444265
+r1
+xCompileXIB
+x/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib296881159#296881160#0(0"0(0#0#95"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/MainWindow.xib4300911832#622"    cd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/MainWindow.nib /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/MainWindow.xib0#
+
+CCompileXIB /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/inspectionschedule_ipadViewController.xib
+s296881159.953136
+e296881160.517714
+r1
+xCompileXIB
+x/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/inspectionschedule_ipadViewController.xib
+lSLF07#2@52"CompileXIB inspectionschedule_ipadViewController.xib296881159#296881160#0(0"0(0#0#122"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/inspectionschedule_ipadViewController.xib4300911832#676"    cd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule_ipadViewController.nib /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/inspectionschedule_ipadViewController.xib0#
+
+CGenerateDSYMFile /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app.dSYM /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad
+s296881553.176926
+e296881553.311090
+r1
+xGenerateDSYMFile
+x/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app.dSYM
+x/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad
+lSLF07#2@157"GenerateDSYMFile build/Debug-iphonesimulator/inspectionschedule-ipad.app.dSYM build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad296881553#296881553#0(0"0(0#0#160"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad4300911832#557"    cd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad -o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app.dSYM0#
+
+CLd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad normal i386
+s296881553.129601
+e296881553.176817
+r1
+xLd
+x/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad
+xnormal
+xi386
+lSLF07#2@165"Link /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad296881553#296881553#0(0"0(0#0#0"4300911832#1170"    cd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator -F/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator -filelist /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/Objects-normal/i386/inspectionschedule-ipad.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/inspectionschedule-ipad0#
+
+CProcessInfoPlistFile /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/Info.plist inspectionschedule_ipad-Info.plist
+s296879273.399368
+e296879273.402568
+r1
+xProcessInfoPlistFile
+x/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/Info.plist
+xinspectionschedule_ipad-Info.plist
+lSLF07#2@42"Process inspectionschedule_ipad-Info.plist296879273#296879273#0(0"0(0#0#115"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/inspectionschedule_ipad-Info.plist4300911832#653"    cd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility inspectionschedule_ipad-Info.plist -genpkginfo /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app/Info.plist0#
+
+CProcessPCH /var/folders/SR/SRzrammiF6GlY3Dp4pm4ak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inspectionschedule_ipad_Prefix-dyljbcdvjowjehfuaqcahzugtxox/inspectionschedule_ipad_Prefix.pch.gch inspectionschedule_ipad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s296879273.715960
+e296879274.660066
+r1
+xProcessPCH
+x/var/folders/SR/SRzrammiF6GlY3Dp4pm4ak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inspectionschedule_ipad_Prefix-dyljbcdvjowjehfuaqcahzugtxox/inspectionschedule_ipad_Prefix.pch.gch
+xinspectionschedule_ipad_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Precompile inspectionschedule_ipad_Prefix.pch296879273#296879274#0(0"0(0#0#115"/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/inspectionschedule_ipad_Prefix.pch4300911832#2473"    cd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-generated-files.hmap -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-own-target-headers.hmap -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-all-target-headers.hmap -iquote /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/inspectionschedule-ipad-project-headers.hmap -F/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/include -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/DerivedSources/i386 -I/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/inspectionschedule-ipad.build/Debug-iphonesimulator/inspectionschedule-ipad.build/DerivedSources -c /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/inspectionschedule_ipad_Prefix.pch -o /var/folders/SR/SRzrammiF6GlY3Dp4pm4ak+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/inspectionschedule_ipad_Prefix-dyljbcdvjowjehfuaqcahzugtxox/inspectionschedule_ipad_Prefix.pch.gch0#
+
+CTouch /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app
+s296881553.311180
+e296881553.313605
+r1
+xTouch
+x/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app
+lSLF07#2@142"Touch /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app296881553#296881553#0(0"0(0#0#0"4300911832#378"    cd /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/pcalcado/Documents/code/tw-lab/inspectionschedule/inspectionschedule-ipad/build/Debug-iphonesimulator/inspectionschedule-ipad.app0#
+
