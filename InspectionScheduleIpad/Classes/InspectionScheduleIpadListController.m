@@ -14,12 +14,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	propertiesArray = [[NSMutableArray alloc] init];
-	InspectionScheduleIpadProperty *property = [[InspectionScheduleIpadProperty alloc] init];
-	property.address = @"Manly St";
-	property.description = @"This is a very nice apartment";
-	property.type = @"Apartment";
-	[propertiesArray addObject: property];
-	[property release];
+	InspectionScheduleIpadProperty *property1 = [[InspectionScheduleIpadProperty alloc] init];
+	property1.address = @"Manly St";
+	property1.description = @"This is a very nice apartment";
+	property1.type = @"Apartment";
+	[propertiesArray addObject: property1];
+	[property1 release];
+	
+	InspectionScheduleIpadProperty *property2 = [[InspectionScheduleIpadProperty alloc] init];
+	property2.address = @"Manly St";
+	property2.description = @"This is a very nice apartment";
+	property2.type = @"Apartment";
+	[propertiesArray addObject: property2];
+	[property2 release];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -46,6 +53,16 @@
 	UILabel *descriptionLabel = (UILabel*) [cell viewWithTag:3];
 	descriptionLabel.text = property.description;
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+	if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
+		cell.accessoryType = UITableViewCellAccessoryNone;
+	} else {
+		cell.accessoryType = UITableViewCellAccessoryCheckmark;
+	}
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
