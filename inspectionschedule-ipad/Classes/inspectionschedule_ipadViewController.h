@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <MapKit/MapKit.h>
 
-@interface inspectionschedule_ipadViewController : UIViewController <MKMapViewDelegate>{
-	IBOutlet MKMapView *mapView;
+@interface inspectionschedule_ipadViewController : UIViewController {
+	
 }
 
-@property (nonatomic, retain) IBOutlet MKMapView *mapView;
+- (IBAction)map;
 
 @end
 
