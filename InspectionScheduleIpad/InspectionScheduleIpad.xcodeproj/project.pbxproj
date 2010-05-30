@@ -22,6 +22,7 @@
 		50AA7C9311B238480096190D /* InspectionScheduleIpadProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C9211B238480096190D /* InspectionScheduleIpadProperty.m */; };
 		50AA7CD211B242690096190D /* InspectionScheduleIpadPropertyTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA7CD111B242690096190D /* InspectionScheduleIpadPropertyTableCell.xib */; };
 		50AA7CF611B245940096190D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AA7CF511B245940096190D /* MapKit.framework */; };
+		5ACEE94511B2461A00195DC1 /* InspectionScheduleIpadMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACEE94411B2461A00195DC1 /* InspectionScheduleIpadMapAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		50AA7C9211B238480096190D /* InspectionScheduleIpadProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionScheduleIpadProperty.m; sourceTree = "<group>"; };
 		50AA7CD111B242690096190D /* InspectionScheduleIpadPropertyTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionScheduleIpadPropertyTableCell.xib; sourceTree = "<group>"; };
 		50AA7CF511B245940096190D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5ACEE94311B2461A00195DC1 /* InspectionScheduleIpadMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionScheduleIpadMapAnnotation.h; sourceTree = "<group>"; };
+		5ACEE94411B2461A00195DC1 /* InspectionScheduleIpadMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionScheduleIpadMapAnnotation.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* InspectionScheduleIpad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InspectionScheduleIpad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,6 +71,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				5ACEE94311B2461A00195DC1 /* InspectionScheduleIpadMapAnnotation.h */,
+				5ACEE94411B2461A00195DC1 /* InspectionScheduleIpadMapAnnotation.m */,
 				1D3623240D0F684500981E51 /* InspectionScheduleIpadAppDelegate.h */,
 				1D3623250D0F684500981E51 /* InspectionScheduleIpadAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* InspectionScheduleIpadViewController.h */,
@@ -198,6 +203,7 @@
 				5069157E11B2260100161DC4 /* InspectionScheduleIpadMapController.m in Sources */,
 				50AA7C7011B232350096190D /* InspectionScheduleIpadListController.m in Sources */,
 				50AA7C9311B238480096190D /* InspectionScheduleIpadProperty.m in Sources */,
+				5ACEE94511B2461A00195DC1 /* InspectionScheduleIpadMapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
