@@ -3,6 +3,7 @@
 #import <MapKit/MKAnnotation.h>
 #import <MapKit/MKReverseGeocoder.h>
 #import "InspectionScheduleIpadProperty.h"
+#import "InspectionScheduleIpadPinPoint.h"
 
 @interface InspectionScheduleIpadMapController : UIViewController<MKMapViewDelegate,MKReverseGeocoderDelegate> {
 	MKMapView *mapView;

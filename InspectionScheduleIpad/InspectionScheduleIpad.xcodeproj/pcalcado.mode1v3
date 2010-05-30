@@ -272,7 +272,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>6</integer>
+									<integer>7</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -315,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>InspectionScheduleIpadMapController.h</string>
+								<string>CLLocation.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,22 +323,27 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>InspectionScheduleIpadMapController.h</string>
+										<string>CLLocation.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5ACEE98B11B24A9700195DC1</string>
+										<string>5ACEE9E811B2514800195DC1</string>
 										<key>history</key>
 										<array>
-											<string>5ACEE8DA11B23F7B00195DC1</string>
 											<string>5ACEE8DB11B23F7B00195DC1</string>
-											<string>5ACEE8DD11B23F7B00195DC1</string>
-											<string>5ACEE95D11B2474100195DC1</string>
-											<string>5ACEE95E11B2474100195DC1</string>
-											<string>5ACEE95F11B2474100195DC1</string>
-											<string>5ACEE98911B24A9700195DC1</string>
-											<string>5ACEE98A11B24A9700195DC1</string>
-											<string>5ACEE97011B2492500195DC1</string>
+											<string>5ACEE99C11B24C7900195DC1</string>
+											<string>5ACEE99D11B24C7900195DC1</string>
+											<string>5ACEE99E11B24C7900195DC1</string>
+											<string>5ACEE99F11B24C7900195DC1</string>
+											<string>5ACEE9A011B24C7900195DC1</string>
+											<string>5ACEE9A111B24C7900195DC1</string>
+											<string>5ACEE9A211B24C7900195DC1</string>
+											<string>5ACEE9A311B24C7900195DC1</string>
+											<string>5ACEE9A411B24C7900195DC1</string>
+											<string>5ACEE9A511B24C7900195DC1</string>
+											<string>5ACEE9A611B24C7900195DC1</string>
+											<string>5ACEE9C411B24EE000195DC1</string>
+											<string>5ACEE9C511B24EE000195DC1</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -538,8 +543,8 @@
 	<array>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
-		<string>5AC34A6611B23173006C87B0</string>
 		<string>/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpad.xcodeproj</string>
+		<string>5AC34A6611B23173006C87B0</string>
 	</array>
 	<key>WindowString</key>
 	<string>7 362 1713 816 0 0 1920 1178 </string>
@@ -563,7 +568,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>InspectionScheduleIpadViewController.m</string>
+								<string>InspectionScheduleIpadPinPoint.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -572,7 +577,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {974, 292}}</string>
 								<key>RubberWindowFrame</key>
-								<string>554 -5 974 574 0 0 1920 1178 </string>
+								<string>685 10 974 574 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -598,7 +603,7 @@
 								<key>Frame</key>
 								<string>{{0, 297}, {974, 236}}</string>
 								<key>RubberWindowFrame</key>
-								<string>554 -5 974 574 0 0 1920 1178 </string>
+								<string>685 10 974 574 0 0 1920 1178 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
@@ -630,7 +635,7 @@
 			<key>WindowContentMinSize</key>
 			<string>486 300</string>
 			<key>WindowString</key>
-			<string>554 -5 974 574 0 0 1920 1178 </string>
+			<string>685 10 974 574 0 0 1920 1178 </string>
 			<key>WindowToolGUID</key>
 			<string>5AC34A6611B23173006C87B0</string>
 			<key>WindowToolIsVisible</key>

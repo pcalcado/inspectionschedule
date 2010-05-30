@@ -22,12 +22,11 @@
     [property release];
 	
 	//now let's map from properties to annotations
-//	pinPointsArray = [[NSMutableArray alloc] init];	
-//	for (InspectionScheduleIpadProperty *prop in propertiesArray){
-//		CLLocationCoordinate2D propertyCoordinate = [geoCoder 
-//		InspectionScheduleIpadMapAnnotation pinPoint = [[InspectionScheduleIpadMapAnnotation alloc] initWithCoordinate:[geoCoder propertyCoordinate]];
-//		[pinPointsArray addObject: pinPoint];
-//	}
+	NSMutableArray *pinPointsArray = [[NSMutableArray alloc] init];
+	for (InspectionScheduleIpadProperty *prop in propertiesArray){
+		InspectionScheduleIpadPinPoint *pinPoint = [[InspectionScheduleIpadPinPoint alloc] initWithProperty:prop];
+		[pinPointsArray addObject: pinPoint];
+	}
 	
 }
 
