@@ -1,17 +1,19 @@
 TInspectionScheduleIpad
 v7
 r0
-t296890495.529832
+t296891539.348886
 cCheck dependencies
 cProcessInfoPlistFile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/Info.plist InspectionScheduleIpad-Info.plist
 cCompileXIB /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/MainWindow.xib
 cCompileXIB /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadViewController.xib
 cCompileXIB /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadMapController.xib
+cCompileXIB /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadListController.xib
 cProcessPCH /var/folders/l-/l-Kzi2CvEK0mbeXFVjiDqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InspectionScheduleIpad_Prefix-bsgapstvyarwsgbgswwbqnsnnezy/InspectionScheduleIpad_Prefix.pch.gch InspectionScheduleIpad_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/main.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadAppDelegate.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadViewController.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadMapController.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadMapController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadListController.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cLd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad normal i386
 cGenerateDSYMFile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app.dSYM /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad
 cTouch /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app
@@ -59,6 +61,18 @@ s744
 i"InspectionScheduleIpadAppDelegate.h"
 i"InspectionScheduleIpadViewController.h"
 
+N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.h
+c000000004C01FCEC0000000000000117
+t1275198700
+s279
+i<UIKit/UIKit.h>
+
+N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m
+c000000004C01FCE500000000000005D2
+t1275198693
+s1490
+i"InspectionSchedulerIpadListController.h"
+
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadMapController.h
 c000000004C01EE810000000000000114
 t1275195009
@@ -72,17 +86,35 @@ s1486
 i"InspectionScheduleIpadMapController.h"
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.h
-c000000004C01F8DB0000000000000210
-t1275197659
-s528
+c000000004C01FC82000000000000030E
+t1275198594
+s782
 i<UIKit/UIKit.h>
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m
-c000000004C01F63D0000000000000656
-t1275196989
-s1622
+c000000004C01FCF4000000000000072A
+t1275198708
+s1834
 i"InspectionScheduleIpadViewController.h"
 i"InspectionScheduleIpadMapController.h"
+i"InspectionScheduleIpadListController.h"
+
+N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionSchedulerIpadListController.h
+c000000004C01FAB50000000000000118
+t1275198133
+s280
+i<UIKit/UIKit.h>
+
+N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionSchedulerIpadListController.m
+c000000004C01FAB500000000000005D4
+t1275198133
+s1492
+i"InspectionSchedulerIpadListController.h"
+
+N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadListController.xib
+c000000004C01FCDE00000000000039EF
+t1275198686
+s14831
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadMapController.xib
 c000000004C01F8430000000000004934
@@ -90,9 +122,9 @@ t1275197507
 s18740
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadViewController.xib
-c000000004C01F8FC0000000000005329
-t1275197692
-s21289
+c000000004C01FD100000000000006395
+t1275198736
+s25493
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpad_Prefix.pch
 c000000004C01EDA100000000000000D5
@@ -107,11 +139,11 @@ t1275194785
 s19871
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app
-t1275197695
-s272
+t1275198739
+s306
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app.dSYM
-t1275197695
+t1275198739
 s102
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/Info.plist
@@ -119,16 +151,20 @@ t1275195184
 s864
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad
-t1275197695
-s22088
+t1275198739
+s23880
+
+N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpadListController.nib
+t1275198738
+s1184
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpadMapController.nib
 t1275197511
 s1342
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpadViewController.nib
-t1275197695
-s1644
+t1275198739
+s1971
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/MainWindow.nib
 t1275195188
@@ -139,21 +175,29 @@ t1275195184
 s8
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpad.LinkFileList
-c000000004C01EF300000000000000348
-t1275195184
-s840
+c000000004C01FD120000000000000423
+t1275198738
+s1059
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadAppDelegate.o
-t1275197695
-s42992
+t1275198622
+s43084
+
+N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadListController.o
+t1275198739
+s34884
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadMapController.o
 t1275196929
 s34868
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadViewController.o
-t1275197695
-s36784
+t1275198739
+s38500
+
+N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionSchedulerIpadListController.o
+t1275198622
+s34896
 
 N/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/main.o
 t1275195194
@@ -176,11 +220,11 @@ s1238
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies296890495#296890495#0(0"0(0#1#0"4300911832#0"0#
+lSLF07#2@18"Check dependencies296891538#296891538#0(0"0(0#1#0"4300911832#0"0#
 
 CCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadAppDelegate.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296890495.388603
-e296890495.483577
+s296891422.083601
+e296891422.188137
 r1
 xCompileC
 xbuild/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadAppDelegate.o
@@ -189,7 +233,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@125"Compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadAppDelegate.m296890495#296890495#0(0"0(0#0#117"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadAppDelegate.m4300911832#2792"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-generated-files.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-own-target-headers.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-all-target-headers.hmap -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-project-headers.hmap -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/include -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources/i386 -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources -include /var/folders/l-/l-Kzi2CvEK0mbeXFVjiDqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InspectionScheduleIpad_Prefix-bsgapstvyarwsgbgswwbqnsnnezy/InspectionScheduleIpad_Prefix.pch -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadAppDelegate.m -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadAppDelegate.o0#
+lSLF07#2@125"Compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadAppDelegate.m296891422#296891422#0(0"0(0#0#117"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadAppDelegate.m4300911832#2792"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-generated-files.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-own-target-headers.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-all-target-headers.hmap -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-project-headers.hmap -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/include -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources/i386 -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources -include /var/folders/l-/l-Kzi2CvEK0mbeXFVjiDqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InspectionScheduleIpad_Prefix-bsgapstvyarwsgbgswwbqnsnnezy/InspectionScheduleIpad_Prefix.pch -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadAppDelegate.m -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadAppDelegate.o0#
+
+CCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadListController.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296891539.078571
+e296891539.268319
+r1
+xCompileC
+xbuild/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadListController.o
+x/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@128"Compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m296891539#296891539#0(0"0(0#0#120"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m4300911832#2798"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-generated-files.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-own-target-headers.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-all-target-headers.hmap -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-project-headers.hmap -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/include -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources/i386 -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources -include /var/folders/l-/l-Kzi2CvEK0mbeXFVjiDqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InspectionScheduleIpad_Prefix-bsgapstvyarwsgbgswwbqnsnnezy/InspectionScheduleIpad_Prefix.pch -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadListController.m -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadListController.o0#
 
 CCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadMapController.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadMapController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s296889729.562544
@@ -205,8 +262,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@127"Compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadMapController.m296889729#296889729#0(0"0(0#0#119"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadMapController.m4300911832#2796"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-generated-files.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-own-target-headers.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-all-target-headers.hmap -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-project-headers.hmap -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/include -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources/i386 -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources -include /var/folders/l-/l-Kzi2CvEK0mbeXFVjiDqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InspectionScheduleIpad_Prefix-bsgapstvyarwsgbgswwbqnsnnezy/InspectionScheduleIpad_Prefix.pch -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadMapController.m -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadMapController.o0#
 
 CCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadViewController.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s296890495.389560
-e296890495.475050
+s296891539.077212
+e296891539.217072
 r1
 xCompileC
 xbuild/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadViewController.o
@@ -215,7 +272,20 @@ xnormal
 xi386
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@128"Compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m296890495#296890495#0(0"0(0#0#120"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m4300911832#2798"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-generated-files.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-own-target-headers.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-all-target-headers.hmap -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-project-headers.hmap -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/include -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources/i386 -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources -include /var/folders/l-/l-Kzi2CvEK0mbeXFVjiDqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InspectionScheduleIpad_Prefix-bsgapstvyarwsgbgswwbqnsnnezy/InspectionScheduleIpad_Prefix.pch -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadViewController.o0#
+lSLF07#2@128"Compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m296891539#296891539#0(0"0(0#0#120"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m4300911832#2798"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-generated-files.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-own-target-headers.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-all-target-headers.hmap -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-project-headers.hmap -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/include -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources/i386 -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources -include /var/folders/l-/l-Kzi2CvEK0mbeXFVjiDqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InspectionScheduleIpad_Prefix-bsgapstvyarwsgbgswwbqnsnnezy/InspectionScheduleIpad_Prefix.pch -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpadViewController.o0#
+
+CCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionSchedulerIpadListController.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionSchedulerIpadListController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s296891422.169541
+e296891422.229711
+r1
+xCompileC
+xbuild/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionSchedulerIpadListController.o
+x/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionSchedulerIpadListController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@129"Compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionSchedulerIpadListController.m296891422#296891422#0(0"0(0#0#121"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionSchedulerIpadListController.m4300911832#2800"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-generated-files.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-own-target-headers.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-all-target-headers.hmap -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-project-headers.hmap -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/include -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources/i386 -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources -include /var/folders/l-/l-Kzi2CvEK0mbeXFVjiDqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InspectionScheduleIpad_Prefix-bsgapstvyarwsgbgswwbqnsnnezy/InspectionScheduleIpad_Prefix.pch -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionSchedulerIpadListController.m -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionSchedulerIpadListController.o0#
 
 CCompileC build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/main.o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s296887994.432251
@@ -230,6 +300,16 @@ xobjective-c
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@88"Compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/main.m296887994#296887994#0(0"0(0#0#80"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/main.m4300911832#2726"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-generated-files.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-own-target-headers.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-all-target-headers.hmap -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-project-headers.hmap -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/include -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources/i386 -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources -include /var/folders/l-/l-Kzi2CvEK0mbeXFVjiDqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InspectionScheduleIpad_Prefix-bsgapstvyarwsgbgswwbqnsnnezy/InspectionScheduleIpad_Prefix.pch -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/main.m -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/main.o0#
 
+CCompileXIB /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadListController.xib
+s296891538.567217
+e296891538.957785
+r1
+xCompileXIB
+x/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadListController.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadListController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on InspectionScheduleIpadListController.
+lSLF07#2@51"CompileXIB InspectionScheduleIpadListController.xib296891538#296891538#0(301"/* com.apple.ibtool.document.warnings *//Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadListController.xib:-1: warning: The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on InspectionScheduleIpadListController.1(22@131"The 'view' outlet of 'File's Owner' is connected to 'View' but 'view' is no longer defined on InspectionScheduleIpadListController.296891538#18446744073709551615#0#0(6@114"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadListController.xib296891486#18446744073709551615#0#18446744073709551615#0#0"0(0#0#114"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadListController.xib4300911832#836"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpadListController.nib /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadListController.xib0#
+
 CCompileXIB /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadMapController.xib
 s296890310.866069
 e296890311.169988
@@ -239,12 +319,12 @@ x/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Inspe
 lSLF07#2@50"CompileXIB InspectionScheduleIpadMapController.xib296890310#296890311#0(0"0(0#0#113"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadMapController.xib4300911832#834"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpadMapController.nib /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadMapController.xib0#
 
 CCompileXIB /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadViewController.xib
-s296890495.050301
-e296890495.388318
+s296891538.566285
+e296891539.076139
 r1
 xCompileXIB
 x/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadViewController.xib
-lSLF07#2@51"CompileXIB InspectionScheduleIpadViewController.xib296890495#296890495#0(0"0(0#0#114"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadViewController.xib4300911832#836"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpadViewController.nib /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadViewController.xib0#
+lSLF07#2@51"CompileXIB InspectionScheduleIpadViewController.xib296891538#296891539#0(0"0(0#0#114"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadViewController.xib4300911832#836"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpadViewController.nib /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpadViewController.xib0#
 
 CCompileXIB /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/MainWindow.xib
 s296887984.933180
@@ -255,23 +335,23 @@ x/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/MainW
 lSLF07#2@25"CompileXIB MainWindow.xib296887984#296887988#0(0"0(0#0#88"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/MainWindow.xib4300911832#784"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/MainWindow.nib /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/MainWindow.xib0#
 
 CGenerateDSYMFile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app.dSYM /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad
-s296890495.502361
-e296890495.520268
+s296891539.329448
+e296891539.346415
 r1
 xGenerateDSYMFile
 x/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app.dSYM
 x/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad
-lSLF07#2@154"GenerateDSYMFile build/Debug-iphonesimulator/InspectionScheduleIpad.app.dSYM build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad296890495#296890495#0(0"0(0#0#151"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad4300911832#717"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/dsymutil /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app.dSYM0#
+lSLF07#2@154"GenerateDSYMFile build/Debug-iphonesimulator/InspectionScheduleIpad.app.dSYM build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad296891539#296891539#0(0"0(0#0#151"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad4300911832#717"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/usr/bin/dsymutil /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app.dSYM0#
 
 CLd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad normal i386
-s296890495.483659
-e296890495.502273
+s296891539.268404
+e296891539.329352
 r1
 xLd
 x/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad
 xnormal
 xi386
-lSLF07#2@156"Link /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad296890495#296890495#0(0"0(0#0#0"4300911832#1296"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -filelist /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpad.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad0#
+lSLF07#2@156"Link /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad296891539#296891539#0(0"0(0#0#0"4300911832#1296"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -filelist /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/Objects-normal/i386/InspectionScheduleIpad.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/InspectionScheduleIpad0#
 
 CProcessInfoPlistFile /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app/Info.plist InspectionScheduleIpad-Info.plist
 s296887984.911659
@@ -296,10 +376,10 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@44"Precompile InspectionScheduleIpad_Prefix.pch296887989#296887994#0(0"0(0#0#107"/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpad_Prefix.pch4300911832#2568"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-generated-files.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-own-target-headers.hmap -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-all-target-headers.hmap -iquote /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/InspectionScheduleIpad-project-headers.hmap -F/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/include -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources/i386 -I/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/InspectionScheduleIpad.build/Debug-iphonesimulator/InspectionScheduleIpad.build/DerivedSources -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpad_Prefix.pch -o /var/folders/l-/l-Kzi2CvEK0mbeXFVjiDqU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/InspectionScheduleIpad_Prefix-bsgapstvyarwsgbgswwbqnsnnezy/InspectionScheduleIpad_Prefix.pch.gch0#
 
 CTouch /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app
-s296890495.520344
-e296890495.529791
+s296891539.346496
+e296891539.348862
 r1
 xTouch
 x/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app
-lSLF07#2@134"Touch /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app296890495#296890495#0(0"0(0#0#0"4300911832#547"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/touch -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app0#
+lSLF07#2@134"Touch /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app296891539#296891539#0(0"0(0#0#0"4300911832#547"    cd /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/Users/caue/.rvm/rubies/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249/bin:/Users/caue/.rvm/gems/ruby-1.8.7-p249@global/bin:/Users/caue/.rvm/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin"    /usr/bin/touch -c /Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/build/Debug-iphonesimulator/InspectionScheduleIpad.app0#
 

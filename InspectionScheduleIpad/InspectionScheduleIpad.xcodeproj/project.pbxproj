@@ -17,6 +17,8 @@
 		28D7ACF80DDB3853001CB0EB /* InspectionScheduleIpadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* InspectionScheduleIpadViewController.m */; };
 		5069157E11B2260100161DC4 /* InspectionScheduleIpadMapController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5069157D11B2260100161DC4 /* InspectionScheduleIpadMapController.m */; };
 		506915C911B2295E00161DC4 /* InspectionScheduleIpadMapController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 506915C811B2295E00161DC4 /* InspectionScheduleIpadMapController.xib */; };
+		50AA7C7011B232350096190D /* InspectionScheduleIpadListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */; };
+		50AA7C7211B232B60096190D /* InspectionScheduleIpadListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AA7C7111B232B60096190D /* InspectionScheduleIpadListController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,9 @@
 		5069157C11B2260100161DC4 /* InspectionScheduleIpadMapController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionScheduleIpadMapController.h; sourceTree = "<group>"; };
 		5069157D11B2260100161DC4 /* InspectionScheduleIpadMapController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionScheduleIpadMapController.m; sourceTree = "<group>"; };
 		506915C811B2295E00161DC4 /* InspectionScheduleIpadMapController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionScheduleIpadMapController.xib; sourceTree = "<group>"; };
+		50AA7C6E11B232350096190D /* InspectionScheduleIpadListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionScheduleIpadListController.h; sourceTree = "<group>"; };
+		50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionScheduleIpadListController.m; sourceTree = "<group>"; };
+		50AA7C7111B232B60096190D /* InspectionScheduleIpadListController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionScheduleIpadListController.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* InspectionScheduleIpad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InspectionScheduleIpad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +66,8 @@
 				28D7ACF70DDB3853001CB0EB /* InspectionScheduleIpadViewController.m */,
 				5069157C11B2260100161DC4 /* InspectionScheduleIpadMapController.h */,
 				5069157D11B2260100161DC4 /* InspectionScheduleIpadMapController.m */,
+				50AA7C6E11B232350096190D /* InspectionScheduleIpadListController.h */,
+				50AA7C6F11B232350096190D /* InspectionScheduleIpadListController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -101,6 +108,7 @@
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* InspectionScheduleIpad-Info.plist */,
 				506915C811B2295E00161DC4 /* InspectionScheduleIpadMapController.xib */,
+				50AA7C7111B232B60096190D /* InspectionScheduleIpadListController.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* InspectionScheduleIpadViewController.xib in Resources */,
 				506915C911B2295E00161DC4 /* InspectionScheduleIpadMapController.xib in Resources */,
+				50AA7C7211B232B60096190D /* InspectionScheduleIpadListController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +183,7 @@
 				1D3623260D0F684500981E51 /* InspectionScheduleIpadAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* InspectionScheduleIpadViewController.m in Sources */,
 				5069157E11B2260100161DC4 /* InspectionScheduleIpadMapController.m in Sources */,
+				50AA7C7011B232350096190D /* InspectionScheduleIpadListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

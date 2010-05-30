@@ -1,0 +1,4 @@
+/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m:11:49: error: InspectionScheduleIpadListController.h: No such file or directory
+/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m:15: error: no declaration of property 'inspectionScheduleIpadListController' found in the interface
+/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m: In function '-[InspectionScheduleIpadViewController list]':
+/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/Classes/InspectionScheduleIpadViewController.m:22: error: request for member 'inspectionScheduleIpadListController' in something not a structure or union

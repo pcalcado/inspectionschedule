@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -271,8 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>1</integer>
+									<integer>12</integer>
+									<integer>11</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -307,14 +309,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>InspectionScheduleIpadViewController.m</string>
+								<string>InspectionScheduleIpadViewController.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -322,19 +322,21 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>InspectionScheduleIpadViewController.m</string>
+										<string>InspectionScheduleIpadViewController.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>50AA7C5711B22DC50096190D</string>
+										<string>50AA7C8A11B2347F0096190D</string>
 										<key>history</key>
 										<array>
 											<string>506915D211B22A5B00161DC4</string>
-											<string>50B2D5DF11B22D960089DF17</string>
 											<string>50B2D5E011B22D960089DF17</string>
-											<string>50B2D5E111B22D960089DF17</string>
-											<string>50B2D5E211B22D960089DF17</string>
-											<string>50B2D5E411B22D960089DF17</string>
+											<string>50AA7C8411B2347F0096190D</string>
+											<string>50AA7C8511B2347F0096190D</string>
+											<string>50AA7C8611B2347F0096190D</string>
+											<string>50AA7C8711B2347F0096190D</string>
+											<string>50AA7C8811B2347F0096190D</string>
+											<string>50AA7C8911B2347F0096190D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -559,7 +561,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>InspectionScheduleIpadViewController.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -576,6 +578,8 @@
 							<string>402pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>

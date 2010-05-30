@@ -8,12 +8,18 @@
 
 #import "InspectionScheduleIpadViewController.h"
 #import "InspectionScheduleIpadMapController.h"
+#import "InspectionScheduleIpadListController.h"
 
 @implementation InspectionScheduleIpadViewController
 @synthesize inspectionScheduleIpadMapController;
+@synthesize inspectionScheduleIpadListController;
 
 - (IBAction)map {
 	[self presentModalViewController:self.inspectionScheduleIpadMapController animated:YES];
+}
+
+- (IBAction)list {
+	[self presentModalViewController:self.inspectionScheduleIpadListController animated:YES];
 }
 
 /*
