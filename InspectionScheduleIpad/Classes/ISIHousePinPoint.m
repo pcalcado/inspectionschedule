@@ -1,6 +1,5 @@
 #import "ISIHousePinPoint.h"
 
-
 @implementation ISIHousePinPoint
 
 - (id)initWithAnnotation:(id <MKAnnotation>)annotation

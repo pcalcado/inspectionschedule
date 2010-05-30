@@ -9,6 +9,7 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
+
   //shows manly
   CLLocationCoordinate2D coordinate;
   coordinate.latitude = -33.801393;
@@ -25,12 +26,8 @@
 
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation{
     ISIHousePinPoint *annView=[[ISIHousePinPoint alloc] initWithAnnotation:annotation];
-    //  annView.pinColor = MKPinAnnotationColorGreen;
-    //  annView.animatesDrop=TRUE;
-  annView.canShowCallout = YES;
-  annView.calloutOffset = CGPointMake(-5, 5);
-  //  UIImage *pinIconImg =[[UIImage imageNamed:@"icon.png"] retain];
-  //  annView.image =pinIconImg;
+    annView.canShowCallout = YES;
+    annView.calloutOffset = CGPointMake(-5, 5);
   return annView;
 }
 
