@@ -10,7 +10,7 @@
 
 @class DetailViewController;
 
-@interface RootViewController : UITableViewController {
+@interface RootViewController : UIViewController <UIPopoverControllerDelegate, UISplitViewControllerDelegate> {
     DetailViewController *detailViewController;
 }
 

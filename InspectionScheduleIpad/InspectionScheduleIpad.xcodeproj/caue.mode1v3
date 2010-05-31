@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,13 +274,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>28</integer>
+									<integer>29</integer>
 									<integer>23</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {342, 764}}</string>
+							<string>{{0, 1}, {342, 764}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -308,8 +310,6 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -327,7 +327,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>50F11C5311B3E95A004BDE1B</string>
+										<string>508C884711B3F3990035ECFD</string>
 										<key>history</key>
 										<array>
 											<string>504D89A011B26C8E00613A68</string>
@@ -338,7 +338,7 @@
 											<string>5042811A11B29C9A008955D6</string>
 											<string>5042812911B29F5B008955D6</string>
 											<string>5042812B11B29F5B008955D6</string>
-											<string>50F11C4511B3E25B004BDE1B</string>
+											<string>50F11C5311B3E95A004BDE1B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -350,14 +350,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1018, 535}}</string>
+								<string>{{0, 0}, {1018, 528}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 55 1382 823 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>535pt</string>
+							<string>528pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -370,14 +370,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 540}, {1018, 242}}</string>
+								<string>{{0, 533}, {1018, 249}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 55 1382 823 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>242pt</string>
+							<string>249pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -396,9 +396,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>50F11C4711B3E25B004BDE1B</string>
+				<string>508C884811B3F3990035ECFD</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>50F11C4811B3E25B004BDE1B</string>
+				<string>508C884911B3F3990035ECFD</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -536,8 +536,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>5069158E11B226CB00161DC4</string>
 		<string>/Users/caue/Documents/workspace/inspectionschedule/InspectionScheduleIpad/InspectionScheduleIpad.xcodeproj</string>
 	</array>
@@ -563,7 +561,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>InspectionScheduleIpadListController.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -580,8 +578,6 @@
 							<string>402pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -621,7 +617,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>5069158E11B226CB00161DC4</string>
-				<string>50F11C4211B3E254004BDE1B</string>
+				<string>508C884A11B3F3990035ECFD</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
