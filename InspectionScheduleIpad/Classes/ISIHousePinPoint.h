@@ -5,8 +5,10 @@
 
 
 @interface ISIHousePinPoint : MKAnnotationView
-    {
-    }
-    - (id)initWithAnnotation:(id <MKAnnotation>) annotation;
-    @end
+{
+}
+
+- (id)initWithAnnotation:(id <MKAnnotation>) annotation;
+
+@end
     

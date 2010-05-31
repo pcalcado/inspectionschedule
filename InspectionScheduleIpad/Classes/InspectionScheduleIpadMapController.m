@@ -10,15 +10,26 @@
 - (void)viewDidLoad {
   [super viewDidLoad];
 
-  //shows manly
+  //shows manly 
+  //TODO: this should show all properties
   CLLocationCoordinate2D coordinate;
   coordinate.latitude = -33.801393;
   coordinate.longitude = 151.290353;
   mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 2000, 2000); 
-
-  //now let's map from properties to annotations
+  
+  //TEMPORARY while we still send props and not insps from list to here
+  NSMutableArray *inspectionList = [[NSMutableArray alloc] init];
   for (InspectionScheduleIpadProperty *prop in propertiesArray){
-    InspectionScheduleIpadPinPoint *pinPoint = [[InspectionScheduleIpadPinPoint alloc] initWithProperty:prop];
+    ISIInspection *i = [[ISIInspection alloc] init];
+    i.propertyToInspect = prop;
+    i.start = [NSDate dateWithTimeIntervalSinceNow:60*50*24*1];
+    i.end = [NSDate dateWithTimeIntervalSinceNow:60*60*24*1];
+    [inspectionList addObject:i];
+  }
+
+  //now let's map from inspections to annotations
+  for (ISIInspection *i in inspectionList){
+    InspectionScheduleIpadPinPoint *pinPoint = [InspectionScheduleIpadPinPoint withInspection:i];
     [mapView addAnnotation: pinPoint];
     [pinPoint release];
   }
@@ -26,9 +37,7 @@
 
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation{
     ISIHousePinPoint *annView=[[ISIHousePinPoint alloc] initWithAnnotation:annotation];
-    annView.canShowCallout = YES;
-    annView.calloutOffset = CGPointMake(-5, 5);
-  return annView;
+    return annView;
 }
 
 

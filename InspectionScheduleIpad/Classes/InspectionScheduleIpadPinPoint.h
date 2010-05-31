@@ -2,16 +2,17 @@
 #import <CoreLocation/CoreLocation.h>
 #import <MapKit/MapKit.h>
 #import "InspectionScheduleIpadProperty.h"
+#import "ISIInspection.h"
 
 @interface InspectionScheduleIpadPinPoint : NSObject <MKAnnotation> {
-  InspectionScheduleIpadProperty *_aProperty;
+  ISIInspection *inspection;
 }
 
-+ (id)withProperty:(InspectionScheduleIpadProperty *) aProperty;
++ (id)withInspection:(ISIInspection *) inspection;
 
-- (id)initWithProperty:(InspectionScheduleIpadProperty *) aProperty;
+- (id)initWithInspection:(InspectionScheduleIpadProperty *) inspection;
 
-@property (nonatomic, assign) InspectionScheduleIpadProperty *aProperty;
+@property (nonatomic, assign) ISIInspection *inspection;
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 

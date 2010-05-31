@@ -1,34 +1,32 @@
 #import "InspectionScheduleIpadPinPoint.h"
 
-
 @implementation InspectionScheduleIpadPinPoint
 
-@synthesize aProperty = _aProperty;
+@synthesize inspection;
 
-
-+ (id)withProperty:(InspectionScheduleIpadProperty *) aProperty {
-    return [[[[self class] alloc] initWithProperty:aProperty] autorelease];
++ (id)withInspection:(ISIInspection *) inspection {
+    return [[[[self class] alloc] initWithInspection:inspection] autorelease];
   }
 
-- (id)initWithProperty:(InspectionScheduleIpadProperty *) aProperty {
+- (id)initWithInspection:(ISIInspection *) inspection {
   self = [super init];
   if(nil != self) {
-    self.aProperty = aProperty;
+    self.inspection = inspection;
   }
   return self;
 }
 
 -(CLLocationCoordinate2D) coordinate {
-  return _aProperty.coordinate;
+  return inspection.propertyToInspect.coordinate;
 }
 
 -(NSString *) title {
-  return _aProperty.address;
+  return inspection.description;
 }
 
 
 -(NSString *) subtitle {
-  return _aProperty.address;
+  return inspection.propertyToInspect.address;
 }
 
 @end

@@ -2,7 +2,6 @@
 #import "InspectionScheduleIpadProperty.h"
 
 @interface ISIInspection : NSObject {
-  NSString *title;
   InspectionScheduleIpadProperty *propertyToInspect;
   NSDate *start;
   NSDate *end;

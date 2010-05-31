@@ -1,4 +1,4 @@
-#import "InspectionScheduleIpadListController.h"
+inden#import "InspectionScheduleIpadListController.h"
 #import "InspectionScheduleIpadMapController.h"
 #import "ISIPropertyRepository.h"
 
@@ -9,16 +9,16 @@
 @synthesize selectedPropertiesArray;
 
 - (IBAction)map {
-	self.inspectionScheduleIpadMapController.propertiesArray = self.selectedPropertiesArray;
-	[self presentModalViewController:self.inspectionScheduleIpadMapController animated:YES];
+  self.inspectionScheduleIpadMapController.propertiesArray = self.selectedPropertiesArray;
+  [self presentModalViewController:self.inspectionScheduleIpadMapController animated:YES];
 }
 
 - (void)viewDidLoad {
-	[super viewDidLoad];
+  [super viewDidLoad];
 	
-	//this should happen somewhere else
-	propertiesArray = [[[ISIPropertyRepository alloc] init] retrieveProperties];
-	selectedPropertiesArray = [[NSMutableArray alloc] init];
+  //this should happen somewhere else
+  propertiesArray = [[[ISIPropertyRepository alloc] init] retrieveProperties];
+  selectedPropertiesArray = [[NSMutableArray alloc] init];
 }
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
@@ -52,10 +52,10 @@
   UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
   if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
     cell.accessoryType = UITableViewCellAccessoryNone;
-	[selectedPropertiesArray removeObject: [propertiesArray objectAtIndex:indexPath.row]];	  
+    [selectedPropertiesArray removeObject: [propertiesArray objectAtIndex:indexPath.row]];	  
   } else {
     cell.accessoryType = UITableViewCellAccessoryCheckmark;
-	[selectedPropertiesArray addObject: [propertiesArray objectAtIndex:indexPath.row]];
+    [selectedPropertiesArray addObject: [propertiesArray objectAtIndex:indexPath.row]];
   }
 }
 

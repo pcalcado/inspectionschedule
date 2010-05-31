@@ -7,9 +7,12 @@
 @synthesize end;
 
 - (NSString *) description {
-  NSString *starting = [start descriptionWithCalendarFormat:@"%H:%M"];
-  NSString *ending = [end descriptionWithCalendarFormat:@"%H:%M"];
-  return [start stringByAppendingString:[@" - " stringByAppendingString:end]];  
+  NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+  [formatter setDateFormat:@"HH:mm"];
+        
+  NSString *starting = [formatter stringFromDate:start];
+  NSString *ending =  [formatter stringFromDate:end];
+  return [starting stringByAppendingString:[@" - " stringByAppendingString:ending]];  
 }
 
 @end
