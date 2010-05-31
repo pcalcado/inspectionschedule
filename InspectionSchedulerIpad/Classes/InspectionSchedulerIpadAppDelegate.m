@@ -17,10 +17,6 @@
 
 @synthesize window, splitViewController, rootViewController, detailViewController;
 
-
-#pragma mark -
-#pragma mark Application lifecycle
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after app launch    
@@ -32,14 +28,9 @@
     return YES;
 }
 
-
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Save data if appropriate
 }
-
-
-#pragma mark -
-#pragma mark Memory management
 
 - (void)dealloc {
     [splitViewController release];

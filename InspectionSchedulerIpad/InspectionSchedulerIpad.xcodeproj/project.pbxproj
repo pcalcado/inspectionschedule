@@ -17,6 +17,15 @@
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		508C884D11B3F3EB0035ECFD /* InspectionTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508C884C11B3F3EB0035ECFD /* InspectionTableCellView.xib */; };
+		508C88B911B403CF0035ECFD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88B811B403CF0035ECFD /* MapViewController.m */; };
+		508C88BE11B404790035ECFD /* PinPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88BD11B404790035ECFD /* PinPoint.m */; };
+		508C88C311B404DD0035ECFD /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88C211B404DD0035ECFD /* Property.m */; };
+		508C88C811B405160035ECFD /* PropertyRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88C711B405160035ECFD /* PropertyRepository.m */; };
+		508C88CD11B4055D0035ECFD /* Inspection.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88CC11B4055D0035ECFD /* Inspection.m */; };
+		508C89BB11B406240035ECFD /* HousePinPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C89BA11B406240035ECFD /* HousePinPoint.m */; };
+		508C89D611B406A10035ECFD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508C89D511B406A10035ECFD /* MapKit.framework */; };
+		508C89F511B407E90035ECFD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 508C89F411B407E90035ECFD /* icon.png */; };
+		508C89F711B408000035ECFD /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508C89F611B408000035ECFD /* MapView.xib */; };
 		50F11C7211B3EED6004BDE1B /* FilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F11C7111B3EED6004BDE1B /* FilterView.xib */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +45,21 @@
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		508C884C11B3F3EB0035ECFD /* InspectionTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionTableCellView.xib; sourceTree = "<group>"; };
+		508C88B711B403CF0035ECFD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		508C88B811B403CF0035ECFD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		508C88BC11B404790035ECFD /* PinPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinPoint.h; sourceTree = "<group>"; };
+		508C88BD11B404790035ECFD /* PinPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinPoint.m; sourceTree = "<group>"; };
+		508C88C111B404DD0035ECFD /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		508C88C211B404DD0035ECFD /* Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
+		508C88C611B405160035ECFD /* PropertyRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyRepository.h; sourceTree = "<group>"; };
+		508C88C711B405160035ECFD /* PropertyRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyRepository.m; sourceTree = "<group>"; };
+		508C88CB11B4055D0035ECFD /* Inspection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inspection.h; sourceTree = "<group>"; };
+		508C88CC11B4055D0035ECFD /* Inspection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inspection.m; sourceTree = "<group>"; };
+		508C89B911B406230035ECFD /* HousePinPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HousePinPoint.h; sourceTree = "<group>"; };
+		508C89BA11B406240035ECFD /* HousePinPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HousePinPoint.m; sourceTree = "<group>"; };
+		508C89D511B406A10035ECFD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		508C89F411B407E90035ECFD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		508C89F611B408000035ECFD /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
 		50F11C7111B3EED6004BDE1B /* FilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterView.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* InspectionSchedulerIpad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InspectionSchedulerIpad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +72,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				508C89D611B406A10035ECFD /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +88,18 @@
 				28042008108E984D000629CD /* RootViewController.m */,
 				28042009108E984D000629CD /* DetailViewController.h */,
 				2804200A108E984D000629CD /* DetailViewController.m */,
+				508C88B711B403CF0035ECFD /* MapViewController.h */,
+				508C88B811B403CF0035ECFD /* MapViewController.m */,
+				508C88BC11B404790035ECFD /* PinPoint.h */,
+				508C88BD11B404790035ECFD /* PinPoint.m */,
+				508C88C111B404DD0035ECFD /* Property.h */,
+				508C88C211B404DD0035ECFD /* Property.m */,
+				508C88C611B405160035ECFD /* PropertyRepository.h */,
+				508C88C711B405160035ECFD /* PropertyRepository.m */,
+				508C88CB11B4055D0035ECFD /* Inspection.h */,
+				508C88CC11B4055D0035ECFD /* Inspection.m */,
+				508C89B911B406230035ECFD /* HousePinPoint.h */,
+				508C89BA11B406240035ECFD /* HousePinPoint.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -99,11 +136,13 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				508C89F411B407E90035ECFD /* icon.png */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				2804203B108E9BAB000629CD /* DetailView.xib */,
 				8D1107310486CEB800E47090 /* InspectionSchedulerIpad-Info.plist */,
 				50F11C7111B3EED6004BDE1B /* FilterView.xib */,
 				508C884C11B3F3EB0035ECFD /* InspectionTableCellView.xib */,
+				508C89F611B408000035ECFD /* MapView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -114,6 +153,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				508C89D511B406A10035ECFD /* MapKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -171,6 +211,8 @@
 				2804203C108E9BAB000629CD /* DetailView.xib in Resources */,
 				50F11C7211B3EED6004BDE1B /* FilterView.xib in Resources */,
 				508C884D11B3F3EB0035ECFD /* InspectionTableCellView.xib in Resources */,
+				508C89F511B407E90035ECFD /* icon.png in Resources */,
+				508C89F711B408000035ECFD /* MapView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,6 +227,12 @@
 				1D3623260D0F684500981E51 /* InspectionSchedulerIpadAppDelegate.m in Sources */,
 				2804200B108E984D000629CD /* RootViewController.m in Sources */,
 				2804200C108E984D000629CD /* DetailViewController.m in Sources */,
+				508C88B911B403CF0035ECFD /* MapViewController.m in Sources */,
+				508C88BE11B404790035ECFD /* PinPoint.m in Sources */,
+				508C88C311B404DD0035ECFD /* Property.m in Sources */,
+				508C88C811B405160035ECFD /* PropertyRepository.m in Sources */,
+				508C88CD11B4055D0035ECFD /* Inspection.m in Sources */,
+				508C89BB11B406240035ECFD /* HousePinPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

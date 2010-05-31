@@ -8,21 +8,34 @@
 
 #import "DetailViewController.h"
 #import "RootViewController.h"
-
+#import "MapViewController.h"
+#import "PropertyRepository.h"
 
 @interface DetailViewController ()
 @property (nonatomic, retain) UIPopoverController *popoverController;
 - (void)configureView;
 @end
 
-
-
 @implementation DetailViewController
 
 @synthesize toolbar, popoverController, detailItem, detailDescriptionLabel;
+@synthesize mapViewController;
+@synthesize propertiesArray;
+@synthesize selectedPropertiesArray;
 
-#pragma mark -
-#pragma mark Managing the detail item
+- (IBAction)map {
+	self.mapViewController = [[MapViewController alloc] init];
+	self.mapViewController.propertiesArray = self.selectedPropertiesArray;
+	[self presentModalViewController:self.mapViewController animated:YES];
+}
+
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	
+	//this should happen somewhere else
+	propertiesArray = [[[PropertyRepository alloc] init] retrieveProperties];
+	selectedPropertiesArray = [[NSMutableArray alloc] init];
+}
 
 /*
  When setting the detail item, update the view and dismiss the popover controller if it's showing.
@@ -47,10 +60,6 @@
     detailDescriptionLabel.text = [detailItem description];   
 }
 
-
-#pragma mark -
-#pragma mark Split view support
-
 - (void)splitViewController: (UISplitViewController*)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem*)barButtonItem forPopoverController: (UIPopoverController*)pc {
     
     barButtonItem.title = @"Root List";
@@ -72,65 +81,52 @@
     self.popoverController = nil;
 }
 
-
-#pragma mark -
-#pragma mark Rotation support
-
 // Ensure that the view controller supports rotation and that the split view can therefore show in both portrait and landscape.
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     return YES;
 }
 
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+	return 1;
+}
 
-#pragma mark -
-#pragma mark View lifecycle
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+	return [propertiesArray count];
+}
 
-/*
- // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+	static NSString *CellIdentifier = @"Cell"; 
+	UITableViewCell *cell =
+    [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	if (cell == nil) {
+		[[NSBundle mainBundle] loadNibNamed:@"InspectionTableCellView" owner:self options:NULL];
+		cell = nibLoadedCell;
+	}
+	Property *property = [propertiesArray objectAtIndex:indexPath.row];
+	UILabel *addressLabel = (UILabel*) [cell viewWithTag:1];
+	addressLabel.text = property.address;
+	UILabel *typeLabel = (UILabel*) [cell viewWithTag:2];
+	typeLabel.text = property.type;
+	UILabel *descriptionLabel = (UILabel*) [cell viewWithTag:3];
+	descriptionLabel.text = property.description;
+	return cell;
 }
- */
 
-/*
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+	UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+	if (cell.accessoryType == UITableViewCellAccessoryCheckmark) {
+		cell.accessoryType = UITableViewCellAccessoryNone;
+		[selectedPropertiesArray removeObject: [propertiesArray objectAtIndex:indexPath.row]];	  
+	} else {
+		cell.accessoryType = UITableViewCellAccessoryCheckmark;
+		[selectedPropertiesArray addObject: [propertiesArray objectAtIndex:indexPath.row]];
+	}
 }
-*/
-/*
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-*/
-/*
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-}
-*/
-/*
-- (void)viewDidDisappear:(BOOL)animated {
-    [super viewDidDisappear:animated];
-}
-*/
 
 - (void)viewDidUnload {
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
     self.popoverController = nil;
 }
-
-
-#pragma mark -
-#pragma mark Memory management
-
-/*
-- (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
-}
-*/
 
 - (void)dealloc {
     [popoverController release];

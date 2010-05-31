@@ -1,12 +1,21 @@
+//
+//  MapViewController.h
+//  InspectionSchedulerIpad
+//
+//  Created by Caue Guerra on 1/06/10.
+//  Copyright 2010 ThoughtWorks. All rights reserved.
+//
+
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import <MapKit/MKAnnotation.h>
 #import <MapKit/MKReverseGeocoder.h>
-#import "InspectionScheduleIpadProperty.h"
-#import "InspectionScheduleIpadPinPoint.h"
-#import "ISIHousePinPoint.h"
+#import "Property.h"
+#import "PinPoint.h"
+#import "HousePinPoint.h"
 
-@interface InspectionScheduleIpadMapController : UIViewController<MKMapViewDelegate> {
+
+@interface MapViewController : UIViewController<MKMapViewDelegate> {
 	MKMapView *mapView;
 	NSMutableArray *propertiesArray;
 }
