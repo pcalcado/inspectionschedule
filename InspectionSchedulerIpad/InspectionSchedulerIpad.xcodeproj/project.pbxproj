@@ -27,6 +27,8 @@
 		508C89F511B407E90035ECFD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 508C89F411B407E90035ECFD /* icon.png */; };
 		508C89F711B408000035ECFD /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508C89F611B408000035ECFD /* MapView.xib */; };
 		50F11C7211B3EED6004BDE1B /* FilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F11C7111B3EED6004BDE1B /* FilterView.xib */; };
+		50F6E25411B51FD60079B4D4 /* InspectionInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6E25311B51FD60079B4D4 /* InspectionInformationViewController.m */; };
+		50F6E26711B521670079B4D4 /* InspectionInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F6E26611B521670079B4D4 /* InspectionInformationView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +63,9 @@
 		508C89F411B407E90035ECFD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		508C89F611B408000035ECFD /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
 		50F11C7111B3EED6004BDE1B /* FilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterView.xib; sourceTree = "<group>"; };
+		50F6E25211B51FD60079B4D4 /* InspectionInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionInformationViewController.h; sourceTree = "<group>"; };
+		50F6E25311B51FD60079B4D4 /* InspectionInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionInformationViewController.m; sourceTree = "<group>"; };
+		50F6E26611B521670079B4D4 /* InspectionInformationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionInformationView.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* InspectionSchedulerIpad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InspectionSchedulerIpad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +105,8 @@
 				508C88CC11B4055D0035ECFD /* Inspection.m */,
 				508C89B911B406230035ECFD /* HousePinPoint.h */,
 				508C89BA11B406240035ECFD /* HousePinPoint.m */,
+				50F6E25211B51FD60079B4D4 /* InspectionInformationViewController.h */,
+				50F6E25311B51FD60079B4D4 /* InspectionInformationViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -143,6 +150,7 @@
 				50F11C7111B3EED6004BDE1B /* FilterView.xib */,
 				508C884C11B3F3EB0035ECFD /* InspectionTableCellView.xib */,
 				508C89F611B408000035ECFD /* MapView.xib */,
+				50F6E26611B521670079B4D4 /* InspectionInformationView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -213,6 +221,7 @@
 				508C884D11B3F3EB0035ECFD /* InspectionTableCellView.xib in Resources */,
 				508C89F511B407E90035ECFD /* icon.png in Resources */,
 				508C89F711B408000035ECFD /* MapView.xib in Resources */,
+				50F6E26711B521670079B4D4 /* InspectionInformationView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +242,7 @@
 				508C88C811B405160035ECFD /* PropertyRepository.m in Sources */,
 				508C88CD11B4055D0035ECFD /* Inspection.m in Sources */,
 				508C89BB11B406240035ECFD /* HousePinPoint.m in Sources */,
+				50F6E25411B51FD60079B4D4 /* InspectionInformationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

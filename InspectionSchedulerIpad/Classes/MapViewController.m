@@ -8,7 +8,11 @@
 
 #import "MapViewController.h"
 #import "PropertyRepository.h"
+#import "InspectionInformationViewController.h"
 
+@interface MapViewController ()
+@property (nonatomic, retain) UIPopoverController *popoverController;
+@end
 
 @implementation MapViewController
 
@@ -44,8 +48,27 @@
 }
 
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation{
-    HousePinPoint *annView=[[HousePinPoint alloc] initWithAnnotation:annotation];
-    return annView;
+	HousePinPoint *annView=[[HousePinPoint alloc] initWithAnnotation:annotation];
+	
+	[annView addGestureRecognizer: [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showInspectionDetails:)]];
+	
+	return annView;
+}
+
+- (void) showInspectionDetails: (id)sender {
+	InspectionInformationViewController* content = [[InspectionInformationViewController alloc] init];
+	UIPopoverController* aPopover = [[UIPopoverController alloc]
+									 initWithContentViewController:content];
+	aPopover.delegate = self;
+	[content release];
+	
+	// Store the popover in a custom property for later use.
+	popoverController = aPopover;
+//	[aPopover release];
+	[popoverController setPopoverContentSize:CGSizeMake(200,200) animated:YES];
+	
+	[popoverController presentPopoverFromRect:CGRectMake(500,500,5,5) inView:mapView
+								   permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

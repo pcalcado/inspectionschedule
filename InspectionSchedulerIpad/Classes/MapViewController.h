@@ -14,10 +14,11 @@
 #import "PinPoint.h"
 #import "HousePinPoint.h"
 
-
-@interface MapViewController : UIViewController<MKMapViewDelegate> {
+@interface MapViewController : UIViewController<MKMapViewDelegate, UIPopoverControllerDelegate> {
 	MKMapView *mapView;
 	NSMutableArray *propertiesArray;
+	
+	UIPopoverController *popoverController;
 }
 
 @property (nonatomic, retain) IBOutlet MKMapView *mapView;
