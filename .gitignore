@@ -1,7 +1,8 @@
-InspectionScheduleIpad/build/*
+InspectionSchedulerIpad/build/*
 *~
 *#
 .#*
-InspectionScheduleIpad/build/
+InspectionSchedulerIpad/build/
 *.cache
-InspectionScheduleIpad/InspectionScheduleIpad.xcodeproj/pcalcado.*
+InspectionSchedulerIpad/InspectionSchedulerIpad.xcodeproj/pcalcado.*
+*.build
