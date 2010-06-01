@@ -82,8 +82,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 297082494;
-			PBXWorkspaceStateSaveDate = 297082494;
+			PBXPerProjectTemplateStateSaveDate = 297085227;
+			PBXWorkspaceStateSaveDate = 297085227;
 		};
 		perUserProjectItems = {
 			508C89AF11B406180035ECFD = 508C89AF11B406180035ECFD /* PBXTextBookmark */;
@@ -450,11 +450,6 @@
 		name = UIPopoverController.h;
 		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIPopoverController.h;
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1104, 1820}}";
-			sepNavSelRange = "{4471, 49}";
-			sepNavVisRange = "{0, 1883}";
-		};
 	};
 	50F6E25211B51FD60079B4D4 /* InspectionInformationViewController.h */ = {
 		uiCtxt = {

@@ -55,7 +55,7 @@
 	return annView;
 }
 
-- (void) showInspectionDetails: (id)sender {
+- (void) showInspectionDetails: (UIGestureRecognizer *)gestureRecognizer {
 	InspectionInformationViewController* content = [[InspectionInformationViewController alloc] init];
 	UIPopoverController* aPopover = [[UIPopoverController alloc]
 									 initWithContentViewController:content];
@@ -67,8 +67,10 @@
 //	[aPopover release];
 	[popoverController setPopoverContentSize:CGSizeMake(200,200) animated:YES];
 	
-	[popoverController presentPopoverFromRect:CGRectMake(500,500,5,5) inView:mapView
-								   permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+//	[popoverController presentPopoverFromRect:CGRectMake(500,500,5,5) inView:mapView
+//					 permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+	[popoverController presentPopoverFromRect:[gestureRecognizer.view convertRect:gestureRecognizer.view.bounds toView:mapView] inView:mapView
+					 permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
