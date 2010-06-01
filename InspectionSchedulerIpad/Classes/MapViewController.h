@@ -11,7 +11,6 @@
 #import <MapKit/MKAnnotation.h>
 #import <MapKit/MKReverseGeocoder.h>
 #import "Property.h"
-#import "PinPoint.h"
 #import "HouseAnnotationView.h"
 
 @interface MapViewController : UIViewController<MKMapViewDelegate, UIPopoverControllerDelegate> {

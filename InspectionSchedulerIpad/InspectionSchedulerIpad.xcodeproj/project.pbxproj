@@ -18,7 +18,6 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		508C884D11B3F3EB0035ECFD /* InspectionTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508C884C11B3F3EB0035ECFD /* InspectionTableCellView.xib */; };
 		508C88B911B403CF0035ECFD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88B811B403CF0035ECFD /* MapViewController.m */; };
-		508C88BE11B404790035ECFD /* PinPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88BD11B404790035ECFD /* PinPoint.m */; };
 		508C88C311B404DD0035ECFD /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88C211B404DD0035ECFD /* Property.m */; };
 		508C88C811B405160035ECFD /* PropertyRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88C711B405160035ECFD /* PropertyRepository.m */; };
 		508C88CD11B4055D0035ECFD /* Inspection.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88CC11B4055D0035ECFD /* Inspection.m */; };
@@ -29,6 +28,8 @@
 		50F11C7211B3EED6004BDE1B /* FilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F11C7111B3EED6004BDE1B /* FilterView.xib */; };
 		50F6E25411B51FD60079B4D4 /* InspectionInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6E25311B51FD60079B4D4 /* InspectionInformationViewController.m */; };
 		50F6E26711B521670079B4D4 /* InspectionInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F6E26611B521670079B4D4 /* InspectionInformationView.xib */; };
+		50F6E32111B5314F0079B4D4 /* InspectionFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */; };
+		50F6E32311B531700079B4D4 /* InspectionFormView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F6E32211B531700079B4D4 /* InspectionFormView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,8 +50,6 @@
 		508C884C11B3F3EB0035ECFD /* InspectionTableCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionTableCellView.xib; sourceTree = "<group>"; };
 		508C88B711B403CF0035ECFD /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
 		508C88B811B403CF0035ECFD /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
-		508C88BC11B404790035ECFD /* PinPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinPoint.h; sourceTree = "<group>"; };
-		508C88BD11B404790035ECFD /* PinPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinPoint.m; sourceTree = "<group>"; };
 		508C88C111B404DD0035ECFD /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
 		508C88C211B404DD0035ECFD /* Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
 		508C88C611B405160035ECFD /* PropertyRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyRepository.h; sourceTree = "<group>"; };
@@ -66,6 +65,9 @@
 		50F6E25211B51FD60079B4D4 /* InspectionInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionInformationViewController.h; sourceTree = "<group>"; };
 		50F6E25311B51FD60079B4D4 /* InspectionInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionInformationViewController.m; sourceTree = "<group>"; };
 		50F6E26611B521670079B4D4 /* InspectionInformationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionInformationView.xib; sourceTree = "<group>"; };
+		50F6E31F11B5314F0079B4D4 /* InspectionFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionFormViewController.h; sourceTree = "<group>"; };
+		50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionFormViewController.m; sourceTree = "<group>"; };
+		50F6E32211B531700079B4D4 /* InspectionFormView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionFormView.xib; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* InspectionSchedulerIpad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InspectionSchedulerIpad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +140,7 @@
 				508C884C11B3F3EB0035ECFD /* InspectionTableCellView.xib */,
 				508C89F611B408000035ECFD /* MapView.xib */,
 				50F6E26611B521670079B4D4 /* InspectionInformationView.xib */,
+				50F6E32211B531700079B4D4 /* InspectionFormView.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -161,6 +164,8 @@
 				28042009108E984D000629CD /* DetailViewController.h */,
 				2804200A108E984D000629CD /* DetailViewController.m */,
 				50F6E2C111B52CA90079B4D4 /* Map */,
+				50F6E31F11B5314F0079B4D4 /* InspectionFormViewController.h */,
+				50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -172,18 +177,8 @@
 				508C88C211B404DD0035ECFD /* Property.m */,
 				508C88CB11B4055D0035ECFD /* Inspection.h */,
 				508C88CC11B4055D0035ECFD /* Inspection.m */,
-				50F6E2BE11B52C7C0079B4D4 /* Map */,
 			);
 			name = Models;
-			sourceTree = "<group>";
-		};
-		50F6E2BE11B52C7C0079B4D4 /* Map */ = {
-			isa = PBXGroup;
-			children = (
-				508C88BC11B404790035ECFD /* PinPoint.h */,
-				508C88BD11B404790035ECFD /* PinPoint.m */,
-			);
-			name = Map;
 			sourceTree = "<group>";
 		};
 		50F6E2BF11B52C910079B4D4 /* Views */ = {
@@ -270,6 +265,7 @@
 				508C89F511B407E90035ECFD /* houseIcon.png in Resources */,
 				508C89F711B408000035ECFD /* MapView.xib in Resources */,
 				50F6E26711B521670079B4D4 /* InspectionInformationView.xib in Resources */,
+				50F6E32311B531700079B4D4 /* InspectionFormView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +281,12 @@
 				2804200B108E984D000629CD /* RootViewController.m in Sources */,
 				2804200C108E984D000629CD /* DetailViewController.m in Sources */,
 				508C88B911B403CF0035ECFD /* MapViewController.m in Sources */,
-				508C88BE11B404790035ECFD /* PinPoint.m in Sources */,
 				508C88C311B404DD0035ECFD /* Property.m in Sources */,
 				508C88C811B405160035ECFD /* PropertyRepository.m in Sources */,
 				508C88CD11B4055D0035ECFD /* Inspection.m in Sources */,
 				508C89BB11B406240035ECFD /* HouseAnnotationView.m in Sources */,
 				50F6E25411B51FD60079B4D4 /* InspectionInformationViewController.m in Sources */,
+				50F6E32111B5314F0079B4D4 /* InspectionFormViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

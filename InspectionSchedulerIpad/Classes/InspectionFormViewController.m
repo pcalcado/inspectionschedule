@@ -1,23 +1,15 @@
     //
-//  InspectionInformationController.m
+//  InspectionFormViewController.m
 //  InspectionSchedulerIpad
 //
 //  Created by Caue Guerra on 1/06/10.
 //  Copyright 2010 ThoughtWorks. All rights reserved.
 //
 
-#import "InspectionInformationViewController.h"
 #import "InspectionFormViewController.h"
 
-@implementation InspectionInformationViewController
 
-@synthesize inspectionFormViewController;
-
-- (IBAction)doInspection {
-	self.inspectionFormViewController = [[InspectionFormViewController alloc] init];
-	self.inspectionFormViewController.modalPresentationStyle = UIModalPresentationFormSheet;
-	[self presentModalViewController:self.inspectionFormViewController animated:YES];
-}
+@implementation InspectionFormViewController
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.

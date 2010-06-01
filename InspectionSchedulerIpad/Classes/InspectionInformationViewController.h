@@ -8,9 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class InspectionFormViewController;
 
 @interface InspectionInformationViewController : UIViewController {
-
+	InspectionFormViewController *inspectionFormViewController;
 }
+
+- (IBAction)doInspection;
+
+@property (nonatomic, retain) IBOutlet InspectionFormViewController *inspectionFormViewController;
 
 @end

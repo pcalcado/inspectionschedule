@@ -9,6 +9,7 @@
 #import "MapViewController.h"
 #import "PropertyRepository.h"
 #import "InspectionInformationViewController.h"
+#import "Inspection.h"
 
 @interface MapViewController ()
 @property (nonatomic, retain) UIPopoverController *popoverController;
@@ -41,9 +42,7 @@
 	
 	//now let's map from inspections to annotations
 	for (Inspection *i in inspectionList){
-		PinPoint *pinPoint = [PinPoint withInspection:i];
-		[mapView addAnnotation: pinPoint];
-		[pinPoint release];
+		[mapView addAnnotation: i.propertyToInspect];
 	}
 }
 

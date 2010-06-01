@@ -11,7 +11,7 @@
 #import <MapKit/MKAnnotation.h>
 #import <MapKit/MKReverseGeocoder.h>
 
-@interface Property : NSObject {
+@interface Property : NSObject <MKAnnotation> {
 	NSString *address;
 	NSString *price;
 	NSString *type;
