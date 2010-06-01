@@ -28,13 +28,4 @@
 	return inspection.propertyToInspect.coordinate;
 }
 
--(NSString *) title {
-	return inspection.description;
-}
-
-
--(NSString *) subtitle {
-	return inspection.propertyToInspect.address;
-}
-
 @end

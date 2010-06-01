@@ -12,7 +12,7 @@
 #import <MapKit/MKReverseGeocoder.h>
 #import "Property.h"
 #import "PinPoint.h"
-#import "HousePinPoint.h"
+#import "HouseAnnotationView.h"
 
 @interface MapViewController : UIViewController<MKMapViewDelegate, UIPopoverControllerDelegate> {
 	MKMapView *mapView;

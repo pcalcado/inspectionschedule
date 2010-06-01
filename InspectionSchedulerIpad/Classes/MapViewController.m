@@ -48,7 +48,7 @@
 }
 
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation{
-	HousePinPoint *annView=[[HousePinPoint alloc] initWithAnnotation:annotation];
+	HouseAnnotationView *annView=[[HouseAnnotationView alloc] initWithAnnotation:annotation];
 	
 	[annView addGestureRecognizer: [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showInspectionDetails:)]];
 	

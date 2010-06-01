@@ -22,7 +22,7 @@
 	};
 	28042007108E984D000629CD /* RootViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {912, 724}}";
+			sepNavIntBoundsRect = "{{0, 0}, {912, 714}}";
 			sepNavSelRange = "{260, 0}";
 			sepNavVisRange = "{0, 403}";
 		};
@@ -82,8 +82,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 297085227;
-			PBXWorkspaceStateSaveDate = 297085227;
+			PBXPerProjectTemplateStateSaveDate = 297085630;
+			PBXWorkspaceStateSaveDate = 297085630;
 		};
 		perUserProjectItems = {
 			508C89AF11B406180035ECFD = 508C89AF11B406180035ECFD /* PBXTextBookmark */;
@@ -106,6 +106,29 @@
 			50F6E23C11B51E6D0079B4D4 = 50F6E23C11B51E6D0079B4D4 /* PBXTextBookmark */;
 			50F6E23D11B51E6D0079B4D4 = 50F6E23D11B51E6D0079B4D4 /* PBXTextBookmark */;
 			50F6E23F11B51E6D0079B4D4 = 50F6E23F11B51E6D0079B4D4 /* PBXTextBookmark */;
+			50F6E2B111B52BDE0079B4D4 /* XCBuildMessageTextBookmark */ = 50F6E2B111B52BDE0079B4D4 /* XCBuildMessageTextBookmark */;
+			50F6E2B211B52BDE0079B4D4 /* PBXTextBookmark */ = 50F6E2B211B52BDE0079B4D4 /* PBXTextBookmark */;
+			50F6E2C411B52CDF0079B4D4 /* PBXTextBookmark */ = 50F6E2C411B52CDF0079B4D4 /* PBXTextBookmark */;
+			50F6E2C511B52CDF0079B4D4 /* PBXTextBookmark */ = 50F6E2C511B52CDF0079B4D4 /* PBXTextBookmark */;
+			50F6E2C611B52CDF0079B4D4 /* PBXTextBookmark */ = 50F6E2C611B52CDF0079B4D4 /* PBXTextBookmark */;
+			50F6E2C711B52CDF0079B4D4 /* PBXTextBookmark */ = 50F6E2C711B52CDF0079B4D4 /* PBXTextBookmark */;
+			50F6E2C811B52CDF0079B4D4 /* PBXTextBookmark */ = 50F6E2C811B52CDF0079B4D4 /* PBXTextBookmark */;
+			50F6E2C911B52CDF0079B4D4 /* PBXTextBookmark */ = 50F6E2C911B52CDF0079B4D4 /* PBXTextBookmark */;
+			50F6E2CA11B52CDF0079B4D4 /* PBXTextBookmark */ = 50F6E2CA11B52CDF0079B4D4 /* PBXTextBookmark */;
+			50F6E2CB11B52CDF0079B4D4 /* PBXTextBookmark */ = 50F6E2CB11B52CDF0079B4D4 /* PBXTextBookmark */;
+			50F6E2CC11B52CDF0079B4D4 /* PBXTextBookmark */ = 50F6E2CC11B52CDF0079B4D4 /* PBXTextBookmark */;
+			50F6E2CD11B52CDF0079B4D4 /* PBXBookmark */ = 50F6E2CD11B52CDF0079B4D4 /* PBXBookmark */;
+			50F6E2CE11B52CDF0079B4D4 /* PBXTextBookmark */ = 50F6E2CE11B52CDF0079B4D4 /* PBXTextBookmark */;
+			50F6E2D511B52D3F0079B4D4 /* PBXTextBookmark */ = 50F6E2D511B52D3F0079B4D4 /* PBXTextBookmark */;
+			50F6E2D611B52D3F0079B4D4 /* PBXTextBookmark */ = 50F6E2D611B52D3F0079B4D4 /* PBXTextBookmark */;
+			50F6E2D711B52D3F0079B4D4 /* PBXTextBookmark */ = 50F6E2D711B52D3F0079B4D4 /* PBXTextBookmark */;
+			50F6E2D811B52D3F0079B4D4 /* PBXTextBookmark */ = 50F6E2D811B52D3F0079B4D4 /* PBXTextBookmark */;
+			50F6E2DE11B52DA70079B4D4 /* PBXTextBookmark */ = 50F6E2DE11B52DA70079B4D4 /* PBXTextBookmark */;
+			50F6E2DF11B52DA70079B4D4 /* PBXBookmark */ = 50F6E2DF11B52DA70079B4D4 /* PBXBookmark */;
+			50F6E2E011B52DA70079B4D4 /* PBXTextBookmark */ = 50F6E2E011B52DA70079B4D4 /* PBXTextBookmark */;
+			50F6E2E111B52DA70079B4D4 /* PBXTextBookmark */ = 50F6E2E111B52DA70079B4D4 /* PBXTextBookmark */;
+			50F6E2E211B52DA70079B4D4 /* PBXTextBookmark */ = 50F6E2E211B52DA70079B4D4 /* PBXTextBookmark */;
+			50F6E2E311B52DA70079B4D4 /* PBXTextBookmark */ = 50F6E2E311B52DA70079B4D4 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 50F11C6611B3E983004BDE1B /* Source Control */;
 		userBuildSettings = {
@@ -113,36 +136,36 @@
 	};
 	508C88B711B403CF0035ECFD /* MapViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {912, 721}}";
-			sepNavSelRange = "{663, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {912, 714}}";
+			sepNavSelRange = "{410, 27}";
 			sepNavVisRange = "{0, 670}";
 		};
 	};
 	508C88B811B403CF0035ECFD /* MapViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {912, 1352}}";
-			sepNavSelRange = "{461, 0}";
-			sepNavVisRange = "{1344, 1619}";
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 1235}}";
+			sepNavSelRange = "{1704, 902}";
+			sepNavVisRange = "{637, 2218}";
 			sepNavWindowFrame = "{{15, 315}, {750, 558}}";
 		};
 	};
 	508C88BC11B404790035ECFD /* PinPoint.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {912, 724}}";
+			sepNavIntBoundsRect = "{{0, 0}, {912, 714}}";
 			sepNavSelRange = "{257, 0}";
 			sepNavVisRange = "{0, 639}";
 		};
 	};
 	508C88BD11B404790035ECFD /* PinPoint.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {912, 701}}";
-			sepNavSelRange = "{494, 0}";
-			sepNavVisRange = "{0, 724}";
+			sepNavIntBoundsRect = "{{0, 0}, {912, 691}}";
+			sepNavSelRange = "{586, 0}";
+			sepNavVisRange = "{0, 592}";
 		};
 	};
 	508C88C111B404DD0035ECFD /* Property.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1014, 534}}";
+			sepNavIntBoundsRect = "{{0, 0}, {912, 714}}";
 			sepNavSelRange = "{287, 0}";
 			sepNavVisRange = "{0, 701}";
 		};
@@ -163,9 +186,9 @@
 	};
 	508C88C711B405160035ECFD /* PropertyRepository.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {912, 819}}";
+			sepNavIntBoundsRect = "{{0, 0}, {912, 832}}";
 			sepNavSelRange = "{353, 0}";
-			sepNavVisRange = "{0, 1524}";
+			sepNavVisRange = "{0, 1492}";
 		};
 	};
 	508C88CB11B4055D0035ECFD /* Inspection.h */ = {
@@ -212,18 +235,18 @@
 		vrLen = 602;
 		vrLoc = 0;
 	};
-	508C89B911B406230035ECFD /* HousePinPoint.h */ = {
+	508C89B911B406230035ECFD /* HouseAnnotationView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {912, 724}}";
-			sepNavSelRange = "{293, 0}";
-			sepNavVisRange = "{0, 396}";
+			sepNavIntBoundsRect = "{{0, 0}, {912, 714}}";
+			sepNavSelRange = "{280, 0}";
+			sepNavVisRange = "{0, 402}";
 		};
 	};
-	508C89BA11B406240035ECFD /* HousePinPoint.m */ = {
+	508C89BA11B406240035ECFD /* HouseAnnotationView.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {912, 724}}";
-			sepNavSelRange = "{679, 0}";
-			sepNavVisRange = "{0, 689}";
+			sepNavIntBoundsRect = "{{0, 0}, {912, 714}}";
+			sepNavSelRange = "{504, 0}";
+			sepNavVisRange = "{0, 705}";
 			sepNavWindowFrame = "{{15, 439}, {750, 558}}";
 		};
 	};
@@ -302,7 +325,7 @@
 	};
 	50F6E23111B51E6D0079B4D4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 508C89B911B406230035ECFD /* HousePinPoint.h */;
+		fRef = 508C89B911B406230035ECFD /* HouseAnnotationView.h */;
 		name = "HousePinPoint.h: 15";
 		rLen = 0;
 		rLoc = 293;
@@ -365,9 +388,9 @@
 		fRef = 508C88B711B403CF0035ECFD /* MapViewController.h */;
 		name = "MapViewController.h: 22";
 		rLen = 17;
-		rLoc = 520;
+		rLoc = 526;
 		rType = 0;
-		vrLen = 671;
+		vrLen = 670;
 		vrLoc = 0;
 	};
 	50F6E23811B51E6D0079B4D4 /* PBXTextBookmark */ = {
@@ -392,12 +415,12 @@
 	};
 	50F6E23A11B51E6D0079B4D4 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 508C89BA11B406240035ECFD /* HousePinPoint.m */;
+		fRef = 508C89BA11B406240035ECFD /* HouseAnnotationView.m */;
 		name = "HousePinPoint.m: 27";
 		rLen = 0;
-		rLoc = 679;
+		rLoc = 696;
 		rType = 0;
-		vrLen = 689;
+		vrLen = 688;
 		vrLoc = 0;
 	};
 	50F6E23B11B51E6D0079B4D4 /* PBXTextBookmark */ = {
@@ -405,7 +428,7 @@
 		fRef = 508C88B811B403CF0035ECFD /* MapViewController.m */;
 		name = "MapViewController.m: 71";
 		rLen = 0;
-		rLoc = 2254;
+		rLoc = 2618;
 		rType = 0;
 		vrLen = 1988;
 		vrLoc = 737;
@@ -453,16 +476,233 @@
 	};
 	50F6E25211B51FD60079B4D4 /* InspectionInformationViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {912, 698}}";
+			sepNavIntBoundsRect = "{{0, 0}, {912, 714}}";
 			sepNavSelRange = "{231, 0}";
 			sepNavVisRange = "{0, 272}";
 		};
 	};
 	50F6E25311B51FD60079B4D4 /* InspectionInformationViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1146, 845}}";
-			sepNavSelRange = "{207, 0}";
-			sepNavVisRange = "{0, 1397}";
+			sepNavIntBoundsRect = "{{0, 0}, {1146, 806}}";
+			sepNavSelRange = "{268, 0}";
+			sepNavVisRange = "{0, 1477}";
 		};
+	};
+	50F6E2B111B52BDE0079B4D4 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'InspectionInformationViewController' undeclared (first use in this function)";
+		fRef = 508C89BA11B406240035ECFD /* HouseAnnotationView.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 27;
+		rType = 1;
+	};
+	50F6E2B211B52BDE0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C89BA11B406240035ECFD /* HouseAnnotationView.m */;
+		name = "HousePinPoint.m: 33";
+		rLen = 0;
+		rLoc = 697;
+		rType = 0;
+		vrLen = 1105;
+		vrLoc = 617;
+	};
+	50F6E2C411B52CDF0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50F6E25311B51FD60079B4D4 /* InspectionInformationViewController.m */;
+		name = "InspectionInformationViewController.m: 10";
+		rLen = 0;
+		rLoc = 268;
+		rType = 0;
+		vrLen = 1477;
+		vrLoc = 0;
+	};
+	50F6E2C511B52CDF0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C88B811B403CF0035ECFD /* MapViewController.m */;
+		name = "MapViewController.m: 57";
+		rLen = 902;
+		rLoc = 1716;
+		rType = 0;
+		vrLen = 2218;
+		vrLoc = 637;
+	};
+	50F6E2C611B52CDF0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C89BA11B406240035ECFD /* HouseAnnotationView.m */;
+		name = "HousePinPoint.m: 25";
+		rLen = 0;
+		rLoc = 676;
+		rType = 0;
+		vrLen = 688;
+		vrLoc = 0;
+	};
+	50F6E2C711B52CDF0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C89B911B406230035ECFD /* HouseAnnotationView.h */;
+		name = "HousePinPoint.h: 15";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 0;
+	};
+	50F6E2C811B52CDF0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 50F6E25211B51FD60079B4D4 /* InspectionInformationViewController.h */;
+		name = "InspectionInformationViewController.h: 12";
+		rLen = 0;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 272;
+		vrLoc = 0;
+	};
+	50F6E2C911B52CDF0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C88B711B403CF0035ECFD /* MapViewController.h */;
+		name = "MapViewController.h: 17";
+		rLen = 27;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 0;
+	};
+	50F6E2CA11B52CDF0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C88BC11B404790035ECFD /* PinPoint.h */;
+		name = "PinPoint.h: 12";
+		rLen = 0;
+		rLoc = 257;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 0;
+	};
+	50F6E2CB11B52CDF0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C88C111B404DD0035ECFD /* Property.h */;
+		name = "Property.h: 14";
+		rLen = 0;
+		rLoc = 287;
+		rType = 0;
+		vrLen = 701;
+		vrLoc = 0;
+	};
+	50F6E2CC11B52CDF0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28042007108E984D000629CD /* RootViewController.h */;
+		name = "RootViewController.h: 13";
+		rLen = 0;
+		rLoc = 260;
+		rType = 0;
+		vrLen = 403;
+		vrLoc = 0;
+	};
+	50F6E2CD11B52CDF0079B4D4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 508C88C711B405160035ECFD /* PropertyRepository.m */;
+	};
+	50F6E2CE11B52CDF0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C88C711B405160035ECFD /* PropertyRepository.m */;
+		name = "PropertyRepository.m: 17";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 1460;
+		vrLoc = 0;
+	};
+	50F6E2D511B52D3F0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C88C711B405160035ECFD /* PropertyRepository.m */;
+		name = "PropertyRepository.m: 17";
+		rLen = 0;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 1492;
+		vrLoc = 0;
+	};
+	50F6E2D611B52D3F0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C89BA11B406240035ECFD /* HouseAnnotationView.m */;
+		name = "HousePinPoint.m: 11";
+		rLen = 0;
+		rLoc = 165;
+		rType = 0;
+		vrLen = 688;
+		vrLoc = 0;
+	};
+	50F6E2D711B52D3F0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C89B911B406230035ECFD /* HouseAnnotationView.h */;
+		name = "HousePinPoint.h: 15";
+		rLen = 0;
+		rLoc = 331;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 0;
+	};
+	50F6E2D811B52D3F0079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C89B911B406230035ECFD /* HouseAnnotationView.h */;
+		name = "HouseAnnotationView.h: 13";
+		rLen = 0;
+		rLoc = 280;
+		rType = 0;
+		vrLen = 402;
+		vrLoc = 0;
+	};
+	50F6E2DE11B52DA70079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C89B911B406230035ECFD /* HouseAnnotationView.h */;
+		name = "HouseAnnotationView.h: 13";
+		rLen = 0;
+		rLoc = 280;
+		rType = 0;
+		vrLen = 402;
+		vrLoc = 0;
+	};
+	50F6E2DF11B52DA70079B4D4 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 508C89F411B407E90035ECFD /* houseIcon.png */;
+	};
+	50F6E2E011B52DA70079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C89BA11B406240035ECFD /* HouseAnnotationView.m */;
+		name = "HouseAnnotationView.m: 20";
+		rLen = 0;
+		rLoc = 504;
+		rType = 0;
+		vrLen = 705;
+		vrLoc = 0;
+	};
+	50F6E2E111B52DA70079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C88BC11B404790035ECFD /* PinPoint.h */;
+		name = "PinPoint.h: 12";
+		rLen = 0;
+		rLoc = 257;
+		rType = 0;
+		vrLen = 639;
+		vrLoc = 0;
+	};
+	50F6E2E211B52DA70079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C88BD11B404790035ECFD /* PinPoint.m */;
+		name = "PinPoint.m: 32";
+		rLen = 0;
+		rLoc = 586;
+		rType = 0;
+		vrLen = 724;
+		vrLoc = 0;
+	};
+	50F6E2E311B52DA70079B4D4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 508C88BD11B404790035ECFD /* PinPoint.m */;
+		name = "PinPoint.m: 30";
+		rLen = 0;
+		rLoc = 586;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 0;
 	};
 }
