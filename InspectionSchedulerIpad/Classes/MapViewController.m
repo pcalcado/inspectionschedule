@@ -1,12 +1,7 @@
 #import "MapViewController.h"
 #import "PropertyRepository.h"
 #import "InspectionInformationViewController.h"
-#import "Inspection.h"
 #import "MapService.h"
-
-@interface MapViewController ()
-@property (nonatomic, retain) UIPopoverController *popoverController;
-@end
 
 @implementation MapViewController
 
@@ -28,24 +23,15 @@
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
-	//TODO: this should show all properties
-	CLLocationCoordinate2D coordinate = [mapService getCoordinatesForLocation:@"Manly,NSW"];
+	//TODO: this should get the suburb property from the trip object and look it up
+	NSString * suburb = @"Many, NSW";
+
+	CLLocationCoordinate2D coordinate = [mapService getCoordinatesForLocation:suburb];
 	NSLog(@"Lat: %f Lng: %f", coordinate.latitude, coordinate.longitude);
 	mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 2000, 2000); 
 	
-	//TEMPORARY while we still send props and not insps from list to here
-	NSMutableArray *inspectionList = [[NSMutableArray alloc] init];
 	for (Property *prop in propertiesArray){
-		Inspection *i = [[Inspection alloc] init];
-		i.propertyToInspect = prop;
-		i.start = [NSDate dateWithTimeIntervalSinceNow:60*50*24*1];
-		i.end = [NSDate dateWithTimeIntervalSinceNow:60*60*24*1];
-		[inspectionList addObject:i];
-	}
-	
-	//now let's map from inspections to annotations
-	for (Inspection *i in inspectionList){
-		[mapView addAnnotation: i.propertyToInspect];
+		[mapView addAnnotation: prop];
 	}
 }
 

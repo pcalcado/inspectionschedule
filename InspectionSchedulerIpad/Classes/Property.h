@@ -4,14 +4,16 @@
 #import <MapKit/MKReverseGeocoder.h>
 
 @interface Property : NSObject <MKAnnotation> {
-	NSString *address;
-	NSString *price;
-	NSString *type;
-	NSInteger *bedroom;
-	NSInteger *bathroom;
-	NSInteger *carspace;
-	NSString *description;
-	CLLocationCoordinate2D coordinate;
+  NSString *address;
+  NSString *price;
+  NSString *type;
+  NSInteger *bedroom;
+  NSInteger *bathroom;
+  NSInteger *carspace;
+  NSString *description;
+  NSDate *inspectionStart;
+  NSDate *inspectionEnd;
+  CLLocationCoordinate2D coordinate;
 }
 
 @property(nonatomic, copy) NSString *address;
@@ -21,6 +23,9 @@
 @property(nonatomic, copy) NSString *type;
 @property(nonatomic, copy) NSString *price;
 @property(nonatomic, copy) NSString *description;
+@property(nonatomic, copy) NSDate *inspectionStart;
+@property(nonatomic, copy) NSDate *inspectionEnd;
+
 @property(nonatomic, assign) CLLocationCoordinate2D coordinate;
 
 @end

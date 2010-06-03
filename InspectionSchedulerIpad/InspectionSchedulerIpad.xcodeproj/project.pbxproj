@@ -28,7 +28,6 @@
 		508C88B911B403CF0035ECFD /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88B811B403CF0035ECFD /* MapViewController.m */; };
 		508C88C311B404DD0035ECFD /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88C211B404DD0035ECFD /* Property.m */; };
 		508C88C811B405160035ECFD /* PropertyRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88C711B405160035ECFD /* PropertyRepository.m */; };
-		508C88CD11B4055D0035ECFD /* Inspection.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88CC11B4055D0035ECFD /* Inspection.m */; };
 		508C89BB11B406240035ECFD /* HouseAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C89BA11B406240035ECFD /* HouseAnnotationView.m */; };
 		508C89D611B406A10035ECFD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508C89D511B406A10035ECFD /* MapKit.framework */; };
 		508C89F511B407E90035ECFD /* houseIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 508C89F411B407E90035ECFD /* houseIcon.png */; };
@@ -81,8 +80,6 @@
 		508C88C211B404DD0035ECFD /* Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
 		508C88C611B405160035ECFD /* PropertyRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyRepository.h; sourceTree = "<group>"; };
 		508C88C711B405160035ECFD /* PropertyRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyRepository.m; sourceTree = "<group>"; };
-		508C88CB11B4055D0035ECFD /* Inspection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inspection.h; sourceTree = "<group>"; };
-		508C88CC11B4055D0035ECFD /* Inspection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inspection.m; sourceTree = "<group>"; };
 		508C89B911B406230035ECFD /* HouseAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseAnnotationView.h; sourceTree = "<group>"; };
 		508C89BA11B406240035ECFD /* HouseAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseAnnotationView.m; sourceTree = "<group>"; };
 		508C89D511B406A10035ECFD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -256,8 +253,6 @@
 			children = (
 				508C88C111B404DD0035ECFD /* Property.h */,
 				508C88C211B404DD0035ECFD /* Property.m */,
-				508C88CB11B4055D0035ECFD /* Inspection.h */,
-				508C88CC11B4055D0035ECFD /* Inspection.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -366,7 +361,6 @@
 				508C88B911B403CF0035ECFD /* MapViewController.m in Sources */,
 				508C88C311B404DD0035ECFD /* Property.m in Sources */,
 				508C88C811B405160035ECFD /* PropertyRepository.m in Sources */,
-				508C88CD11B4055D0035ECFD /* Inspection.m in Sources */,
 				508C89BB11B406240035ECFD /* HouseAnnotationView.m in Sources */,
 				50F6E25411B51FD60079B4D4 /* InspectionInformationViewController.m in Sources */,
 				50F6E32111B5314F0079B4D4 /* InspectionFormViewController.m in Sources */,
