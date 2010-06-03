@@ -4,22 +4,20 @@
 
 @synthesize aProperty;
 
+- (void)dealloc {
+	[aProperty release];
+	[super dealloc];
+}
+
 - (id)initWithAnnotation:(id <MKAnnotation>)annotation {
-	self = [super initWithAnnotation:annotation reuseIdentifier:@"Pin"];
-	
-	self.frame = CGRectMake(0, 0, 200, 200);
-
-	
-	if (self != nil) {
+	if(self = [super initWithAnnotation:annotation reuseIdentifier:@"Pin"]) {
+		self.frame = CGRectMake(0, 0, 200, 200);
+		self.backgroundColor = [UIColor whiteColor];
 		self.image  = [UIImage imageNamed:@"icon_house.png"];
-        
-		CGPoint notNear = CGPointMake(10000.0,10000.0);
-		self.calloutOffset = notNear;
 		self.canShowCallout = NO;
-		self.calloutOffset = CGPointMake(-5, 5);
-  	}
 
-	aProperty = annotation;
+		self.aProperty = annotation;
+  	}
 	return self;
 }
 

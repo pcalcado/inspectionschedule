@@ -12,7 +12,12 @@
 @synthesize bathroom;
 
 - (void) dealloc {
-	self.address = nil;
+	[address release];
+	[type release];
+	[price release];
+	[description release];
+	[inspectionStart release];
+	[inspectionEnd release];
 	[super dealloc];
 }
 

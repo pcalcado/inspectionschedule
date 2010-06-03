@@ -17,14 +17,13 @@
 }
 
 - (CLLocationCoordinate2D)getCoordinatesForLocation: (NSString *) location {
-	NSURL *url = [NSURL URLWithString: [NSString stringWithFormat: @"http://maps.google.com/maps/api/geocode/json?sensor=false&region=au&address=%@", [location urlEncode]]];
+	NSURL *url = [NSURL URLWithString: [@"http://maps.google.com/maps/api/geocode/json?sensor=false&region=au&address=" stringByAppendingString:[location urlEncode]]];
 	NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:NULL];
     NSLog(@"JSON: %@", jsonString);
 	NSDictionary *response = [json objectWithString: jsonString];
 	NSLog(@"Response status: %@", [response objectForKey:@"status"]);
 	
 	NSDictionary *coordinateDictionary = [[[[response objectForKey:@"results"] objectAtIndex:0] objectForKey:@"geometry"] objectForKey:@"location"];
-    NSLog(@"Lat: %@ Lng: %@", [coordinateDictionary objectForKey:@"lat"], [coordinateDictionary objectForKey:@"lng"]);
     CLLocationCoordinate2D coordinate;
 	coordinate.latitude = [[coordinateDictionary objectForKey:@"lat"] doubleValue];
 	coordinate.longitude = [[coordinateDictionary objectForKey:@"lng"] doubleValue];

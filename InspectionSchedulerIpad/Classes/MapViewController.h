@@ -1,9 +1,4 @@
-#import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
-#import <MapKit/MKAnnotation.h>
-#import <MapKit/MKReverseGeocoder.h>
-#import "Property.h"
-#import "HouseAnnotationView.h"
 
 @class MapService;
 

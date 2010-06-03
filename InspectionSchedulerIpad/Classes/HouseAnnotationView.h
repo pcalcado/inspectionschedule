@@ -1,12 +1,11 @@
-#import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
-#import <MapKit/MKAnnotation.h>
-#import <MapKit/MKReverseGeocoder.h>
-#import "Property.h"
+
+@class Property;
 
 @interface HouseAnnotationView : MKAnnotationView
 {
-  Property *aProperty;
+	@private
+	Property *aProperty;
 }
 
 - (id)initWithAnnotation:(id <MKAnnotation>) annotation;
