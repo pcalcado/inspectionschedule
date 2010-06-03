@@ -8,7 +8,7 @@
 	self = [super initWithAnnotation:annotation reuseIdentifier:@"Pin"];
 	
 	self.frame = CGRectMake(0, 0, 200, 200);
-	self.backgroundColor = [UIColor whiteColor];
+
 	
 	if (self != nil) {
 		self.image  = [UIImage imageNamed:@"icon_house.png"];

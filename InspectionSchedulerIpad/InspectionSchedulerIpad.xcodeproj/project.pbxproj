@@ -37,6 +37,7 @@
 		50F6E32111B5314F0079B4D4 /* InspectionFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */; };
 		50F6E32311B531700079B4D4 /* InspectionFormView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F6E32211B531700079B4D4 /* InspectionFormView.xib */; };
 		5AA8217C11B7F07C003564A0 /* icon_house.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA8217B11B7F07C003564A0 /* icon_house.png */; };
+		5AA821A211B804F4003564A0 /* icon_application.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA821A111B804F4003564A0 /* icon_application.png */; };
 		5AB3B3ED11B7BA2200783FC0 /* icon_bedroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */; };
 		5AB3B3EE11B7BA2200783FC0 /* icon_pa.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */; };
 /* End PBXBuildFile section */
@@ -92,6 +93,7 @@
 		50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionFormViewController.m; sourceTree = "<group>"; };
 		50F6E32211B531700079B4D4 /* InspectionFormView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionFormView.xib; sourceTree = "<group>"; };
 		5AA8217B11B7F07C003564A0 /* icon_house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_house.png; sourceTree = "<group>"; };
+		5AA821A111B804F4003564A0 /* icon_application.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_application.png; sourceTree = "<group>"; };
 		5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bedroom.png; sourceTree = "<group>"; };
 		5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pa.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* InspectionSchedulerIpad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InspectionSchedulerIpad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5AA821A111B804F4003564A0 /* icon_application.png */,
 				5AA8217B11B7F07C003564A0 /* icon_house.png */,
 				5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */,
 				5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */,
@@ -344,6 +347,7 @@
 				5AB3B3ED11B7BA2200783FC0 /* icon_bedroom.png in Resources */,
 				5AB3B3EE11B7BA2200783FC0 /* icon_pa.png in Resources */,
 				5AA8217C11B7F07C003564A0 /* icon_house.png in Resources */,
+				5AA821A211B804F4003564A0 /* icon_application.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
