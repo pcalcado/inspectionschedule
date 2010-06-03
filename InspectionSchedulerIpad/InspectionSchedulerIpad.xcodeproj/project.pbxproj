@@ -30,6 +30,8 @@
 		50F6E26711B521670079B4D4 /* InspectionInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F6E26611B521670079B4D4 /* InspectionInformationView.xib */; };
 		50F6E32111B5314F0079B4D4 /* InspectionFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */; };
 		50F6E32311B531700079B4D4 /* InspectionFormView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F6E32211B531700079B4D4 /* InspectionFormView.xib */; };
+		5AB3B3ED11B7BA2200783FC0 /* icon_bedroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */; };
+		5AB3B3EE11B7BA2200783FC0 /* icon_pa.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		50F6E31F11B5314F0079B4D4 /* InspectionFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionFormViewController.h; sourceTree = "<group>"; };
 		50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionFormViewController.m; sourceTree = "<group>"; };
 		50F6E32211B531700079B4D4 /* InspectionFormView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionFormView.xib; sourceTree = "<group>"; };
+		5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bedroom.png; sourceTree = "<group>"; };
+		5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pa.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* InspectionSchedulerIpad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InspectionSchedulerIpad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +136,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */,
+				5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */,
 				508C89F411B407E90035ECFD /* houseIcon.png */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				2804203B108E9BAB000629CD /* DetailView.xib */,
@@ -266,6 +272,8 @@
 				508C89F711B408000035ECFD /* MapView.xib in Resources */,
 				50F6E26711B521670079B4D4 /* InspectionInformationView.xib in Resources */,
 				50F6E32311B531700079B4D4 /* InspectionFormView.xib in Resources */,
+				5AB3B3ED11B7BA2200783FC0 /* icon_bedroom.png in Resources */,
+				5AB3B3EE11B7BA2200783FC0 /* icon_pa.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

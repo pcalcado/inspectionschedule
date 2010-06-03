@@ -1,11 +1,3 @@
-//
-//  Property.h
-//  InspectionSchedulerIpad
-//
-//  Created by Caue Guerra on 1/06/10.
-//  Copyright 2010 ThoughtWorks. All rights reserved.
-//
-
 #import <Foundation/Foundation.h>
 #import <MapKit/MapKit.h>
 #import <MapKit/MKAnnotation.h>
@@ -23,7 +15,11 @@
 }
 
 @property(nonatomic, copy) NSString *address;
+@property(nonatomic, assign) NSInteger *carspace;
+@property(nonatomic, assign) NSInteger *bedroom;
+@property(nonatomic, assign) NSInteger *bathroom;
 @property(nonatomic, copy) NSString *type;
+@property(nonatomic, copy) NSString *price;
 @property(nonatomic, copy) NSString *description;
 @property(nonatomic, assign) CLLocationCoordinate2D coordinate;
 

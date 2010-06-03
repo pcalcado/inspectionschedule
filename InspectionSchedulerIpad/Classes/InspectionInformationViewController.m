@@ -1,17 +1,16 @@
-    //
-//  InspectionInformationController.m
-//  InspectionSchedulerIpad
-//
-//  Created by Caue Guerra on 1/06/10.
-//  Copyright 2010 ThoughtWorks. All rights reserved.
-//
-
 #import "InspectionInformationViewController.h"
 #import "InspectionFormViewController.h"
 
 @implementation InspectionInformationViewController
 
+@synthesize selectedProperty;
 @synthesize inspectionFormViewController;
+
+- (id)withProperty:(Property *) selectedProperty {
+  self = [super init];
+  self.selectedProperty = selectedProperty;
+  return self;
+}
 
 - (IBAction)doInspection {
 	self.inspectionFormViewController = [[InspectionFormViewController alloc] init];
@@ -19,32 +18,20 @@
 	[self presentModalViewController:self.inspectionFormViewController animated:YES];
 }
 
-/*
- // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
-    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
-        // Custom initialization
-    }
-    return self;
+- (NSString *) address {
+  return selectedProperty.address;
 }
-*/
-
-/*
-// Implement loadView to create a view hierarchy programmatically, without using a nib.
-- (void)loadView {
+- (NSString *) numberOfBedrooms {
+  return selectedProperty.bedroom;
 }
-*/
-
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad {
-    [super viewDidLoad];
+- (NSString *) numberOfCarSpaces {
+  return selectedProperty.carspace;
 }
-*/
-
+- (NSString *) price {
+  return selectedProperty.price;
+}
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Overriden to allow any orientation.
     return YES;
 }
 

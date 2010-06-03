@@ -1,11 +1,3 @@
-    //
-//  MapViewController.m
-//  InspectionSchedulerIpad
-//
-//  Created by Caue Guerra on 1/06/10.
-//  Copyright 2010 ThoughtWorks. All rights reserved.
-//
-
 #import "MapViewController.h"
 #import "PropertyRepository.h"
 #import "InspectionInformationViewController.h"
@@ -46,30 +38,28 @@
 	}
 }
 
-- (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) annotation{
-	HouseAnnotationView *annView=[[HouseAnnotationView alloc] initWithAnnotation:annotation];
-	
+- (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) aProperty{
+	HouseAnnotationView *annView = [[HouseAnnotationView alloc] initWithAnnotation:aProperty];
 	[annView addGestureRecognizer: [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showInspectionDetails:)]];
 	
 	return annView;
 }
 
 - (void) showInspectionDetails: (UIGestureRecognizer *)gestureRecognizer {
-	InspectionInformationViewController* content = [[InspectionInformationViewController alloc] init];
-	UIPopoverController* aPopover = [[UIPopoverController alloc]
-									 initWithContentViewController:content];
-	aPopover.delegate = self;
-	[content release];
+  HouseAnnotationView * tappedView = (HouseAnnotationView *)gestureRecognizer.view;
+
+  InspectionInformationViewController* inspectionInformationController = [[InspectionInformationViewController alloc] withProperty:tappedView.aProperty];
+  UIPopoverController* aPopover = [[UIPopoverController alloc]  initWithContentViewController:inspectionInformationController];
+  aPopover.delegate = self;
 	
 	// Store the popover in a custom property for later use.
 	popoverController = aPopover;
-//	[aPopover release];
+
 	[popoverController setPopoverContentSize:CGSizeMake(200,200) animated:YES];
 	
-//	[popoverController presentPopoverFromRect:CGRectMake(500,500,5,5) inView:mapView
-//					 permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 	[popoverController presentPopoverFromRect:[gestureRecognizer.view convertRect:gestureRecognizer.view.bounds toView:mapView] inView:mapView
 					 permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+	[inspectionInformationController  release];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

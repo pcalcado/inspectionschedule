@@ -1,21 +1,25 @@
-//
-//  InspectionInformationController.h
-//  InspectionSchedulerIpad
-//
-//  Created by Caue Guerra on 1/06/10.
-//  Copyright 2010 ThoughtWorks. All rights reserved.
-//
-
 #import <UIKit/UIKit.h>
+#import "Property.h"
 
 @class InspectionFormViewController;
 
 @interface InspectionInformationViewController : UIViewController {
 	InspectionFormViewController *inspectionFormViewController;
+	Property * selectedProperty;
 }
 
-- (IBAction)doInspection;
-
 @property (nonatomic, retain) IBOutlet InspectionFormViewController *inspectionFormViewController;
+@property (nonatomic, retain) IBOutlet NSString *inpectionTimes;
+@property (nonatomic, retain) IBOutlet NSString *address;
+@property (nonatomic, retain) IBOutlet NSString *numberOfBedrooms;
+@property (nonatomic, retain) IBOutlet NSString *numberOfCarSpaces;
+@property (nonatomic, retain) IBOutlet NSString *price;
+
+@property (nonatomic, retain) Property *selectedProperty;
+
+
+-(id) withProperty:(Property *) propertySelected;
+
+- (IBAction)doInspection;
 
 @end

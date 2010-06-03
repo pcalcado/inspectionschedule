@@ -1,14 +1,8 @@
-//
-//  HousePinPoint.m
-//  InspectionSchedulerIpad
-//
-//  Created by Caue Guerra on 1/06/10.
-//  Copyright 2010 ThoughtWorks. All rights reserved.
-//
-
 #import "HouseAnnotationView.h"
 
 @implementation HouseAnnotationView
+
+@synthesize aProperty;
 
 - (id)initWithAnnotation:(id <MKAnnotation>)annotation {
 	self = [super initWithAnnotation:annotation reuseIdentifier:@"Pin"];
@@ -24,6 +18,8 @@
 		self.canShowCallout = NO;
 		self.calloutOffset = CGPointMake(-5, 5);
   	}
+
+	aProperty = annotation;
 	return self;
 }
 
