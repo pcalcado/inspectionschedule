@@ -22,6 +22,7 @@
 @synthesize mapViewController;
 @synthesize propertiesArray;
 @synthesize selectedPropertiesArray;
+@synthesize nibLoadedCell;
 
 - (IBAction)map {
 	self.mapViewController = [[MapViewController alloc] init];
@@ -33,7 +34,7 @@
 	[super viewDidLoad];
 	
 	//this should happen somewhere else
-	propertiesArray = [[[PropertyRepository alloc] init] retrieveProperties];
+	self.propertiesArray = [[[PropertyRepository alloc] init] retrieveProperties];
 	selectedPropertiesArray = [[NSMutableArray alloc] init];
 }
 

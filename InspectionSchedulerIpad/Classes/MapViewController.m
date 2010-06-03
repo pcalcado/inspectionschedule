@@ -37,7 +37,7 @@
 }
 
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) aProperty{
-	HouseAnnotationView *annView = [[HouseAnnotationView alloc] initWithAnnotation:aProperty];
+	HouseAnnotationView *annView = [[HouseAnnotationView alloc] initWithProperty:aProperty];
 	[annView addGestureRecognizer: [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showInspectionDetails:)]];
 	
 	return annView;

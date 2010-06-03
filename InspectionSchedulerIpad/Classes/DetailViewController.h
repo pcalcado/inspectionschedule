@@ -21,7 +21,7 @@
     UILabel *detailDescriptionLabel;
 	
 	Property *property;
-	NSMutableArray *propertiesArray;
+	NSArray *propertiesArray;
 	NSMutableArray *selectedPropertiesArray;
 	UITableViewCell *nibLoadedCell;
 }
@@ -33,7 +33,7 @@
 @property (nonatomic, retain) id detailItem;
 @property (nonatomic, retain) IBOutlet UILabel *detailDescriptionLabel;
 
-@property (nonatomic, retain) NSMutableArray *propertiesArray;
+@property (nonatomic, retain) NSArray *propertiesArray;
 @property (nonatomic, retain) NSMutableArray *selectedPropertiesArray;
 @property (nonatomic, retain) IBOutlet MapViewController *mapViewController;
 
