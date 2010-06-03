@@ -8,9 +8,9 @@
 	Property *aProperty;
 }
 
-- (id)initWithAnnotation:(id <MKAnnotation>) annotation;
+- (id)initWithProperty:(Property *)property;
 
-@property(nonatomic, retain) Property * aProperty;
+@property(nonatomic, retain) Property *aProperty;
 
 @end
 

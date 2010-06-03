@@ -1,18 +1,10 @@
-//
-//  PropertyRepository.m
-//  InspectionSchedulerIpad
-//
-//  Created by Caue Guerra on 1/06/10.
-//  Copyright 2010 ThoughtWorks. All rights reserved.
-//
-
 #import "PropertyRepository.h"
-
+#import "Property.h"
 
 @implementation PropertyRepository
 
 - (NSArray *) retrieveProperties {
-	NSMutableArray * allProperties = [[NSMutableArray alloc] init];
+	NSMutableArray * allProperties = [[[NSMutableArray alloc] init] autorelease];
 	
 	Property *p1 = [[Property alloc] init];
 	p1.address = @"7/29 Malvern Ave, Manly New South Wales 2095";

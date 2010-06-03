@@ -10,6 +10,8 @@
 @synthesize carspace;
 @synthesize bedroom;
 @synthesize bathroom;
+@synthesize inspectionStart;
+@synthesize inspectionEnd;
 
 - (void) dealloc {
 	[address release];
