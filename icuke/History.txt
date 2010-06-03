@@ -1,0 +1,43 @@
+== 0.4.12 (2010-04-23)
+
+=== Bugfixes
+* Give the HTTP server 30 seconds to start up after XCode claims the app is launched.
+
+== 0.4.11 (2010-04-23)
+
+=== Bugfixes
+* Give text fields a little more time to settle before typing to avoid losing the first keystroke on auto-capitalised fields.
+
+== 0.4.10 (2010-04-23)
+
+== Features
+* Add "within" support to "should see" steps
+* Print full UI hierarchy to allow for more powerful tests
+
+== 0.4.8 (2010-04-22)
+
+=== Stability
+* Try quitting XCode and restarting it if we aren't able to load the simulator
+
+== 0.4.7 (2010-04-22)
+
+=== Bugfixes
+* Work around a bug in some Ruby 1.8.7.* Net::HTTP code which causes the simulator to raise NoMethodError (Rob Holland, Aslak Hellesøy)
+
+== 0.4.6 (2010-04-21)
+
+=== Bugfixes
+* Depend on cucumber and nokogiri
+* Escape values and labels in XML so we don't produce invalid markup
+
+== 0.4.5 (2010-04-21)
+
+=== Bugfixes
+* More reliable keyboard switching
+
+== 0.4.4 (2010-04-21)
+
+=== Bugfixes
+* Allow ' in xpath queries
+* Allow typing spaces in inputs
+* Correct swipe behaviour in all directions (Rob Holland, Dominic Baggott)

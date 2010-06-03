@@ -1,0 +1,13 @@
+## MAC OS
+.DS_Store
+
+## SVN
+
+.svn
+
+## PROJECT::GENERAL
+rdoc
+pkg
+
+## PROJECT::SPECIFIC
+events.plist
