@@ -11,7 +11,7 @@
 	self.backgroundColor = [UIColor whiteColor];
 	
 	if (self != nil) {
-		self.image  = [UIImage imageNamed:@"houseIcon.png"];
+		self.image  = [UIImage imageNamed:@"icon_house.png"];
         
 		CGPoint notNear = CGPointMake(10000.0,10000.0);
 		self.calloutOffset = notNear;

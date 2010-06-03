@@ -30,13 +30,13 @@
 		508C88C811B405160035ECFD /* PropertyRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C88C711B405160035ECFD /* PropertyRepository.m */; };
 		508C89BB11B406240035ECFD /* HouseAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 508C89BA11B406240035ECFD /* HouseAnnotationView.m */; };
 		508C89D611B406A10035ECFD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508C89D511B406A10035ECFD /* MapKit.framework */; };
-		508C89F511B407E90035ECFD /* houseIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 508C89F411B407E90035ECFD /* houseIcon.png */; };
 		508C89F711B408000035ECFD /* MapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 508C89F611B408000035ECFD /* MapView.xib */; };
 		50F11C7211B3EED6004BDE1B /* FilterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F11C7111B3EED6004BDE1B /* FilterView.xib */; };
 		50F6E25411B51FD60079B4D4 /* InspectionInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6E25311B51FD60079B4D4 /* InspectionInformationViewController.m */; };
 		50F6E26711B521670079B4D4 /* InspectionInformationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F6E26611B521670079B4D4 /* InspectionInformationView.xib */; };
 		50F6E32111B5314F0079B4D4 /* InspectionFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */; };
 		50F6E32311B531700079B4D4 /* InspectionFormView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50F6E32211B531700079B4D4 /* InspectionFormView.xib */; };
+		5AA8217C11B7F07C003564A0 /* icon_house.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA8217B11B7F07C003564A0 /* icon_house.png */; };
 		5AB3B3ED11B7BA2200783FC0 /* icon_bedroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */; };
 		5AB3B3EE11B7BA2200783FC0 /* icon_pa.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */; };
 /* End PBXBuildFile section */
@@ -83,7 +83,6 @@
 		508C89B911B406230035ECFD /* HouseAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseAnnotationView.h; sourceTree = "<group>"; };
 		508C89BA11B406240035ECFD /* HouseAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseAnnotationView.m; sourceTree = "<group>"; };
 		508C89D511B406A10035ECFD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		508C89F411B407E90035ECFD /* houseIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houseIcon.png; sourceTree = "<group>"; };
 		508C89F611B408000035ECFD /* MapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapView.xib; sourceTree = "<group>"; };
 		50F11C7111B3EED6004BDE1B /* FilterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FilterView.xib; sourceTree = "<group>"; };
 		50F6E25211B51FD60079B4D4 /* InspectionInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionInformationViewController.h; sourceTree = "<group>"; };
@@ -92,6 +91,7 @@
 		50F6E31F11B5314F0079B4D4 /* InspectionFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionFormViewController.h; sourceTree = "<group>"; };
 		50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionFormViewController.m; sourceTree = "<group>"; };
 		50F6E32211B531700079B4D4 /* InspectionFormView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionFormView.xib; sourceTree = "<group>"; };
+		5AA8217B11B7F07C003564A0 /* icon_house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_house.png; sourceTree = "<group>"; };
 		5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bedroom.png; sourceTree = "<group>"; };
 		5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pa.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* InspectionSchedulerIpad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InspectionSchedulerIpad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
@@ -208,9 +208,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5AA8217B11B7F07C003564A0 /* icon_house.png */,
 				5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */,
 				5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */,
-				508C89F411B407E90035ECFD /* houseIcon.png */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				2804203B108E9BAB000629CD /* DetailView.xib */,
 				8D1107310486CEB800E47090 /* InspectionSchedulerIpad-Info.plist */,
@@ -338,12 +338,12 @@
 				2804203C108E9BAB000629CD /* DetailView.xib in Resources */,
 				50F11C7211B3EED6004BDE1B /* FilterView.xib in Resources */,
 				508C884D11B3F3EB0035ECFD /* InspectionTableCellView.xib in Resources */,
-				508C89F511B407E90035ECFD /* houseIcon.png in Resources */,
 				508C89F711B408000035ECFD /* MapView.xib in Resources */,
 				50F6E26711B521670079B4D4 /* InspectionInformationView.xib in Resources */,
 				50F6E32311B531700079B4D4 /* InspectionFormView.xib in Resources */,
 				5AB3B3ED11B7BA2200783FC0 /* icon_bedroom.png in Resources */,
 				5AB3B3EE11B7BA2200783FC0 /* icon_pa.png in Resources */,
+				5AA8217C11B7F07C003564A0 /* icon_house.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
