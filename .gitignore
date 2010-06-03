@@ -1,6 +1,7 @@
 *~
 *#
 .#*
+.DS_Store
 *.cache
 InspectionSchedulerIpad/build
 InspectionSchedulerIpad/InspectionSchedulerIpad.xcodeproj/*.mode1v3

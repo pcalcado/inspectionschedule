@@ -2,6 +2,7 @@
 #import "PropertyRepository.h"
 #import "InspectionInformationViewController.h"
 #import "Inspection.h"
+#import "MapService.h"
 
 @interface MapViewController ()
 @property (nonatomic, retain) UIPopoverController *popoverController;
@@ -12,14 +13,24 @@
 @synthesize mapView;
 @synthesize propertiesArray;
 
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+	if(self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
+		mapService = [[MapService alloc] init];
+	}
+	return self;
+}
+
+- (void)dealloc {
+	[mapService release];
+	[super dealloc];
+}
+
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
-	//shows manly 
 	//TODO: this should show all properties
-	CLLocationCoordinate2D coordinate;
-	coordinate.latitude = -33.801393;
-	coordinate.longitude = 151.290353;
+	CLLocationCoordinate2D coordinate = [mapService getCoordinatesForLocation:@"Manly,NSW"];
+	NSLog(@"Lat: %f Lng: %f", coordinate.latitude, coordinate.longitude);
 	mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 2000, 2000); 
 	
 	//TEMPORARY while we still send props and not insps from list to here
@@ -82,10 +93,6 @@
     // e.g. self.myOutlet = nil;
 }
 
-
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 @end
