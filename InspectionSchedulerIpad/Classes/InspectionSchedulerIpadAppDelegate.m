@@ -1,11 +1,3 @@
-//
-//  InspectionSchedulerIpadAppDelegate.m
-//  InspectionSchedulerIpad
-//
-//  Created by Caue Guerra on 31/05/10.
-//  Copyright ThoughtWorks 2010. All rights reserved.
-//
-
 #import "InspectionSchedulerIpadAppDelegate.h"
 
 
@@ -35,6 +27,8 @@
 - (void)dealloc {
     [splitViewController release];
     [window release];
+	[rootViewController release];
+	[detailViewController release];
     [super dealloc];
 }
 

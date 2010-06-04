@@ -44,11 +44,11 @@
 }
 
 - (void) showInspectionDetails: (UIGestureRecognizer *)gestureRecognizer {
-  HouseAnnotationView * tappedView = (HouseAnnotationView *)gestureRecognizer.view;
+	HouseAnnotationView * tappedView = (HouseAnnotationView *)gestureRecognizer.view;
 
-  InspectionInformationViewController* inspectionInformationController = [[InspectionInformationViewController alloc] withProperty:tappedView.aProperty];
-  UIPopoverController* aPopover = [[UIPopoverController alloc]  initWithContentViewController:inspectionInformationController];
-  aPopover.delegate = self;
+	InspectionInformationViewController* inspectionInformationController = [[InspectionInformationViewController alloc] initWithProperty:tappedView.aProperty];
+	UIPopoverController* aPopover = [[UIPopoverController alloc]  initWithContentViewController:inspectionInformationController];
+	aPopover.delegate = self;
 	
 	// Store the popover in a custom property for later use.
 	popoverController = aPopover;

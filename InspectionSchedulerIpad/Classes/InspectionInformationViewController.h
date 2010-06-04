@@ -5,7 +5,7 @@
 
 @interface InspectionInformationViewController : UIViewController {
 	InspectionFormViewController *inspectionFormViewController;
-	Property * selectedProperty;
+	Property *selectedProperty;
 }
 
 @property (nonatomic, retain) IBOutlet InspectionFormViewController *inspectionFormViewController;
@@ -14,11 +14,10 @@
 @property (nonatomic, retain) IBOutlet NSString *numberOfBedrooms;
 @property (nonatomic, retain) IBOutlet NSString *numberOfCarSpaces;
 @property (nonatomic, retain) IBOutlet NSString *price;
-
 @property (nonatomic, retain) Property *selectedProperty;
 
 
--(id) withProperty:(Property *) propertySelected;
+-(id) initWithProperty:(Property *) propertySelected;
 
 - (IBAction)doInspection;
 

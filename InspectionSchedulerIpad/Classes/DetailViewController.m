@@ -1,15 +1,7 @@
-//
-//  DetailViewController.m
-//  InspectionSchedulerIpad
-//
-//  Created by Caue Guerra on 31/05/10.
-//  Copyright ThoughtWorks 2010. All rights reserved.
-//
-
 #import "DetailViewController.h"
-#import "RootViewController.h"
 #import "MapViewController.h"
 #import "PropertyRepository.h"
+#import "Property.h"
 
 @interface DetailViewController ()
 @property (nonatomic, retain) UIPopoverController *popoverController;
@@ -24,17 +16,31 @@
 @synthesize selectedPropertiesArray;
 @synthesize nibLoadedCell;
 
+- (void)dealloc {
+    [popoverController release];
+    [toolbar release];
+    [detailItem release];
+    [detailDescriptionLabel release];
+	[mapViewController release];
+	[propertiesArray release];
+	[selectedPropertiesArray release];
+	[nibLoadedCell release];
+    [super dealloc];
+}
+
 - (IBAction)map {
-	self.mapViewController = [[MapViewController alloc] init];
-	self.mapViewController.propertiesArray = self.selectedPropertiesArray;
-	[self presentModalViewController:self.mapViewController animated:YES];
+	mapViewController = [[MapViewController alloc] init];
+	mapViewController.propertiesArray = selectedPropertiesArray;
+	[self presentModalViewController:mapViewController animated:YES];
 }
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
 	
 	//this should happen somewhere else
-	self.propertiesArray = [[[PropertyRepository alloc] init] retrieveProperties];
+	PropertyRepository *propertyRepository = [[PropertyRepository alloc] init];
+	self.propertiesArray = [propertyRepository retrieveProperties];
+	[propertyRepository release];
 	selectedPropertiesArray = [[NSMutableArray alloc] init];
 }
 
@@ -127,15 +133,6 @@
 
 - (void)viewDidUnload {
     self.popoverController = nil;
-}
-
-- (void)dealloc {
-    [popoverController release];
-    [toolbar release];
-    
-    [detailItem release];
-    [detailDescriptionLabel release];
-    [super dealloc];
 }
 
 @end

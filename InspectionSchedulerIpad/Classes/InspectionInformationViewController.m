@@ -6,15 +6,22 @@
 @synthesize selectedProperty;
 @synthesize inspectionFormViewController;
 
-- (id)withProperty:(Property *) selectedProperty {
-  self = [super init];
-  self.selectedProperty = selectedProperty;
-  return self;
+- (void)dealloc {
+	[selectedProperty release];
+	[inspectionFormViewController release];
+    [super dealloc];
+}
+
+- (id)initWithProperty:(Property *) property {
+	if(self = [super init]) {
+		self.selectedProperty = property;
+	}
+	return self;
 }
 
 - (IBAction)doInspection {
-	self.inspectionFormViewController = [[InspectionFormViewController alloc] init];
-	self.inspectionFormViewController.modalPresentationStyle = UIModalPresentationFormSheet;
+	inspectionFormViewController = [[InspectionFormViewController alloc] init];
+	inspectionFormViewController.modalPresentationStyle = UIModalPresentationFormSheet;
 	[self presentModalViewController:self.inspectionFormViewController animated:YES];
 }
 
@@ -49,11 +56,5 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 }
-
-
-- (void)dealloc {
-    [super dealloc];
-}
-
 
 @end
