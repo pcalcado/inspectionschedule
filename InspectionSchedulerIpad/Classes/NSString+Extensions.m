@@ -3,7 +3,8 @@
 @implementation NSString (Extensions)
 
 - (NSString *) urlEncode {
-	return [self stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	NSString *encodedString = (NSString *) CFURLCreateStringByAddingPercentEscapes(kCFAllocatorDefault, (CFStringRef)self, NULL, CFSTR(":/?#[]@!$&'()*+,;="), kCFStringEncodingUTF8);
+	return [encodedString autorelease];
 }
 
 @end
