@@ -1,9 +1,10 @@
 @class DetailViewController;
 
 @interface RootViewController : UIViewController {
-    DetailViewController *detailViewController;
+	@private
+	DetailViewController *detailViewController;
 }
 
-@property (nonatomic, retain) IBOutlet DetailViewController *detailViewController;
+@property(nonatomic, retain) DetailViewController *detailViewController;
 
 @end

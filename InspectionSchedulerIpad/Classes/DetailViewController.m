@@ -10,11 +10,12 @@
 
 @implementation DetailViewController
 
-@synthesize toolbar, popoverController, detailItem, detailDescriptionLabel;
-@synthesize mapViewController;
+//@synthesize toolbar, popoverController, detailItem, detailDescriptionLabel;
+@synthesize popoverController;
+//@synthesize mapViewController;
 @synthesize propertiesArray;
-@synthesize selectedPropertiesArray;
-@synthesize nibLoadedCell;
+//@synthesize selectedPropertiesArray;
+//@synthesize nibLoadedCell;
 
 - (void)dealloc {
     [popoverController release];

@@ -28,14 +28,14 @@
 - (NSString *) address {
   return selectedProperty.address;
 }
-- (NSString *) numberOfBedrooms {
+- (NSInteger *) numberOfBedrooms {
   return selectedProperty.bedroom;
 }
-- (NSString *) numberOfCarSpaces {
+- (NSInteger *) numberOfCarSpaces {
   return selectedProperty.carspace;
 }
 - (NSString *) price {
-  return selectedProperty.price;
+	return selectedProperty.price;
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

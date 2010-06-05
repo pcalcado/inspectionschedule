@@ -9,11 +9,10 @@
 }
 
 @property (nonatomic, retain) IBOutlet InspectionFormViewController *inspectionFormViewController;
-@property (nonatomic, retain) IBOutlet NSString *inpectionTimes;
-@property (nonatomic, retain) IBOutlet NSString *address;
-@property (nonatomic, retain) IBOutlet NSString *numberOfBedrooms;
-@property (nonatomic, retain) IBOutlet NSString *numberOfCarSpaces;
-@property (nonatomic, retain) IBOutlet NSString *price;
+@property (nonatomic, readonly) IBOutlet NSString *address;
+@property (nonatomic, readonly) IBOutlet NSInteger *numberOfBedrooms;
+@property (nonatomic, readonly) IBOutlet NSInteger *numberOfCarSpaces;
+@property (nonatomic, readonly) IBOutlet NSString *price;
 @property (nonatomic, retain) Property *selectedProperty;
 
 
