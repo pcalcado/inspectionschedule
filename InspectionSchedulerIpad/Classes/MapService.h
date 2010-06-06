@@ -1,12 +1,13 @@
 #import <CoreLocation/CoreLocation.h>
 
-@class SBJSON;
+@class WebService;
 
 @interface MapService : NSObject {
 	@private
-	SBJSON *json;
+	WebService *webService;
 }
 
-- (CLLocationCoordinate2D) getCoordinatesForLocation: (NSString *) location;
+- (id)initWithWebService:(WebService *)webService;
+- (CLLocationCoordinate2D)coordinatesForLocation:(NSString *)location withError:(NSError **)error;
 
 @end

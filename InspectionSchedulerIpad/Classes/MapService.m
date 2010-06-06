@@ -1,33 +1,38 @@
 #import "MapService.h"
 #import "NSString+Extensions.h"
-#import "SBJSON.h"
+#import "NSString+SBJSON.h"
+#import "WebService.h"
+#import "Error.h"
 
 @implementation MapService
 
-- (id)init {
-    if(self = [super init]) {
-		json = [[SBJSON alloc] init];
-    }
+- (id)initWithWebService:(WebService *)aWebService {
+	if (self = [super init]) {
+		webService = [aWebService retain];
+	}
 	return self;
 }
 
 - (void)dealloc {
-	[json release];
+	[webService release];
 	[super dealloc];
 }
 
-- (CLLocationCoordinate2D)getCoordinatesForLocation: (NSString *) location {
-	NSURL *url = [NSURL URLWithString: [@"http://maps.google.com/maps/api/geocode/json?sensor=false&region=au&address=" stringByAppendingString:[location urlEncode]]];
-	NSString *jsonString = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:NULL];
-    NSLog(@"JSON: %@", jsonString);
-	NSDictionary *response = [json objectWithString: jsonString];
-	NSLog(@"Response status: %@", [response objectForKey:@"status"]);
+- (CLLocationCoordinate2D)coordinatesForLocation:(NSString *)location withError:(NSError **)error {
+	CLLocationCoordinate2D coordinate;
+	NSString *encodedLocation = [location urlEncode];
+	NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://maps.google.com/maps/api/geocode/json?sensor=false&region=au&address=%@", encodedLocation]];
+
+	NSDictionary *result = [[webService responseBodyForUrl:url] JSONValue];
+	NSString *status = [result valueForKey:@"status"];
+	if (![status isEqualToString:@"OK"]) {
+		*error = [Error errorWithCode:ISIErrorCannotGetCoordinate description:[NSString stringWithFormat:@"Error retrieving coordinates for location [%@]: Google maps API returned status [%@]", location, status]];
+		return coordinate;
+	}
 	
-	NSDictionary *coordinateDictionary = [[[[response objectForKey:@"results"] objectAtIndex:0] objectForKey:@"geometry"] objectForKey:@"location"];
-    CLLocationCoordinate2D coordinate;
-	coordinate.latitude = [[coordinateDictionary objectForKey:@"lat"] doubleValue];
-	coordinate.longitude = [[coordinateDictionary objectForKey:@"lng"] doubleValue];
-	NSLog(@"Coordinate Lat: %f Lng: %f", coordinate.latitude, coordinate.longitude);
+	NSDictionary *resultLocation = [[result valueForKeyPath:@"results.geometry.location"] objectAtIndex:0];
+	coordinate.latitude = [[resultLocation valueForKey:@"lat"] doubleValue];
+	coordinate.longitude = [[resultLocation valueForKey:@"lng"] doubleValue];
 	return coordinate;
 }
 
