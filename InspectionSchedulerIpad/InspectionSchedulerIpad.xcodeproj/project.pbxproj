@@ -15,7 +15,6 @@
 		250BE7C511BA0EB700EFD5CA /* OCMock.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 250BE7B411BA0E9700EFD5CA /* OCMock.framework */; };
 		250BE80611BA22D300EFD5CA /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250BE80511BA22D300EFD5CA /* OCHamcrest.framework */; };
 		250BE83511BA237300EFD5CA /* OCHamcrest.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 250BE80511BA22D300EFD5CA /* OCHamcrest.framework */; };
-		250BE84611BA32B000EFD5CA /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560B34211B7B4A4001DE272 /* NSString+Extensions.m */; };
 		2531BA2E11BA575F009A70BF /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2531B94611BA5717009A70BF /* GTMIPhoneUnitTestDelegate.m */; };
 		2531BA2F11BA575F009A70BF /* GTMIPhoneUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2531B94711BA5717009A70BF /* GTMIPhoneUnitTestMain.m */; };
 		2531BA3111BA575F009A70BF /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2531B94D11BA5717009A70BF /* GTMSenTestCase.m */; };
@@ -28,7 +27,6 @@
 		2531BB0011BA8A66009A70BF /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560B4A211B7CE70001DE272 /* SBJsonWriter.m */; };
 		2531BB9611BBB2E5009A70BF /* WebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2531BB9511BBB2E5009A70BF /* WebService.m */; };
 		2560B33B11B7B32B001DE272 /* MapService.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560B33A11B7B32B001DE272 /* MapService.m */; };
-		2560B34311B7B4A4001DE272 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560B34211B7B4A4001DE272 /* NSString+Extensions.m */; };
 		2560B4A311B7CE70001DE272 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560B49811B7CE70001DE272 /* NSObject+SBJSON.m */; };
 		2560B4A411B7CE70001DE272 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560B49A11B7CE70001DE272 /* NSString+SBJSON.m */; };
 		2560B4A511B7CE70001DE272 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560B49C11B7CE70001DE272 /* SBJSON.m */; };
@@ -767,8 +765,6 @@
 		2531BB9511BBB2E5009A70BF /* WebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebService.m; sourceTree = "<group>"; };
 		2560B33911B7B32B001DE272 /* MapService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapService.h; sourceTree = "<group>"; };
 		2560B33A11B7B32B001DE272 /* MapService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapService.m; sourceTree = "<group>"; };
-		2560B34111B7B4A4001DE272 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
-		2560B34211B7B4A4001DE272 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
 		2560B49611B7CE70001DE272 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		2560B49711B7CE70001DE272 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
 		2560B49811B7CE70001DE272 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
@@ -782,7 +778,6 @@
 		2560B4A011B7CE70001DE272 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
 		2560B4A111B7CE70001DE272 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		2560B4A211B7CE70001DE272 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
-		258CC2B211BA0762007BDC53 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		258CC2B411BA0762007BDC53 /* UnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTest-Info.plist"; sourceTree = "<group>"; };
 		25FFD90811BBCAA000AA7DD7 /* Error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Error.h; sourceTree = "<group>"; };
 		25FFD95F11BBCEFD00AA7DD7 /* Error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Error.m; sourceTree = "<group>"; };
@@ -813,6 +808,7 @@
 		50F6E31F11B5314F0079B4D4 /* InspectionFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionFormViewController.h; sourceTree = "<group>"; };
 		50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionFormViewController.m; sourceTree = "<group>"; };
 		50F6E32211B531700079B4D4 /* InspectionFormView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionFormView.xib; sourceTree = "<group>"; };
+		5A99AA9511C5FA4400A09A52 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = UnitTest.app; path = "/Users/pcalcado/Documents/code/tw-lab/inspectionschedule/InspectionSchedulerIpad/build/Debug-iphonesimulator/UnitTest.app"; sourceTree = "<absolute>"; };
 		5AA8217B11B7F07C003564A0 /* icon_house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_house.png; sourceTree = "<group>"; };
 		5AA821A111B804F4003564A0 /* icon_application.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_application.png; sourceTree = "<group>"; };
 		5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bedroom.png; sourceTree = "<group>"; };
@@ -864,7 +860,6 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* InspectionSchedulerIpad.app */,
-				258CC2B211BA0762007BDC53 /* UnitTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1832,8 +1827,6 @@
 		2560B34011B7B487001DE272 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				2560B34111B7B4A4001DE272 /* NSString+Extensions.h */,
-				2560B34211B7B4A4001DE272 /* NSString+Extensions.m */,
 				25FFD90811BBCAA000AA7DD7 /* Error.h */,
 				25FFD95F11BBCEFD00AA7DD7 /* Error.m */,
 			);
@@ -2012,7 +2005,7 @@
 			);
 			name = UnitTest;
 			productName = UnitTest;
-			productReference = 258CC2B211BA0762007BDC53 /* UnitTest.app */;
+			productReference = 5A99AA9511C5FA4400A09A52 /* UnitTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2237,7 +2230,6 @@
 				50F6E25411B51FD60079B4D4 /* InspectionInformationViewController.m in Sources */,
 				50F6E32111B5314F0079B4D4 /* InspectionFormViewController.m in Sources */,
 				2560B33B11B7B32B001DE272 /* MapService.m in Sources */,
-				2560B34311B7B4A4001DE272 /* NSString+Extensions.m in Sources */,
 				2560B4A311B7CE70001DE272 /* NSObject+SBJSON.m in Sources */,
 				2560B4A411B7CE70001DE272 /* NSString+SBJSON.m in Sources */,
 				2560B4A511B7CE70001DE272 /* SBJSON.m in Sources */,
@@ -2261,7 +2253,6 @@
 				2531BA2F11BA575F009A70BF /* GTMIPhoneUnitTestMain.m in Sources */,
 				2531BA3111BA575F009A70BF /* GTMSenTestCase.m in Sources */,
 				2531BAF411BA89EA009A70BF /* MapService.m in Sources */,
-				250BE84611BA32B000EFD5CA /* NSString+Extensions.m in Sources */,
 				2531BB9611BBB2E5009A70BF /* WebService.m in Sources */,
 				25FFD96011BBCEFD00AA7DD7 /* Error.m in Sources */,
 			);
