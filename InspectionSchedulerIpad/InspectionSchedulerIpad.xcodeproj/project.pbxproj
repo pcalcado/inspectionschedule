@@ -13,8 +13,6 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		250BE7B511BA0E9700EFD5CA /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250BE7B411BA0E9700EFD5CA /* OCMock.framework */; };
 		250BE7C511BA0EB700EFD5CA /* OCMock.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 250BE7B411BA0E9700EFD5CA /* OCMock.framework */; };
-		250BE7DC11BA157200EFD5CA /* MapServiceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 250BE7DB11BA157200EFD5CA /* MapServiceTest.m */; };
-		250BE7E311BA181000EFD5CA /* NSString+ExtensionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 250BE7E211BA181000EFD5CA /* NSString+ExtensionsTest.m */; };
 		250BE80611BA22D300EFD5CA /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 250BE80511BA22D300EFD5CA /* OCHamcrest.framework */; };
 		250BE83511BA237300EFD5CA /* OCHamcrest.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 250BE80511BA22D300EFD5CA /* OCHamcrest.framework */; };
 		250BE84611BA32B000EFD5CA /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2560B34211B7B4A4001DE272 /* NSString+Extensions.m */; };
@@ -170,9 +168,6 @@
 		1D6058910D05DD3D006BFB54 /* InspectionSchedulerIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InspectionSchedulerIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		250BE7B411BA0E9700EFD5CA /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
-		250BE7DB11BA157200EFD5CA /* MapServiceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapServiceTest.m; sourceTree = "<group>"; };
-		250BE7DD11BA16EA00EFD5CA /* UnitTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitTest.h; sourceTree = "<group>"; };
-		250BE7E211BA181000EFD5CA /* NSString+ExtensionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ExtensionsTest.m"; sourceTree = "<group>"; };
 		250BE80511BA22D300EFD5CA /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrest.framework; sourceTree = "<group>"; };
 		2531B75311BA5717009A70BF /* GTMABAddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMABAddressBook.h; sourceTree = "<group>"; };
 		2531B75411BA5717009A70BF /* GTMABAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMABAddressBook.m; sourceTree = "<group>"; };
@@ -872,24 +867,6 @@
 				258CC2B211BA0762007BDC53 /* UnitTest.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		250BE7D811BA14CF00EFD5CA /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				250BE7E011BA17E500EFD5CA /* Utils */,
-				2531BA8B11BA5929009A70BF /* Services */,
-				250BE7DD11BA16EA00EFD5CA /* UnitTest.h */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		250BE7E011BA17E500EFD5CA /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				250BE7E211BA181000EFD5CA /* NSString+ExtensionsTest.m */,
-			);
-			name = Utils;
 			sourceTree = "<group>";
 		};
 		2531B75111BA5717009A70BF /* GoogleToolboxForMac */ = {
@@ -1841,14 +1818,6 @@
 			path = XcodeHeaders;
 			sourceTree = "<group>";
 		};
-		2531BA8B11BA5929009A70BF /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				250BE7DB11BA157200EFD5CA /* MapServiceTest.m */,
-			);
-			name = Services;
-			sourceTree = "<group>";
-		};
 		2560B33811B7B30A001DE272 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -1908,7 +1877,6 @@
 			children = (
 				2560B37311B7B8EA001DE272 /* Lib */,
 				080E96DDFE201D6D7F000001 /* Classes */,
-				250BE7D811BA14CF00EFD5CA /* Tests */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
@@ -2293,9 +2261,7 @@
 				2531BA2F11BA575F009A70BF /* GTMIPhoneUnitTestMain.m in Sources */,
 				2531BA3111BA575F009A70BF /* GTMSenTestCase.m in Sources */,
 				2531BAF411BA89EA009A70BF /* MapService.m in Sources */,
-				250BE7DC11BA157200EFD5CA /* MapServiceTest.m in Sources */,
 				250BE84611BA32B000EFD5CA /* NSString+Extensions.m in Sources */,
-				250BE7E311BA181000EFD5CA /* NSString+ExtensionsTest.m in Sources */,
 				2531BB9611BBB2E5009A70BF /* WebService.m in Sources */,
 				25FFD96011BBCEFD00AA7DD7 /* Error.m in Sources */,
 			);
