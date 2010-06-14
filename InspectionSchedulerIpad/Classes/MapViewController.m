@@ -3,6 +3,7 @@
 #import "InspectionInformationViewController.h"
 #import "MapService.h"
 #import "HouseAnnotationView.h"
+#import "Error.h"
 
 @implementation MapViewController
 
@@ -25,9 +26,9 @@
 	[super viewDidLoad];
 	
 	//TODO: this should get the suburb property from the trip object and look it up
-	NSString * suburb = @"Many, NSW";
+	NSString *suburb = @"Manly,NSW";
 
-	CLLocationCoordinate2D coordinate = [mapService getCoordinatesForLocation:suburb];
+	CLLocationCoordinate2D coordinate = [mapService coordinatesForLocation:suburb];
 	NSLog(@"Lat: %f Lng: %f", coordinate.latitude, coordinate.longitude);
 	mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 2000, 2000); 
 	

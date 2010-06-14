@@ -8,6 +8,6 @@
 }
 
 - (id)initWithWebService:(WebService *)webService;
-- (CLLocationCoordinate2D)coordinatesForLocation:(NSString *)location withError:(NSError **)error;
+- (CLLocationCoordinate2D)coordinatesForLocation:(NSString *)location;
 
 @end

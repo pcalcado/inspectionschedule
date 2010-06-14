@@ -26,7 +26,7 @@
 	[[[webService stub] andReturn:response] responseBodyForUrl:expectedUrl];
 	
 	Error *error = nil;
-	CLLocationCoordinate2D coordinate = [mapService coordinatesForLocation:@"Some Location" withError:&error];
+	CLLocationCoordinate2D coordinate = [mapService coordinatesForLocation:@"Some Location"];// withError:&error];
 	  
 	assertThat(error, nilValue());
 	assertThatDouble(coordinate.latitude,  closeTo(123.456, 1E-10));
@@ -37,7 +37,7 @@
 	[[[webService stub] andReturn:@"{\"status\": \"Not OK\""] responseBodyForUrl:[OCMArg any]];
 	
 	Error *error = nil;
-	[mapService coordinatesForLocation:@"location" withError:&error];
+	[mapService coordinatesForLocation:@"location"];// withError:&error];
 	
 	assertThat(error, notNilValue());
 	assertThat(error.domain, is(ISIErrorDomain));

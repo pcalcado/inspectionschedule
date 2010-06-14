@@ -18,15 +18,17 @@
 	[super dealloc];
 }
 
-- (CLLocationCoordinate2D)coordinatesForLocation:(NSString *)location withError:(NSError **)error {
+- (CLLocationCoordinate2D)coordinatesForLocation:(NSString *)location  {
 	CLLocationCoordinate2D coordinate;
-	NSString *encodedLocation = [location urlEncode];
-	NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"http://maps.google.com/maps/api/geocode/json?sensor=false&region=au&address=%@", encodedLocation]];
+	NSString *googleApiUrl = [NSString stringWithFormat:@"http://maps.google.com/maps/api/geocode/json?sensor=false&region=au&address=%@", location];
+	NSLog(googleApiUrl);
+	NSURL *url = [NSURL URLWithString:googleApiUrl];
 
 	NSDictionary *result = [[webService responseBodyForUrl:url] JSONValue];
 	NSString *status = [result valueForKey:@"status"];
 	if (![status isEqualToString:@"OK"]) {
-		*error = [Error errorWithCode:ISIErrorCannotGetCoordinate description:[NSString stringWithFormat:@"Error retrieving coordinates for location [%@]: Google maps API returned status [%@]", location, status]];
+	  //TODO: put erro handling back 
+	  NSLog([NSString stringWithFormat:@"Error retrieving coordinates for location [%@]: Google maps API returned status [%@]", location, status]);
 		return coordinate;
 	}
 	
