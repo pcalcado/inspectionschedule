@@ -8,9 +8,9 @@
 	
 	Property *p1 = [[Property alloc] init];
 	p1.address = @"7/29 Malvern Ave, Manly New South Wales 2095";
-	p1.bedroom = 1;
+	p1.bedroom = 3;
 	p1.carspace = 2;
-	p1.price = 666;
+	p1.price = 995;
 	CLLocationCoordinate2D pC1;
 	pC1.latitude = -33.789081;
 	pC1.longitude = 151.285515;
@@ -20,9 +20,9 @@
 	
 	Property *p2 = [[Property alloc] init];
 	p2.address = @"22/122 Bower Street, Manly, NSW 2095";
-	p2.bedroom = 1;
-	p2.carspace = 2;
-	p2.price = 666;
+	p2.bedroom = 2;
+	p2.carspace = 1;
+	p2.price = 700;
 	CLLocationCoordinate2D pC2;
 	pC2.latitude = -33.799976;
 	pC2.longitude = 151.292081;
@@ -32,9 +32,9 @@
 	
 	Property *p3 = [[Property alloc] init];
 	p3.address = @"2/92 Bower Street, Manly, NSW 2095";
-	p3.bedroom = 1;
-	p3.carspace = 2;
-	p3.price = 666;
+	p3.bedroom = 2;
+	p3.carspace = 1;
+	p3.price = 885;
 	CLLocationCoordinate2D pC3;
 	pC3.latitude = -33.800922;
 	pC3.longitude = 151.293669;
@@ -45,8 +45,8 @@
 	Property *p4 = [[Property alloc] init];
 	p4.address = @"13/2 Cerretti Crescent, Manly, NSW 2095";
 	p4.bedroom = 1;
-	p4.carspace = 2;
-	p4.price = 666;
+	p4.carspace = 0;
+	p4.price = 460;
 	CLLocationCoordinate2D pC4;
 	pC4.latitude = -33.805022;
 	pC4.longitude = 151.29472;
@@ -56,9 +56,9 @@
 	
 	Property *p5 = [[Property alloc] init];
 	p4.address = @"5/5 Wentworth Street, Manly, NSW 2095";
-	p4.bedroom = 1;
-	p4.carspace = 2;
-	p4.price = 666;
+	p4.bedroom = 2;
+	p4.carspace = 1;
+	p4.price = 580;
 	CLLocationCoordinate2D pC5;
 	pC5.latitude = -33.799513;
 	pC5.longitude =151.28618;

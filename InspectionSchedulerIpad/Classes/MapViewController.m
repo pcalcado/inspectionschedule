@@ -54,7 +54,7 @@
 	// Store the popover in a custom property for later use.
 	popoverController = aPopover;
 
-	[popoverController setPopoverContentSize:CGSizeMake(200,200) animated:YES];
+	[popoverController setPopoverContentSize:CGSizeMake(230,230) animated:YES];
 	
 	[popoverController presentPopoverFromRect:[gestureRecognizer.view convertRect:gestureRecognizer.view.bounds toView:mapView] inView:mapView
 					 permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
