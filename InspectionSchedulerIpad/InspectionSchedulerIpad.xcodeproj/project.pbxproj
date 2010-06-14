@@ -809,8 +809,8 @@
 		50F6E31F11B5314F0079B4D4 /* InspectionFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InspectionFormViewController.h; sourceTree = "<group>"; };
 		50F6E32011B5314F0079B4D4 /* InspectionFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InspectionFormViewController.m; sourceTree = "<group>"; };
 		50F6E32211B531700079B4D4 /* InspectionFormView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InspectionFormView.xib; sourceTree = "<group>"; };
-		5A99AAEC11C605A800A09A52 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A99AB7B11C6209100A09A52 /* detail-box-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detail-box-title.png"; sourceTree = "<group>"; };
+		5A99AB9A11C63D7800A09A52 /* UnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AA8217B11B7F07C003564A0 /* icon_house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_house.png; sourceTree = "<group>"; };
 		5AA821A111B804F4003564A0 /* icon_application.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_application.png; sourceTree = "<group>"; };
 		5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bedroom.png; sourceTree = "<group>"; };
@@ -862,7 +862,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* InspectionSchedulerIpad.app */,
-				5A99AAEC11C605A800A09A52 /* UnitTest.app */,
+				5A99AB9A11C63D7800A09A52 /* UnitTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2009,7 +2009,7 @@
 			);
 			name = UnitTest;
 			productName = UnitTest;
-			productReference = 5A99AAEC11C605A800A09A52 /* UnitTest.app */;
+			productReference = 5A99AB9A11C63D7800A09A52 /* UnitTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
