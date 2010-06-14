@@ -23,5 +23,9 @@
 	[super dealloc];
 }
 
+-(NSString *) priceAsString{
+  return [NSString stringWithFormat:@"$%d.00", price];
+}
+
 @end
 

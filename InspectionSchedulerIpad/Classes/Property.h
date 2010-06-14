@@ -3,7 +3,7 @@
 @interface Property : NSObject <MKAnnotation> {
 	@private
 	NSString *address;
-	NSString *price;
+	NSInteger *price;
 	NSString *type;
 	NSInteger *bedroom;
 	NSInteger *bathroom;
@@ -19,11 +19,12 @@
 @property(nonatomic, assign) NSInteger *bedroom;
 @property(nonatomic, assign) NSInteger *bathroom;
 @property(nonatomic, copy) NSString *type;
-@property(nonatomic, copy) NSString *price;
+@property(nonatomic, assign) NSInteger *price;
 @property(nonatomic, copy) NSString *description;
 @property(nonatomic, copy) NSDate *inspectionStart;
 @property(nonatomic, copy) NSDate *inspectionEnd;
-
 @property(nonatomic, assign) CLLocationCoordinate2D coordinate;
+@property(nonatomic, copy) NSString *priceAsString;
 
+			     
 @end
