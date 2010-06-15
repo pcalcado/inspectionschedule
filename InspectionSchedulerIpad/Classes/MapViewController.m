@@ -30,6 +30,7 @@ NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
 - (void)viewDidAppear:(BOOL)animated {
 	[super viewDidLoad];
 	NSLog(@"MapViewController viewDidAppear");
+	NSLog(@"propertiesArray with %d", propertiesArray.count);
 	
 	//TODO: this should get the suburb property from the trip object and look it up
 	NSString *suburb = @"Manly,NSW";

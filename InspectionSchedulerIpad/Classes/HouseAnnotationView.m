@@ -16,14 +16,9 @@
     
     UIImage *houseWithProperNumber = nil;
     int order = (int)property.inspectionOrder;
-    switch(order) {
-    case 1: houseWithProperNumber = [UIImage imageNamed:@"icon_house_1.png"]; break;
-    case 2: houseWithProperNumber = [UIImage imageNamed:@"icon_house_2.png"]; break;
-    case 3: houseWithProperNumber = [UIImage imageNamed:@"icon_house_3.png"]; break;
-    case 4: houseWithProperNumber = [UIImage imageNamed:@"icon_house_4.png"]; break;
-    case 5: houseWithProperNumber = [UIImage imageNamed:@"icon_house_5.png"]; break;
-    case 6: houseWithProperNumber = [UIImage imageNamed:@"icon_house_6.png"]; break;
-    }
+    NSString *image = [NSString stringWithFormat:@"icon_house_%d.png", order];
+    NSLog(@"Loading image %@", image);
+    houseWithProperNumber = [UIImage imageNamed:image];
     self.image  = houseWithProperNumber;
 
     self.canShowCallout = NO;
