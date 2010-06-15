@@ -25,8 +25,7 @@
     [propertyRepository release];
     self.selectedPropertiesArray = [[NSMutableArray alloc] init];
     self.mapViewController = [[MapViewController alloc] init];
-    self.mapViewController.propertiesArray = self.selectedPropertiesArray;
-    self.mapViewController.tableController = self;
+    self.mapViewController.propertiesArray = self.selectedPropertiesArray;    
   }
   return self;
 }

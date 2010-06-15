@@ -13,12 +13,9 @@
 - (id)initWithProperty:(Property *)property {
   if(self = [super initWithAnnotation:property reuseIdentifier:@"Pin"]) {
     self.frame = CGRectMake(0, 0, 200, 200);
-
-	
+    
     UIImage *houseWithProperNumber = nil;
     int order = (int)property.inspectionOrder;
-    NSLog(@"n");
-    NSLog(@"%d -> %d", property.inspectionOrder, order);
     switch(order) {
     case 1: houseWithProperNumber = [UIImage imageNamed:@"icon_house_1.png"]; break;
     case 2: houseWithProperNumber = [UIImage imageNamed:@"icon_house_2.png"]; break;
@@ -28,8 +25,6 @@
     case 6: houseWithProperNumber = [UIImage imageNamed:@"icon_house_6.png"]; break;
     }
     self.image  = houseWithProperNumber;
-    //    NSLog(@"uh?");
-
 
     self.canShowCallout = NO;
     self.aProperty = property;

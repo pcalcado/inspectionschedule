@@ -10,7 +10,6 @@
 
 @synthesize mapView;
 @synthesize propertiesArray;
-@synthesize tableController;
 
 NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
 	return [[property1 inspectionStart] compare: [property2 inspectionStart]];
@@ -28,8 +27,9 @@ NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
 	[super dealloc];
 }
 
-- (void)viewDidLoad {
+- (void)viewDidAppear:(BOOL)animated {
 	[super viewDidLoad];
+	NSLog(@"MapViewController viewDidAppear");
 	
 	//TODO: this should get the suburb property from the trip object and look it up
 	NSString *suburb = @"Manly,NSW";
@@ -45,8 +45,7 @@ NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
 
 - (NSArray *) createInspectionTrip:(NSArray *)properties {
   NSLog(@"Sorting props");
-	NSArray *sortedList = [properties sortedArrayUsingFunction: fixedOrderSort context:NULL];
-
+  NSArray *sortedList = [properties sortedArrayUsingFunction: fixedOrderSort context:NULL];
   int count = 1;
   for (Property *prop in sortedList){
     prop.inspectionOrder  = count++;
@@ -83,27 +82,21 @@ NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Overriden to allow any orientation.
     return YES;
 }
 
 
 - (void)didReceiveMemoryWarning {
-    // Releases the view if it doesn't have a superview.
     [super didReceiveMemoryWarning];
-    
-    // Release any cached data, images, etc that aren't in use.
 }
 
 
 - (void)viewDidUnload {
     [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
 }
 
 - (IBAction)back {
-  [self dismissModalViewControllerAnimated:YES];;//	[self presentModalViewController:tableController animated:YES];
+  [self dismissModalViewControllerAnimated:YES];
 }
 
 @end
