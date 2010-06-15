@@ -43,6 +43,10 @@ NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
 	}
 }
 
+- (void)viewDidDisappear:(BOOL)animated {
+  [mapView removeAnnotations:mapView.annotations];
+}
+
 - (NSArray *) createInspectionTrip:(NSArray *)properties {
   NSLog(@"Sorting props");
   NSArray *sortedList = [properties sortedArrayUsingFunction: fixedOrderSort context:NULL];
