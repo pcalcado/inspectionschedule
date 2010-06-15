@@ -2,7 +2,6 @@
 @class Property;
 
 @interface DetailViewController : UIViewController <UIPopoverControllerDelegate, UISplitViewControllerDelegate, UITableViewDataSource, UITableViewDelegate> {
-	@private
 	MapViewController *mapViewController;
 	UIPopoverController *popoverController;
 	UIToolbar *toolbar;
@@ -14,6 +13,8 @@
 }
 
 @property (nonatomic, retain) NSArray *propertiesArray;
+@property (nonatomic, retain) NSArray *selectedPropertiesArray;
+@property (nonatomic, retain) MapViewController *mapViewController;
 
 - (IBAction)map;
 

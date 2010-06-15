@@ -10,6 +10,7 @@
 
 @synthesize mapView;
 @synthesize propertiesArray;
+@synthesize tableController;
 
 NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
 	return [[property1 inspectionStart] compare: [property2 inspectionStart]];

@@ -10,39 +10,40 @@
 
 @implementation DetailViewController
 
-//@synthesize toolbar, popoverController, detailItem, detailDescriptionLabel;
 @synthesize popoverController;
-//@synthesize mapViewController;
 @synthesize propertiesArray;
-//@synthesize selectedPropertiesArray;
-//@synthesize nibLoadedCell;
+@synthesize selectedPropertiesArray;
+@synthesize mapViewController;
+
+- (id)initWithCoder:(NSCoder *)decoder{
+  self = [super initWithCoder:decoder];
+  if(nil != self) {
+    //this should happen somewhere else
+    PropertyRepository *propertyRepository = [[PropertyRepository alloc] init];
+    self.propertiesArray = [propertyRepository retrieveProperties];
+    [propertyRepository release];
+    self.selectedPropertiesArray = [[NSMutableArray alloc] init];
+    self.mapViewController = [[MapViewController alloc] init];
+    self.mapViewController.propertiesArray = self.selectedPropertiesArray;
+    self.mapViewController.tableController = self;
+  }
+  return self;
+}
 
 - (void)dealloc {
     [popoverController release];
     [toolbar release];
     [detailItem release];
     [detailDescriptionLabel release];
-	[mapViewController release];
-	[propertiesArray release];
-	[selectedPropertiesArray release];
-	[nibLoadedCell release];
+    [mapViewController release];
+    [propertiesArray release];
+    [selectedPropertiesArray release];
+    [nibLoadedCell release];
     [super dealloc];
 }
 
 - (IBAction)map {
-	mapViewController = [[MapViewController alloc] init];
-	mapViewController.propertiesArray = selectedPropertiesArray;
 	[self presentModalViewController:mapViewController animated:YES];
-}
-
-- (void)viewDidLoad {
-	[super viewDidLoad];
-	
-	//this should happen somewhere else
-	PropertyRepository *propertyRepository = [[PropertyRepository alloc] init];
-	self.propertiesArray = [propertyRepository retrieveProperties];
-	[propertyRepository release];
-	selectedPropertiesArray = [[NSMutableArray alloc] init];
 }
 
 /*
