@@ -12,13 +12,7 @@
 @synthesize propertiesArray;
 
 NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
-	if ([property1 inspectionOrder] > [property2 inspectionOrder]) {
-        return NSOrderedDescending;
-    } else if ([property1 inspectionOrder] < [property2 inspectionOrder]) {
-        return NSOrderedAscending;
-    } else {
-        return NSOrderedSame;
-    }
+	return [[property1 inspectionStart] compare: [property2 inspectionStart]];
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
