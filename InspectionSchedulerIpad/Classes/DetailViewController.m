@@ -18,6 +18,7 @@
 - (id)initWithCoder:(NSCoder *)decoder{
   self = [super initWithCoder:decoder];
   if(nil != self) {
+    NSLog(@"Initialising main Controller -- this should happen only ONCE");
     //this should happen somewhere else
     PropertyRepository *propertyRepository = [[PropertyRepository alloc] init];
     self.propertiesArray = [propertyRepository retrieveProperties];
@@ -43,6 +44,7 @@
 }
 
 - (IBAction)map {
+  NSLog(@"a %a", mapViewController);
 	[self presentModalViewController:mapViewController animated:YES];
 }
 

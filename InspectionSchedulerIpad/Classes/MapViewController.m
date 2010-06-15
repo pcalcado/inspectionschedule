@@ -103,9 +103,7 @@ NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
 }
 
 - (IBAction)back {
-	detailViewController = [[DetailViewController alloc] init];
-//	detailViewController.propertiesArray = selectedPropertiesArray;
-	[self presentModalViewController:detailViewController animated:YES];
+	[self presentModalViewController:tableController animated:YES];
 }
 
 @end
