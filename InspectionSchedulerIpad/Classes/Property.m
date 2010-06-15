@@ -12,6 +12,7 @@
 @synthesize bathroom;
 @synthesize inspectionStart;
 @synthesize inspectionEnd;
+@synthesize inspectionOrder;
 
 - (void) dealloc {
 	[address release];

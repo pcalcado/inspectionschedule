@@ -32,16 +32,32 @@
 	NSLog(@"Lat: %f Lng: %f", coordinate.latitude, coordinate.longitude);
 	mapView.region = MKCoordinateRegionMakeWithDistance(coordinate, 2000, 2000); 
 	
-	for (Property *prop in propertiesArray){
+	for (Property *prop in [self createInspectionTrip:propertiesArray]){
 		[mapView addAnnotation: prop];
 	}
 }
 
+- (NSArray *) createInspectionTrip:(NSArray *)properties {
+  NSArray *sortedList = [[NSMutableArray alloc] init];
+  NSLog(@"Sorting props");
+  int count = 1;
+  for (Property *prop in properties){
+    prop.inspectionOrder  = count++;
+    [sortedList addObject:prop];
+    
+  }
+  NSLog(@"Sorted props");
+  return sortedList;
+}
+
 - (MKAnnotationView *) mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>) aProperty{
-	HouseAnnotationView *annView = [[HouseAnnotationView alloc] initWithProperty:aProperty];
-	[annView addGestureRecognizer: [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showInspectionDetails:)]];
-	
-	return annView;
+  if([aProperty isMemberOfClass:[Property class]]) {
+    HouseAnnotationView *annView = [[HouseAnnotationView alloc] initWithProperty:aProperty];
+    [annView addGestureRecognizer: [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(showInspectionDetails:)]];	
+    return annView;
+  } else {
+    return nil;
+  }
 }
 
 - (void) showInspectionDetails: (UIGestureRecognizer *)gestureRecognizer {

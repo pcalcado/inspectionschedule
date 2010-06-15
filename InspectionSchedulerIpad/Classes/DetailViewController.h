@@ -13,13 +13,7 @@
 	UITableViewCell *nibLoadedCell;
 }
 
-//@property (nonatomic, retain) IBOutlet UITableViewCell *nibLoadedCell;
-//@property (nonatomic, retain) IBOutlet UIToolbar *toolbar;
-//@property (nonatomic, retain) id detailItem;
-//@property (nonatomic, retain) IBOutlet UILabel *detailDescriptionLabel;
 @property (nonatomic, retain) NSArray *propertiesArray;
-//@property (nonatomic, retain) NSMutableArray *selectedPropertiesArray;
-//@property (nonatomic, retain) IBOutlet MapViewController *mapViewController;
 
 - (IBAction)map;
 

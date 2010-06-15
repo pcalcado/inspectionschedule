@@ -56,6 +56,12 @@
 		5AA821A211B804F4003564A0 /* icon_application.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA821A111B804F4003564A0 /* icon_application.png */; };
 		5AB3B3ED11B7BA2200783FC0 /* icon_bedroom.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */; };
 		5AB3B3EE11B7BA2200783FC0 /* icon_pa.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */; };
+		5AC2376E11C76B3E003A39B5 /* icon_house_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC2376D11C76B3E003A39B5 /* icon_house_1.png */; };
+		5AC237DD11C77971003A39B5 /* icon_house_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC237D811C77971003A39B5 /* icon_house_2.png */; };
+		5AC237DE11C77971003A39B5 /* icon_house_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC237D911C77971003A39B5 /* icon_house_3.png */; };
+		5AC237DF11C77971003A39B5 /* icon_house_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC237DA11C77971003A39B5 /* icon_house_4.png */; };
+		5AC237E011C77971003A39B5 /* icon_house_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC237DB11C77971003A39B5 /* icon_house_5.png */; };
+		5AC237E111C77971003A39B5 /* icon_house_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AC237DC11C77971003A39B5 /* icon_house_6.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -815,6 +821,12 @@
 		5AA821A111B804F4003564A0 /* icon_application.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_application.png; sourceTree = "<group>"; };
 		5AB3B3EB11B7BA2200783FC0 /* icon_bedroom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bedroom.png; sourceTree = "<group>"; };
 		5AB3B3EC11B7BA2200783FC0 /* icon_pa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_pa.png; sourceTree = "<group>"; };
+		5AC2376D11C76B3E003A39B5 /* icon_house_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_house_1.png; sourceTree = "<group>"; };
+		5AC237D811C77971003A39B5 /* icon_house_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_house_2.png; sourceTree = "<group>"; };
+		5AC237D911C77971003A39B5 /* icon_house_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_house_3.png; sourceTree = "<group>"; };
+		5AC237DA11C77971003A39B5 /* icon_house_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_house_4.png; sourceTree = "<group>"; };
+		5AC237DB11C77971003A39B5 /* icon_house_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_house_5.png; sourceTree = "<group>"; };
+		5AC237DC11C77971003A39B5 /* icon_house_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_house_6.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* InspectionSchedulerIpad-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "InspectionSchedulerIpad-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1894,6 +1906,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5AC237D811C77971003A39B5 /* icon_house_2.png */,
+				5AC237D911C77971003A39B5 /* icon_house_3.png */,
+				5AC237DA11C77971003A39B5 /* icon_house_4.png */,
+				5AC237DB11C77971003A39B5 /* icon_house_5.png */,
+				5AC237DC11C77971003A39B5 /* icon_house_6.png */,
+				5AC2376D11C76B3E003A39B5 /* icon_house_1.png */,
 				5A99AB7B11C6209100A09A52 /* detail-box-title.png */,
 				5AA821A111B804F4003564A0 /* icon_application.png */,
 				5AA8217B11B7F07C003564A0 /* icon_house.png */,
@@ -2191,6 +2209,12 @@
 				5AA8217C11B7F07C003564A0 /* icon_house.png in Resources */,
 				5AA821A211B804F4003564A0 /* icon_application.png in Resources */,
 				5A99AB7C11C6209100A09A52 /* detail-box-title.png in Resources */,
+				5AC2376E11C76B3E003A39B5 /* icon_house_1.png in Resources */,
+				5AC237DD11C77971003A39B5 /* icon_house_2.png in Resources */,
+				5AC237DE11C77971003A39B5 /* icon_house_3.png in Resources */,
+				5AC237DF11C77971003A39B5 /* icon_house_4.png in Resources */,
+				5AC237E011C77971003A39B5 /* icon_house_5.png in Resources */,
+				5AC237E111C77971003A39B5 /* icon_house_6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
