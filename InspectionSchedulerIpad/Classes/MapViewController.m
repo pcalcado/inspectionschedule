@@ -10,6 +10,16 @@
 @synthesize mapView;
 @synthesize propertiesArray;
 
+NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
+	if ([property1 inspectionOrder] > [property2 inspectionOrder]) {
+        return NSOrderedDescending;
+    } else if ([property1 inspectionOrder] < [property2 inspectionOrder]) {
+        return NSOrderedAscending;
+    } else {
+        return NSOrderedSame;
+    }
+}
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	if(self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {
 		mapService = [[MapService alloc] init];
@@ -38,13 +48,12 @@
 }
 
 - (NSArray *) createInspectionTrip:(NSArray *)properties {
-  NSArray *sortedList = [[NSMutableArray alloc] init];
   NSLog(@"Sorting props");
+	NSArray *sortedList = [properties sortedArrayUsingFunction: fixedOrderSort context:NULL];
+
   int count = 1;
-  for (Property *prop in properties){
+  for (Property *prop in sortedList){
     prop.inspectionOrder  = count++;
-    [sortedList addObject:prop];
-    
   }
   NSLog(@"Sorted props");
   return sortedList;

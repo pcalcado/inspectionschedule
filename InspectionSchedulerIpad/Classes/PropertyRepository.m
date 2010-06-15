@@ -11,6 +11,7 @@
 	p1.bedroom = 3;
 	p1.carspace = 2;
 	p1.price = 995;
+	p1.inspectionOrder = 4;
 	CLLocationCoordinate2D pC1;
 	pC1.latitude = -33.789081;
 	pC1.longitude = 151.285515;
@@ -23,6 +24,7 @@
 	p2.bedroom = 2;
 	p2.carspace = 1;
 	p2.price = 700;
+	p2.inspectionOrder = 5;
 	CLLocationCoordinate2D pC2;
 	pC2.latitude = -33.799976;
 	pC2.longitude = 151.292081;
@@ -35,6 +37,7 @@
 	p3.bedroom = 2;
 	p3.carspace = 1;
 	p3.price = 885;
+	p3.inspectionOrder = 3;
 	CLLocationCoordinate2D pC3;
 	pC3.latitude = -33.800922;
 	pC3.longitude = 151.293669;
@@ -47,6 +50,7 @@
 	p4.bedroom = 1;
 	p4.carspace = 0;
 	p4.price = 460;
+	p4.inspectionOrder = 2;
 	CLLocationCoordinate2D pC4;
 	pC4.latitude = -33.805022;
 	pC4.longitude = 151.29472;
@@ -63,6 +67,7 @@
 	pC5.latitude = -33.799513;
 	pC5.longitude =151.28618;
 	p5.coordinate = pC5;
+	p5.inspectionOrder = 1;
 	p5.inspectionStart = [NSDate dateWithString:@"2010-06-19 10:30:00 +0600"];
 	p5.inspectionEnd = [NSDate dateWithString:@"2010-06-19 11:30:00 +0600"];
 	
