@@ -103,7 +103,7 @@ NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
 }
 
 - (IBAction)back {
-	[self presentModalViewController:tableController animated:YES];
+  [self dismissModalViewControllerAnimated:YES];;//	[self presentModalViewController:tableController animated:YES];
 }
 
 @end
