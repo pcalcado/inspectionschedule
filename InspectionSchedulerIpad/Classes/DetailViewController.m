@@ -43,7 +43,6 @@
 }
 
 - (IBAction)map {
-  NSLog(@"a %a", mapViewController);
   [self presentModalViewController:mapViewController animated:YES];
 }
 
@@ -128,6 +127,11 @@
     cell.accessoryType = UITableViewCellAccessoryCheckmark;
     [selectedPropertiesArray addObject: [propertiesArray objectAtIndex:indexPath.row]];
   }
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+  //as per http://stackoverflow.com/questions/1389310/weird-ui-problem-when-modal-view-is-dismissed
+[[UIApplication sharedApplication] setStatusBarHidden:YES animated:NO];
 }
 
 - (void)viewDidUnload {

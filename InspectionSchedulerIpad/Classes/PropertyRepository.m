@@ -65,18 +65,105 @@
 	p5.coordinate = pC5;
 	p5.inspectionStart = [NSDate dateWithString:@"2010-06-19 11:30:00 +1000"];
 	p5.inspectionEnd = [NSDate dateWithString:@"2010-06-19 11:45:00 +1000"];
+
+	//////////////////////////////////////////////////////////////////////
 	
+	Property *p6 = [[Property alloc] init];
+	p6.address = @"59b Birkley Rd, Manly, NSW 2095";
+	p6.bedroom = 3;
+	p6.carspace = 2;
+	p6.price = 995;
+	CLLocationCoordinate2D pC6;
+	pC6.latitude = -33.792858;
+	pC6.longitude = 151.280502;
+	p6.coordinate = pC6;
+	p6.inspectionStart = [NSDate dateWithString:@"2010-06-19 11:30:00 +1000"];
+	p6.inspectionEnd = [NSDate dateWithString:@"2010-06-19 11:45:00 +1000"];
+	
+	Property *p7 = [[Property alloc] init];
+	p7.address = @"B, 5 Marine Parade, Manly, NSW 2095";
+	p7.bedroom = 2;
+	p7.carspace = 1;
+	p7.price = 480;
+	CLLocationCoordinate2D pC7;
+	pC7.latitude = -33.800939;
+	pC7.longitude = 151.293647;
+	p7.coordinate = pC7;
+	p7.inspectionStart = [NSDate dateWithString:@"2010-06-19 11:30:00 +1000"];
+	p7.inspectionEnd = [NSDate dateWithString:@"2010-06-19 11:45:00 +1000"];
+	
+	Property *p8 = [[Property alloc] init];
+	p8.address = @"4/22 Malvern Avenue, Manly, NSW 2095";
+	p8.bedroom = 1;
+	p8.carspace = 1;
+	p8.price = 370;
+	CLLocationCoordinate2D pC8;
+	pC8.latitude = -33.789346;
+	pC8.longitude =151.286336;
+	p8.coordinate = pC8;
+	p8.inspectionStart = [NSDate dateWithString:@"2010-06-19 11:30:00 +1000"];
+	p8.inspectionEnd = [NSDate dateWithString:@"2010-06-19 11:45:00 +1000"];
+	
+	Property *p9 = [[Property alloc] init];
+	p9.address = @"17/26 Whistler St, Manly, NSW 2095";
+	p9.bedroom = 1;
+	p9.carspace = 1;
+	p9.price = 385;
+	CLLocationCoordinate2D pC9;
+	pC9.latitude = -33.796254;
+	pC9.longitude = 151.286792;
+	p9.coordinate = pC9;
+	p9.inspectionStart = [NSDate dateWithString:@"2010-06-19 11:30:00 +1000"];
+	p9.inspectionEnd = [NSDate dateWithString:@"2010-06-19 11:45:00 +1000"];
+	
+	Property *p10 = [[Property alloc] init];
+	p10.address = @"8/43-45 North Steyne, Manly, NSW 2095";
+	p10.bedroom = 3;
+	p10.carspace = 2;
+	p10.price = 1600;
+	CLLocationCoordinate2D pC10;
+	pC10.latitude = -33.796589;
+	pC10.longitude =151.287521;
+	p10.coordinate = pC10;
+	p10.inspectionStart = [NSDate dateWithString:@"2010-06-19 11:30:00 +1000"];
+	p10.inspectionEnd = [NSDate dateWithString:@"2010-06-19 11:45:00 +1000"];
+	
+	Property *p11 = [[Property alloc] init];
+	p11.address = @"731/25 Wentworth Street, Manly, NSW 2095";
+	p11.bedroom = 3;
+	p11.carspace = 2;
+	p11.price = 1604;
+	CLLocationCoordinate2D pC11;
+	pC11.latitude = -33.798184;
+	pC11.longitude =151.287789;
+	p11.coordinate = pC5;
+	p11.inspectionStart = [NSDate dateWithString:@"2010-06-19 11:30:00 +1000"];
+	p11.inspectionEnd = [NSDate dateWithString:@"2010-06-19 11:45:00 +1000"];
+
 	[allProperties addObject: p1];
 	[allProperties addObject: p2];
 	[allProperties addObject: p3];
 	[allProperties addObject: p4];
 	[allProperties addObject: p5];
+	[allProperties addObject: p6];
+	[allProperties addObject: p7];
+	[allProperties addObject: p8];
+	[allProperties addObject: p9];
+	[allProperties addObject: p10];
+	[allProperties addObject: p11];
+
 	
 	[p1 release];
 	[p2 release];
 	[p3 release];
 	[p4 release];
 	[p5 release];
+	[p6 release];
+	[p7 release];
+	[p8 release];
+	[p9 release];
+	[p10 release];
+	[p11 release];
 	
 	return allProperties;
 }
