@@ -3,6 +3,7 @@
 #import "InspectionInformationViewController.h"
 #import "MapService.h"
 #import "HouseAnnotationView.h"
+#import "DetailViewController.h"
 #import "Error.h"
 
 @implementation MapViewController
@@ -104,6 +105,12 @@ NSComparisonResult fixedOrderSort(id property1, id property2, void *context) {
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
+}
+
+- (IBAction)back {
+	detailViewController = [[DetailViewController alloc] init];
+//	detailViewController.propertiesArray = selectedPropertiesArray;
+	[self presentModalViewController:detailViewController animated:YES];
 }
 
 @end
