@@ -55,10 +55,10 @@
 	p4.inspectionEnd = [NSDate dateWithString:@"2010-06-19 11:20:00 +1000"];
 	
 	Property *p5 = [[Property alloc] init];
-	p4.address = @"5/5 Wentworth Street, Manly, NSW 2095";
-	p4.bedroom = 2;
-	p4.carspace = 1;
-	p4.price = 580;
+	p5.address = @"5/5 Wentworth Street, Manly, NSW 2095";
+	p5.bedroom = 2;
+	p5.carspace = 1;
+	p5.price = 580;
 	CLLocationCoordinate2D pC5;
 	pC5.latitude = -33.799513;
 	pC5.longitude =151.28618;
