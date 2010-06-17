@@ -51,7 +51,7 @@
 	<array>
 		<dict>
 			<key>Bounds</key>
-			<string>{{418.5, 658}, {176, 27}}</string>
+			<string>{{418.5, 667}, {176, 27}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -81,7 +81,7 @@
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{446, 562}, {105, 84}}</string>
+			<string>{{448, 562}, {101, 84}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>FitText</key>
@@ -130,19 +130,19 @@
 				<data>
 				BAtzdHJlYW10eXBlZIHoA4QBQISEhBJOU0F0dHJpYnV0
 				ZWRTdHJpbmcAhIQITlNPYmplY3QAhZKEhIQITlNTdHJp
-				bmcBlIQBKzRCZW4gQmFybmFyZCwKQ2F1w6ogR3VlcnJh
-				CkbDoWJpbyBMZXNzYQpQaGlsIENhbMOnYWRvhoQCaUkB
-				MZKEhIQMTlNEaWN0aW9uYXJ5AJSEAWkDkoSWlgdOU0Nv
-				bG9yhpKEhIQHTlNDb2xvcgCUhAFjAoQEZmZmZoPJx0c/
-				g+7sbD6D+vj4PgGGkoSWlgZOU0ZvbnSGkoSEhAZOU0Zv
-				bnQelJkghAVbMzJjXQYAAAAYAAAA//5UAHIAZQBiAHUA
-				YwBoAGUAdABNAFMAhAFmEpsAmwGbAJsAhpKElpYQTlNQ
-				YXJhZ3JhcGhTdHlsZYaShISEEE5TUGFyYWdyYXBoU3R5
-				bGUAlIQEQ0NAUwIAhISEB05TQXJyYXkAlJkMkoSEhAlO
-				U1RleHRUYWIAlIQCQ2YAHIaShKWkADiGkoSlpABUhpKE
-				paQAcIaShKWkAIGMAIaShKWkAIGoAIaShKWkAIHEAIaS
-				hKWkAIHgAIaShKWkAIH8AIaShKWkAIEYAYaShKWkAIE0
-				AYaShKWkAIFQAYaGAIaGhg==
+				bmcBlIQBKzNCZW4gQmFybmFyZApDYXXDqiBHdWVycmEK
+				RsOhYmlvIExlc3NhClBoaWwgQ2Fsw6dhZG+GhAJpSQEw
+				koSEhAxOU0RpY3Rpb25hcnkAlIQBaQOShJaWB05TQ29s
+				b3KGkoSEhAdOU0NvbG9yAJSEAWMChARmZmZmg8nHRz+D
+				7uxsPoP6+Pg+AYaShJaWBk5TRm9udIaShISEBk5TRm9u
+				dB6UmSCEBVszMmNdBgAAABgAAAD//lQAcgBlAGIAdQBj
+				AGgAZQB0AE0AUwCEAWYSmwCbAZsAmwCGkoSWlhBOU1Bh
+				cmFncmFwaFN0eWxlhpKEhIQQTlNQYXJhZ3JhcGhTdHls
+				ZQCUhARDQ0BTAgCEhIQHTlNBcnJheQCUmQyShISECU5T
+				VGV4dFRhYgCUhAJDZgAchpKEpaQAOIaShKWkAFSGkoSl
+				pABwhpKEpaQAgYwAhpKEpaQAgagAhpKEpaQAgcQAhpKE
+				paQAgeAAhpKEpaQAgfwAhpKEpaQAgRgBhpKEpaQAgTQB
+				hpKEpaQAgVABhoYAhoaG
 				</data>
 				<key>Text</key>
 				<string>{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf290
@@ -150,7 +150,7 @@
 {\colortbl;\red255\green255\blue255;\red185\green35\blue105;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc\pardirnatural
 
-\f0\fs36 \cf2 Ben Barnard,\
+\f0\fs36 \cf2 Ben Barnard\
 Cau\'ea Guerra\
 F\'e1bio Lessa\
 Phil Cal\'e7ado}</string>
@@ -661,7 +661,7 @@ Phil Cal\'e7ado}</string>
 		</dict>
 		<dict>
 			<key>Bounds</key>
-			<string>{{409, 646}, {192, 51}}</string>
+			<string>{{409, 655}, {192, 51}}</string>
 			<key>Class</key>
 			<string>ShapedGraphic</string>
 			<key>ID</key>
@@ -1367,7 +1367,7 @@ Phil Cal\'e7ado}</string>
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2010-06-18 00:21:06 +1000</string>
+	<string>2010-06-18 00:23:31 +1000</string>
 	<key>Modifier</key>
 	<string>Phillip Calcado</string>
 	<key>NotesVisible</key>
