@@ -5,6 +5,7 @@
 @synthesize address;
 @synthesize coordinate;
 @synthesize price;
+@synthesize notes;
 @synthesize carspace;
 @synthesize bedroom;
 @synthesize bathroom;

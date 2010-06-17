@@ -3,6 +3,7 @@
 @interface Property : NSObject <MKAnnotation> {
 	@private
 	NSString *address;
+	NSString *notes;
 	NSInteger *price;
 	NSInteger *bedroom;
 	NSInteger *bathroom;
@@ -14,6 +15,7 @@
 }
 
 @property(nonatomic, copy) NSString *address;
+@property(nonatomic, copy) NSString *notes;
 @property(nonatomic, assign) NSInteger *carspace;
 @property(nonatomic, assign) NSInteger *bedroom;
 @property(nonatomic, assign) NSInteger *bathroom;

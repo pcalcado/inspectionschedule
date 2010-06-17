@@ -36,7 +36,7 @@
 }
 
 - (IBAction)doInspection {
-	inspectionFormViewController = [[InspectionFormViewController alloc] init];
+	inspectionFormViewController = [[InspectionFormViewController alloc] initWithProperty:selectedProperty];
 	inspectionFormViewController.modalPresentationStyle = UIModalPresentationFormSheet;
 	[self presentModalViewController:self.inspectionFormViewController animated:YES];
 }
