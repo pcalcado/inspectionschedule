@@ -25,7 +25,7 @@
     [propertyRepository release];
     self.selectedPropertiesArray = [[NSMutableArray alloc] init];
     self.mapViewController = [[MapViewController alloc] init];
-    self.mapViewController.propertiesArray = self.selectedPropertiesArray;    
+    self.mapViewController.propertiesArray = self.selectedPropertiesArray;
   }
   return self;
 }
@@ -108,12 +108,22 @@
     cell = nibLoadedCell;
   }
   Property *property = [propertiesArray objectAtIndex:indexPath.row];
+
   UILabel *addressLabel = (UILabel*) [cell viewWithTag:1];
   addressLabel.text = property.address;
-  UILabel *typeLabel = (UILabel*) [cell viewWithTag:2];
-  typeLabel.text = property.type;
-  UILabel *descriptionLabel = (UILabel*) [cell viewWithTag:3];
-  descriptionLabel.text = property.description;
+
+  UILabel *bedroomsLabel = (UILabel*) [cell viewWithTag:2];
+  bedroomsLabel.text = [NSString stringWithFormat:@"%d", property.bedroom];
+
+  UILabel *carspaceLabel = (UILabel*) [cell viewWithTag:3];
+  carspaceLabel.text = [NSString stringWithFormat:@"%d", property.carspace];
+
+  UILabel *inspectionLabel = (UILabel*) [cell viewWithTag:4];
+  inspectionLabel.text = property.inspectionAsString;
+
+  UILabel *priceLabel = (UILabel*) [cell viewWithTag:5];
+  priceLabel.text = property.priceAsString;
+
   return cell;
 }
 
@@ -129,10 +139,6 @@
   }
 }
 
-- (void)viewWillAppear:(BOOL)animated {
-  //as per http://stackoverflow.com/questions/1389310/weird-ui-problem-when-modal-view-is-dismissed
-[[UIApplication sharedApplication] setStatusBarHidden:YES animated:NO];
-}
 
 - (void)viewDidUnload {
   self.popoverController = nil;

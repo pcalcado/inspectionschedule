@@ -65,8 +65,6 @@
 	p5.coordinate = pC5;
 	p5.inspectionStart = [NSDate dateWithString:@"2010-06-19 11:30:00 +1000"];
 	p5.inspectionEnd = [NSDate dateWithString:@"2010-06-19 11:45:00 +1000"];
-
-	//////////////////////////////////////////////////////////////////////
 	
 	Property *p6 = [[Property alloc] init];
 	p6.address = @"59b Birkley Rd, Manly, NSW 2095";

@@ -3,8 +3,6 @@
 @implementation Property
 
 @synthesize address;
-@synthesize type;
-@synthesize description;
 @synthesize coordinate;
 @synthesize price;
 @synthesize carspace;
@@ -16,9 +14,7 @@
 
 - (void) dealloc {
 	[address release];
-	[type release];
 	[price release];
-	[description release];
 	[inspectionStart release];
 	[inspectionEnd release];
 	[super dealloc];
@@ -28,5 +24,10 @@
   return [NSString stringWithFormat:@"$%d.00", price];
 }
 
-@end
+-(NSString *) inspectionAsString{
+  NSString *start = [inspectionStart descriptionWithCalendarFormat:@"%H:%M" timeZone:nil locale:nil];
+  NSString *end = [inspectionEnd descriptionWithCalendarFormat:@"%H:%M"  timeZone:nil locale:nil];
+  return [NSString stringWithFormat:@"%@ - %@", start, end];
+}
 
+@end
